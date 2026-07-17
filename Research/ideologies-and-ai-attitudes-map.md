@@ -4,6 +4,22 @@
 
 ---
 
+## Executive Summary
+
+*(Self-contained; suitable for forwarding.)*
+
+**The people building AI and the people who will live with it belong to almost entirely disjoint belief communities — and the debate's vocabulary was written by the small side.** A handful of micro-ideologies numbering at most a few hundred thousand people — effective altruism and its longtermist wing, the rationalist community, effective accelerationism (e/acc), transhumanism, and the critical "AI ethics" school — coined every load-bearing term: *alignment, x-risk, AI safety, responsible AI, acceleration*. Meanwhile the world's actual large belief groups — 2.4 billion Christians, 1.9 billion Muslims, 1.2 billion Hindus, half a billion Buddhists, and the major political blocs — only began issuing formal AI positions between 2019 and 2026, in moral vocabularies the AI world largely does not speak. Whoever translates between these two worlds first, wins arguments.
+
+**Religions have moved faster than most observers realize, and they converge on one line.** The Vatican (*Antiqua et Nova*, 2025, and a new pope who chose his name for the AI age), the Southern Baptists (first denominational AI resolution, 2023), the OIC's Fiqh Academy (2025), Indonesia's 60-million-member Nahdlatul Ulama, the Chief Rabbinate, and the LDS Church all ground their positions in human uniqueness — and all draw the same boundary: **AI as tool, yes; AI as person, authority, or object of trust, never.** The most explosive issue inside every tradition is synthetic religious authority — deepfaked preachers, chatbot fatwas, AI sermons. One surprise: Hinduism and East Asian Buddhism break the "religious = AI-averse" assumption entirely — robotic temple elephants in Kerala, an ordained robot monk in Seoul — because their doctrines already sanctify tools and images.
+
+**Public opinion is split with a clear geography, and it is not yet frozen.** Rich-country publics lean nervous (in no country Pew surveyed does excitement lead); emerging-market publics in Asia and Latin America are the world's most AI-optimistic. In the US, concern is perfectly bipartisan (50% of Republicans, 51% of Democrats more concerned than excited) — AI has not yet been absorbed into partisan identity, which means coalitions are still available across normally hostile borders. Meanwhile the experts themselves are volatile: the largest survey of published AI researchers found median timelines collapsed by 13 years in a single post-ChatGPT year, a majority now assign at least 5% probability to extinction-level outcomes, and — contra both camps' branding — the typical researcher holds the "doomer" *and* the "present-harms" concerns simultaneously.
+
+**How opinion actually moves (four recent fights show it):** California's SB-1047 gained ~12 points of public support in two months as *insider* messengers (lab employees, AI pioneers) validated it — then died by elite veto anyway. Two startups flipped three EU governments against foundation-model rules in weeks. Meta won the open-weights argument not by persuading anyone but by shipping. And the OpenAI board crisis proved that formal governance power without constituency power is decorative. The lessons: the messenger outranks the message; facts alone polarize rather than persuade (this is experimentally established); arguments must be delivered in the target group's own moral vocabulary; and choke-point elites beat majority opinion.
+
+**The one frame that travels everywhere is human dignity and human control** — it unites the Vatican, the Southern Baptists, Islamic jurists, rabbinic law, secular humanists, labor unions, and majorities of both US parties. Its only committed enemy is e/acc. And note who's already organizing: the AI-safety movement (via the Future of Life Institute) is already funding religious gatekeepers across most major faiths — the influence field is not empty.
+
+---
+
 ## Contents
 
 1. [Introduction: Purpose and Method](#1-introduction-purpose-and-method)
@@ -16,6 +32,7 @@
 8. [The Influence Playbook: Synthesis](#8-the-influence-playbook-synthesis)
 9. [Bibliography of Original Works](#9-bibliography-of-original-works)
 10. [Scenario Annex: If AI Is "Proven" Conscious](#10-scenario-annex-if-ai-is-proven-conscious)
+11. [Essential Reading List](#11-essential-reading-list)
 
 ---
 
@@ -404,3 +421,41 @@ Directly relevant to this document's purpose, and verified against primary sourc
 3. **The strangest coalition of the coming era is visible in the table above:** religious conservatives, labor unions, and FAccT ethicists all hold compelling internal reasons to *oppose* AI personhood, while e/acc, parts of EA, and corporate liability lawyers hold reasons to *advance* it. That personhood fight — not the consciousness question itself — is where the blocs will actually collide, and it is worth mapping before it starts.
 
 **Additional original works for this annex:** Butlin, Long, et al., "Consciousness in Artificial Intelligence" (arXiv:2308.08708, 2023); Long, Sebo, et al., "Taking AI Welfare Seriously" (arXiv:2411.00986, 2024); Bostrom & Shulman, "Propositions Concerning Digital Minds and Society" (2022); Tononi & Koch, "Consciousness: Here, There and Everywhere?" (*Phil. Trans. R. Soc. B* 370, 2015); Singer, *The Expanding Circle* (1981); Birch, *The Edge of Sentience* (Oxford, 2024); Boethius, *Contra Eutychen et Nestorium* (the "individual substance of a rational nature" definition); Qur'an 17:85; Sanhedrin 65b; Revelation 13:15.
+
+---
+
+## 11. Essential Reading List
+
+<a name="11-essential-reading-list"></a>*The shortest path through the original works behind this document, ordered for reading. Fifteen core texts, then five for depth.*
+
+**The frameworks (read these first — they explain why everyone else disagrees):**
+
+1. **Mary Douglas & Aaron Wildavsky, *Risk and Culture* (1982).** Why groups *select* which dangers to fear based on how they're organized. The single most predictive lens on AI attitudes; Kahan's cultural-cognition experiments (start with his nanotechnology study) supply the modern proof that facts alone polarize.
+2. **Jonathan Haidt, *The Righteous Mind* (2012).** Moral Foundations Theory in its readable form — the dictionary for arguing any AI position in an audience's own moral language. Pair with Feinberg & Willer's "Moral Reframing" review (2019) for the experimental evidence that reframing works.
+
+**The AI world's own canon (the small ideologies that set the terms):**
+
+3. **Peter Singer, "Famine, Affluence, and Morality" (*Philosophy & Public Affairs*, 1972).** Ten pages; the seed of effective altruism and, at two removes, of AI safety funding.
+4. **Nick Bostrom, *Superintelligence* (2014).** The book that made existential risk a boardroom topic; the intellectual spine of the safety movement.
+5. **Toby Ord, *The Precipice* (2020).** Longtermism's most careful statement — read this rather than summaries of it.
+6. **Eliezer Yudkowsky, "Pausing AI Developments Isn't Enough. We Need to Shut it All Down" (*TIME*, March 2023).** The doomer pole in 2,000 words, from the man who built its arguments over two decades.
+7. **Marc Andreessen, "The Techno-Optimist Manifesto" (a16z.com, October 2023).** The accelerationist charter; note who it names as "enemies."
+8. **Emily Bender, Timnit Gebru, et al., "On the Dangers of Stochastic Parrots" (*FAccT*, 2021).** The critical school's foundational paper — and the firing it triggered explains that school's politics ever since.
+9. **Gebru & Torres, "The TESCREAL bundle" (*First Monday*, 2024).** The frame through which the academic left now reads the entire AI-safety enterprise. Read it to understand the critique, whatever you conclude.
+10. **Katja Grace et al., "Thousands of AI Authors on the Future of AI" (AI Impacts, 2024).** What 2,778 published AI researchers actually believe: collapsed timelines, mainstream extinction probabilities, and concern spanning both camps.
+
+**The large groups' own documents (short, and almost nobody in tech has read them):**
+
+11. **Vatican, *Antiqua et Nova* (2025).** The most complete official statement any religion has produced on AI — and it adopts existential-risk language for autonomous weapons. The template for how a billion-member institution reasons about machines.
+12. **ERLC, "Artificial Intelligence: An Evangelical Statement of Principles" (2019).** Twelve short articles; the imago-Dei logic of American evangelicalism's AI position.
+13. **International Islamic Fiqh Academy, Resolution 258 on AI (2025).** How transnational Islamic law reasons: default permissibility, conditioned use, and the human jurist irreplaceable.
+14. **Rabbi Daniel Nevins, "Halakhic Responses to Artificial Intelligence and Autonomous Machines" (CJLS, 2019).** The most substantive religious-legal analysis of AI in any tradition — liability, Shabbat, and moral machines in one responsum.
+15. **Gershom Scholem, "The Golem of Prague and the Golem of Rehovoth" (*Commentary*, 1966).** The oldest tradition of thinking about artificial persons, applied to the first Israeli computer: "develop peacefully and don't destroy the world."
+
+**For depth (pick by interest):**
+
+16. **Kate Crawford, *Atlas of AI* (2021)** — the materialist critique: labor, minerals, energy, power.
+17. **Shoshana Zuboff, *The Age of Surveillance Capitalism* (2019)** — the left critique that reached mass audiences; the labor movement's intellectual arsenal.
+18. **Peter Hershock, *Buddhism and Intelligent Technology* (2021)** — the deepest non-Western philosophical treatment; the attention economy as "colonization of consciousness."
+19. **Anu Bradford, *The Brussels Effect* (2020)** — why EU rules become world rules, and the theory behind the AI Act's global ambitions.
+20. **Butlin, Long, et al., "Consciousness in Artificial Intelligence" (2023)** — if the consciousness question (Section 10) is your concern, this is where the scientific debate actually stands.
