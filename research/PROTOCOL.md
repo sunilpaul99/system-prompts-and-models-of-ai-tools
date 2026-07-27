@@ -1,199 +1,206 @@
-# Study Protocol: Individual-Level Absorption of LLM Style in Spontaneous Speech
+# Study Protocol: LLM Adoption and Language Change in Podcast Hosts' Speech — A Signal-Finding Pilot
 
-**Working title:** Does personal LLM use predict drift toward LLM-characteristic language in one's own unassisted speech? A within-person panel study of podcast hosts, 2019–2026.
+**Working title:** Is personal LLM adoption associated with drift toward LLM-characteristic language in one's own spontaneous speech? A blinded within-person pilot study of podcast hosts, 2019–2026.
 
-**Status:** DRAFT v0.1 — not yet frozen. All sections open for revision.
+**Status:** DRAFT v0.2 — not yet frozen.
 **Principal investigator:** Sunil Paul (independent researcher)
-**Drafted:** 2026-07-27
+**Drafted:** 2026-07-27 (v0.1); revised 2026-07-27 (v0.2)
 **Freeze date:** _(to be stamped when ratified)_
 
 ---
 
-## 1. Research question and hypotheses
+## 0. Purpose and decision framing
 
-**Question.** Is the documented population-level rise of LLM-characteristic language in spontaneous human speech (Yakura et al. 2024, arXiv:2409.01754; Anderson, Galpin et al., AIES 2025) driven by *individual absorption proportional to personal LLM exposure*, or is it uniform ambient cultural transmission independent of personal use?
+This is a **pilot study**, not the definitive study. Its purpose is to determine whether an individual-level signal exists that would justify recommending a full-scale academic study, and to produce a validated methodology (pipeline, feature lists, exposure rubric, measured effect-size and variance estimates) that an academic team could inherit.
 
-**H1 (primary — dose-response).** Hosts classified as heavy LLM users show a larger pre-to-post-ChatGPT increase in fingerprint-feature rates in their own spontaneous speech than hosts classified as light/non-users.
+The output is one of three recommendations, per the decision table in Section 8:
 
-**H2 (validity — placebo null).** Neither group shows a comparable increase in placebo features (register- and frequency-matched words with no LLM overrepresentation). A placebo increase in either group indicates pipeline artifact or general register drift, and weakens any H1 interpretation.
+- **GO** — a credible individual-level signal exists; encourage academic replication at scale.
+- **NO-SIGNAL** — a clean pipeline found no individual-level differential; the population-level trend likely reflects ambient transmission, composition, or assisted production. Still worth communicating; changes what the "real" study should be.
+- **INCONCLUSIVE** — pipeline or classification problems prevent a read; report what broke, which is itself useful to academics.
 
-**H3 (exploratory — discourse-level transfer).** Discourse/pragmatic fingerprint features (Section 5.2) increase post-ChatGPT; whether they show dose-response is exploratory, not confirmatory.
+Scope discipline: wherever a design choice trades rigor against feasibility, this protocol chooses the option adequate for a *screening decision*, and records the upgrade a full study should make (Appendix C, "Handoff notes").
 
-**All three primary outcomes are publishable:** dose-dependent drift (absorption), uniform drift (ambient transmission), or no individual-level signal (population trend reflects composition or assisted text, not changed speakers).
+## 1. Research question and estimand
 
----
+**Question.** Among long-running podcast hosts, is documented personal adoption of LLM tools associated with a larger increase in LLM-characteristic language in the host's own spontaneous speech, relative to hosts with documented non-use or rare use?
+
+**Estimand (honest version).** The differential pre-to-post change in fingerprint-feature rates between hosts with direct evidence of regular LLM use and hosts with direct evidence of rare/non-use, under conditional parallel trends. This is an **association**. "Unconscious absorption" is one candidate mechanism; LLM-assisted show preparation (outlines, questions, talking points that shape nominally spontaneous speech) is another, and this design cannot fully separate them. Speech as the outcome medium rules out verbatim copy-paste only.
+
+**H1 (primary).** The fingerprint-rate increase (composite lexical rate, Section 5.1) is larger among CONFIRMED-USE hosts than CONFIRMED-NONUSE hosts.
+
+**Negative-control analyses (not "hypotheses to confirm"):**
+- **NC1 — placebo words:** the same contrast on matched non-LLM words should show no comparable differential.
+- **NC2 — pseudo-intervention:** the H1 model re-run with a fake adoption date of 2020-07 inside the pre-period should show no effect.
+- **NC3 — guest speech:** guest-attributed speech processed by the identical pipeline serves as a pipeline-artifact detector (guests vary; pipeline is constant).
+
+**Exploratory (clearly labeled, no confirmatory weight):** discourse-level features (Section 5.2); adoption-date event-time alignment; per-word contribution; LIGHT-by-absence hosts.
 
 ## 2. Design overview
 
-Within-person panel design. For each host in a fixed panel, we measure feature rates in their own speech in each calendar half-year from 2019-H1 through 2026-H1, then compare within-host change across exposure groups (difference-in-differences with host fixed effects). Spontaneous *speech* is the outcome medium because it cannot be copy-pasted, eliminating the assisted-authorship confound.
+Within-person panel. For each host, feature rates are measured per calendar half-year, 2019-H1 through 2026-H1. Pre period: 2019-H1–2022-H1. Washout (excluded): 2022-H2–2023-H1. Post period: 2023-H2–2026-H1.
 
-Key blinding rule: **exposure classification (Section 4) is completed and frozen for each host before that host's language data is analyzed.** Evidence gathering for exposure must not include reading/listening for fingerprint features.
-
----
+**Blinding rules:**
+- Exposure classification for a host is completed and frozen before any of that host's feature data is viewed.
+- No one (PI or agent) computes any exposure × feature-rate contrast until data collection is declared complete ("peeking rule"). Interim reporting is limited to coverage and exposure-blind pooled rates.
 
 ## 3. Panel selection
 
-### 3.1 Enumeration (anti-cherry-picking)
+### 3.1 Sampling frame (survivorship-aware)
 
-Candidate podcasts are enumerated mechanically, not from memory:
+The frame is built from **archived pre-treatment charts**: Wayback Machine captures of Apple Podcasts US top-200 charts (or Chartable equivalents) dated 2020–2021, for genres Technology, Society & Culture, History, Comedy, Sports, Business, Science. Shows are then followed *forward*. The frame snapshot (URLs, capture dates, full list) is committed to the repo before eligibility screening. Target population, stated honestly: hosts of popular, long-running, English-language conversational podcasts active by 2020–2021 — not podcast hosts in general.
 
-1. Take the top 250 shows in each of Apple Podcasts' US charts for these genres as of the enumeration date: Technology, Society & Culture, History, Comedy (Interviews), Sports, Business, Science.
-2. Supplement with Podchaser/Listen Notes "long-running" filters for the same genres.
-3. Record the full enumerated list with timestamps before applying any inclusion criteria.
+### 3.2 Eligibility (assessed before exposure is examined)
 
-### 3.2 Inclusion criteria (all required)
+- **I1.** English-language; predominantly unscripted conversational format (spot-check 3 random episodes against a written rubric; borderline → decision queue).
+- **I2.** Same primary host from 2019 through 2025, ≥12 episodes/year each year.
+- **I3.** Host speaks ≥30% of airtime (pilot diarization on 3 episodes).
+- **I4.** Audio retrievable for ≥70% of sampled periods in both pre and post.
+- **E1.** Excluded: shows whose dominant recurring topic pre-2022 is AI/ML (topic confound); shows with heavy speech post-production; at most one host per show (co-hosts share production environments — the primary host only).
 
-- **I1.** English-language.
-- **I2.** Predominantly unscripted conversational format (interview, co-host banter, call-in). Shows that are read essays, audio dramas, or narrated documentaries are excluded. Operational test: spot-check 3 random episodes; if host speech is evidently read from a script in ≥2, exclude.
-- **I3.** Continuous run: ≥12 published episodes per calendar year in every year 2019–2025, with the same primary host throughout.
-- **I4.** Primary host speaks an estimated ≥30% of airtime (verified in pilot diarization on 3 episodes).
-- **I5.** Audio or official transcripts retrievable for ≥70% of episodes in both the pre period (2019-01 to 2022-06) and post period (2023-07 to 2026-06).
+### 3.3 Panel size (pilot-scaled)
 
-### 3.3 Exclusion criteria
+Target **24 hosts**: 12 CONFIRMED-USE, 12 CONFIRMED-NONUSE (minimum acceptable 9 per arm), with ≥40% of the panel from non-technology genres, balanced across arms as evenly as the frame allows. If eligible hosts exceed need, selection is by fixed random seed from the eligible pool, recorded in the repo. Cell shortfalls are reported, not rebalanced silently.
 
-- **E1.** Podcast's core topic is AI/LLMs (e.g., shows *about* machine learning). Rationale: topic-driven vocabulary would mechanically inflate fingerprint words. Tech shows are eligible only if AI is not the dominant recurring subject pre-2022. Borderline cases go to the decision queue.
-- **E2.** Host is a professional voice actor or the show has heavy post-production editing of speech.
-- **E3.** Host's exposure classification comes back "unclassifiable" (Section 4.4) — retained in the dataset but excluded from H1 confirmatory analysis.
+Rationale: 24 hosts cannot detect a subtle effect; they can detect the *moderate-to-large* effect that would make a full study clearly worthwhile, and can estimate the variance components a real power analysis needs. That matches the pilot's decision purpose. A post-pilot simulation (Section 8.3) converts observed variance into "the full study needs N hosts" — a key handoff deliverable.
 
-### 3.4 Panel size and balance
+### 3.4 Episode sampling
 
-Target: **48 hosts** (minimum acceptable: 36), with targets of ≥16 likely-heavy and ≥16 likely-light exposure, and ≥40% of the panel from non-technology genres. If enumeration cannot fill these cells, the shortfall is logged and reported, not silently rebalanced.
+**5 episodes per host per half-year**, fixed random seed, minimum duration 20 minutes; rebroadcasts, compilation episodes, and guest-host episodes excluded by rule. ≈ 24 × 15 × 5 = 1,800 episodes ≈ 1,500–2,000 audio-hours. Minimum analyzable host-period: 5,000 host-attributed words; below that, the period is marked missing (not zero-filled).
 
-Sampling within host: up to 24 episodes per host per half-year, selected by fixed random seed; episodes shorter than 20 minutes excluded.
+## 4. Exposure classification
 
----
+### 4.1 Categories (time-anchored)
 
-## 4. Exposure classification rubric
+- **CONFIRMED-USE:** direct self-report of regular LLM use (≈weekly or more, for any purpose), with an **adoption interval** [earliest evidence date, latest "not yet using" date if any]. The label applies only from the adoption interval forward.
+- **CONFIRMED-NONUSE:** direct self-report of non-use or rare use, valid over the period the statements cover; re-checked for later adoption statements through 2026.
+- **UNKNOWN:** everything else — including hosts with *no* statements found (absence of evidence is not classified as non-use in the confirmatory analysis; such hosts are exploratory only).
 
-### 4.1 Evidence sources (in scope)
+**Professional AI involvement** (works at/founded an AI company, ships AI products) is recorded as a **covariate**, not exposure evidence.
 
-Public statements only: the host's own remarks on their podcast (located via keyword search of transcripts for AI-related terms, NOT by listening broadly), their public social media, newsletters, interviews, bylined articles, and product/company affiliations (e.g., host founded an AI startup; host's employer mandates AI tools).
+Each dossier records: verbatim quotes, source URLs, statement dates, the date the statement refers to, evidence strength (direct/indirect), and search-checklist completion.
 
-### 4.2 Categories
+### 4.2 Procedure, blinding, reliability
 
-- **HEAVY:** Direct self-report of regular LLM use (weekly or more) for writing, research, show prep, or work, OR sustained professional immersion (works at/founded an AI company, ships AI products) with no disclaimers of non-use.
-- **LIGHT:** Direct self-report of non-use or rare use, OR expressed avoidance/skepticism plus absence of any use evidence, OR (weakest tier) no evidence of use found after the full search checklist is completed — flagged as "LIGHT-by-absence" and reported separately in sensitivity analysis.
-- **UNCLASSIFIABLE:** Contradictory evidence, or evidence only about their *team's* use, not their own.
+The agent assembles dossiers using the fixed search checklist (Appendix B), gathering exposure evidence only — never reading transcripts for language features. Labels are ratified by the PI, and **by one independent second rater** (a recruited collaborator following the written rubric, blind to all language data) if available; agreement is reported. If no second rater can be recruited, single-rater status is a declared limitation. Disagreements → UNKNOWN.
 
-Classification also records **adoption date** where determinable (earliest evidence of regular use), for exploratory lag analysis.
+### 4.3 Declared limitations
 
-### 4.3 Procedure and blinding
-
-The agent assembles a per-host evidence dossier (verbatim quotes, links, dates). The PI personally ratifies every label. Both agent and PI complete classification for a host **before** any feature data for that host is viewed. The dossier search checklist and queries are fixed in Appendix B before Phase 3 begins.
-
-### 4.4 Known limitation (declared)
-
-Exposure is measured with error (self-report, public evidence only). Misclassification is plausibly nondifferential and would bias H1 toward null — making a positive H1 finding conservative. This is stated, not solved.
-
----
+Exposure is from public statements: measurement error is certain, and may be *differential* (tech hosts more searchable and more disclosure-prone). Mitigations: non-tech genre quota, professional-involvement covariate, and honest framing of the estimand. No claim is made about the direction of misclassification bias.
 
 ## 5. Outcome measures
 
-All rates computed as occurrences per 10,000 host-spoken words, per host per half-year.
+Rates are computed from counts per host-period with host-attributed word count as denominator.
 
-### 5.1 Lexical fingerprint (confirmatory, H1)
+### 5.1 Primary endpoint: composite lexical fingerprint rate
 
-Drawn from words empirically overrepresented in LLM output and used in prior studies (Yakura et al.; Anderson & Galpin; Kobak et al. on academic abstracts), restricted to words that were NOT already trending upward 2015–2021 (verified against Google Books Ngrams / GloWbE before freeze):
+One primary endpoint: the summed count of the frozen lexical fingerprint list per host-period. Candidate list (from Yakura et al. 2024; Anderson & Galpin AIES 2025; Kobak et al.):
 
-> delve (delves, delving), meticulous(ly), intricate / intricacies, underscore(s, -ing) [verb], showcase (-s, -ing) [verb], boast(s, -ing) [in the sense "features/offers"], pivotal, realm, bolster(ing), commendable, surpass(es, -ing), adept, garner(ed), noteworthy, multifaceted
+> delve, meticulous(ly), intricate/intricacies, underscore [verb], showcase [verb], boast [="features"], pivotal, realm, bolster, commendable, surpass, adept, garner, noteworthy, multifaceted
 
-Final list frozen in Appendix A after the pre-trend verification; candidates failing the pre-trend test are dropped and logged.
+**Pre-freeze validation gates for each candidate word (Appendix A records pass/fail):**
+1. Not already trending upward 2015–2021 in a **spoken** reference (Spotify/TAL podcast corpora, COCA-spoken, subtitle corpora — not Google Books alone).
+2. Overrepresented in LLM output vs. matched human *speech-register* text (verified by generating matched-topic LLM text and comparing, not assumed from academic-text studies).
+3. ASR-stable: Whisper sensitivity/specificity for the word checked on audio from both eras (Section 6.1).
+4. Sense-disambiguation rule defined where needed ("boast," "underscore," "realm," "showcase"): LLM-based sense filter with a 100-instance human-audited sample per ambiguous word.
 
-### 5.2 Discourse/pragmatic fingerprint (exploratory, H3)
+Lemmatization, contraction, and disfluency handling rules are fixed in Appendix A. Words failing any gate are dropped and logged. **Aggregation rule:** the composite is the sum of counts; per-word rates are reported descriptively, and a leave-one-out sensitivity shows whether any single word drives the result (if so, that is stated in the write-up — a one-word effect is a different finding than general style transfer).
 
-Detected via pattern rules + LLM-assisted annotation with human-validated precision ≥0.85 on a 200-instance gold sample per feature:
+### 5.2 Exploratory: discourse features (trimmed)
 
-- The contrastive reframe: "It's not (just) X — it's Y."
-- Balanced triplet lists in speech ("clear, concise, and compelling").
-- Preemptive both-sidesing / hedge stacks ("While X has merit, it's important to consider…").
-- Summarizing meta-turns ("So, to recap…", "The key takeaway is…").
-- Sycophantic acknowledgment before disagreement ("That's a great point, and…" → contradiction).
+Two features only, chosen for detectability: (a) the contrastive reframe ("It's not just X — it's Y"); (b) summarizing meta-turns ("So, to recap…"). Detection by pattern rules + LLM annotation; validated for **precision and recall** on a 200-instance human-labeled sample balanced across pre/post periods, annotators blind to period. Reported as exploratory regardless of outcome.
 
-### 5.3 Placebo features (H2)
+### 5.3 Placebo words (NC1)
 
-Words matched to the lexical fingerprint on register and 2015–2021 spoken-corpus frequency, with **no** LLM overrepresentation in published lists:
+Matched to fingerprint words on: spoken-corpus baseline frequency (2015–2021), part of speech, and flat pre-trend; and checked for comparable ASR error rates (Section 6.1). Candidate list refined during Appendix A construction; frozen simultaneously with the fingerprint list. Topic-sensitivity matching is approximate — declared as such.
 
-> accentuate, sturdy, immense, clever, quarrel, tidy, gloomy, brisk, drawback, hearty, keen [adj], swiftness-matched candidates finalized in Appendix A
+### 5.4 Meta-mention rule
 
-Placebo list is frozen simultaneously with the fingerprint list and never revised after freeze.
+Occurrences within 50 words of explicit AI-language references ("ChatGPT always says delve") are flagged. Primary analysis excludes flagged occurrences; **pre-registered sensitivity analyses run with no exclusion and with a 20-word window.** All exclusions logged with context; 5% audited by PI.
 
-### 5.4 Meta-mention exclusion rule
+## 6. Pipeline
 
-An occurrence is excluded when the word/pattern is *mentioned rather than used* — i.e., within 50 words of an explicit reference to AI language ("ChatGPT always says delve", "that sounds like AI"). Detection: rule-based flag + LLM adjudication; all exclusions logged with context windows and audit-sampled by the PI (5% random sample).
+Fetch (RSS/archived feeds) → transcribe (Whisper, single pinned version) → diarize (host voice enrolled from 3 reference episodes) → sense-filter and count on host-attributed speech → delete audio, retain host-speech transcripts, counts, logs.
+
+### 6.1 Validity checks
+
+- **V1 — ASR bias, both eras and both lists:** on ≥10 hours of audio with verbatim ground-truth transcripts drawn from both pre-2021 and post-2023 sources, measure Whisper insertion *and* deletion rates for fingerprint and placebo words separately. Gate: insertion <1/100k words and no material fingerprint-vs-placebo asymmetry; else change transcriber before freeze.
+- **V2 — Reproducibility:** 1% of episodes re-processed each cycle; counts must reproduce ±2%.
+- **V3 — Diarization audit:** stratified manual check (by era × genre) of 40 episode segments against human labeling; host-attribution accuracy ≥90%, reported.
+- **V4 — Placebo monitor + coverage ledger:** continuous, in every daily brief.
+
+## 7. Analysis plan
+
+**Primary model:** Poisson regression of the composite fingerprint count with host fixed effects, half-year fixed effects, host-period word-count offset, and the CONFIRMED-USE × post interaction. Overdispersion assessed; quasi-Poisson as the pre-specified fallback. Episode-level data retained; primary model at host-period level.
+
+**Inference:** randomization inference — permute exposure labels across hosts (respecting arm sizes) 10,000 times; report the permutation p-value for the interaction. This is the primary test (24 clusters is too few for asymptotic cluster-robust inference).
+
+**Negative controls:** NC1 (placebo composite, same model — and a single pre-specified contrast test: interaction(fingerprint) − interaction(placebo) via permutation); NC2 (pseudo-date 2020-07); NC3 (guest speech, descriptive).
+
+**Pre-trend assessment:** event-study-style plot of per-half-year arm differences with CIs across the pre-period; and a declared substantive bound — a pre-period differential trend exceeding 50% of the observed post effect renders H1 INCONCLUSIVE regardless of p-value. (No reliance on a low-powered nonsignificance test.)
+
+**Pre-specified sensitivities:** leave-one-word-out; meta-mention windows (0/20/50); excluding tech-genre hosts; excluding hosts with professional AI involvement; minimum-word-count threshold doubled.
+
+**Covariate:** professional AI involvement × post, as a robustness specification.
+
+## 8. Decision rules (the point of the pilot)
+
+### 8.1 Interpretation table
+
+| H1 (permutation p, effect direction) | NC1 placebo | Pre-trend bound | Recommendation |
+|---|---|---|---|
+| p<0.05, positive | clean | ok | **GO** — encourage full academic study |
+| 0.05≤p<0.20, positive, rate ratio ≥1.3 | clean | ok | **GO (weak)** — signal plausible; full study with proper N justified |
+| p≥0.20 or rate ratio <1.15 | clean | ok | **NO-SIGNAL** — report; recommend academics study ambient/population mechanisms instead |
+| any | placebo differential comparable to H1 | — | **INCONCLUSIVE** — artifact suspected; report diagnosis |
+| any | — | violated | **INCONCLUSIVE** — differential trends; report |
+
+The GO(weak) row exists because a pilot of 24 hosts is designed to detect *large* effects; a moderate positive estimate with p≈0.1 is exactly the "worth a real study" outcome. A null here does NOT establish absence — the write-up states the minimum rate ratio the pilot could plausibly have detected (from 8.3) and bounds the claim accordingly.
+
+### 8.2 Power realism (pre-freeze gate)
+
+Before freeze, run a simulation using pilot-phase estimates (baseline rates, host heterogeneity, serial correlation, words per period from the Phase 2 technical pilot): report the minimum detectable rate ratio at n=24 (and n=18 floor). **If the detectable rate ratio exceeds 2.0, the design is revised (more hosts, more episodes, or narrower feature set) before freezing.** Simulation code committed to the repo.
+
+### 8.3 Handoff deliverable
+
+Regardless of outcome: frozen protocol + changelog, open pipeline code, per-host-period feature dataset (see 9), variance-component estimates, and a one-page "design memo for the full study" (required N from simulation, exposure-rubric lessons, pipeline failure modes) — written for an academic audience. This memo is the artifact used to recruit academic interest.
+
+## 9. Ethics and data governance
+
+- Subjects are public figures analyzed via publicly published speech and public statements; no contact, no private data.
+- **Exposure dossiers are private** (not released — they aggregate personal statements in a way hosts didn't anticipate). Released data: de-identified per-host-period feature counts (random host IDs, genre kept, show names withheld). True anonymity among well-known hosts is imperfect; the release contains no exposure labels linked to identifiable hosts.
+- Host-identifiable results appear in the write-up only if (pre-declared rule) the finding cannot be communicated otherwise AND the disclosed fact is something the host has stated publicly themselves.
+- Informal ethics consult: at least one person with IRB experience reads this protocol before freeze; their comments logged.
+- Terms-of-service check for each audio source before bulk download; official transcripts used only where verified verbatim; audio deleted after feature extraction; retention: transcripts and counts for 3 years, then review.
+- Sensitive incidental material in transcripts (health disclosures etc.) is not extracted, quoted, or released; only word counts leave the pipeline.
+
+## 10. Agent operating rules
+
+Unchanged in substance from v0.1: the deviation rule (protocol-derivable actions proceed; interpretation/extension/exclusion decisions queue for the PI with a recommendation); always-queued items (every exposure label, every exclusion, every anomaly, budget ≥80% of cap); never-done items (peeking, post-freeze edits to Appendices A/B, contacting anyone, publishing); daily brief = scorecard (V1–V4) + coverage + decision queue + spend. Full text in Appendix D.
+
+## 11. Budget and schedule
+
+- ~1,800 episodes ≈ 1,500–2,000 audio-hours. Transcription: local Whisper preferred (≈$0, slower) with API fallback; hard cap **$400** total external spend, set at freeze.
+- Phases: Technical pilot (3 hosts end-to-end, feeds V1/V3 and the 8.2 simulation) ~1–2 weeks → Frame + eligibility + exposure dossiers ~2–3 weeks → Freeze → Collection ~4–6 weeks → Analysis ~1 week → Write-up + design memo ~2 weeks.
+
+## 12. Outputs
+
+Public write-up (essay and/or arXiv preprint), open code and de-identified dataset, and the Section 8.3 design memo. The protocol is posted publicly (OSF) at freeze.
 
 ---
 
-## 6. Data pipeline
-
-1. **Fetch:** RSS/feed resolution and audio download. Official transcripts used where published *and* verified verbatim (spot-check vs. audio); otherwise transcribe.
-2. **Transcribe:** Whisper (single pinned model version for the entire study; version recorded).
-3. **Diarize:** speaker separation; host identified by voice enrollment from 3 reference episodes. Episodes with diarization confidence below threshold go to the exclusion queue, never silently dropped.
-4. **Extract:** tokenize, count features on host-attributed speech only.
-5. **Delete audio** after extraction; retain transcripts of host speech, feature counts, and logs.
-
-### 6.1 Pipeline validity checks (standing, run throughout)
-
-- **V1 — Transcriber-bias check:** before Phase 4, transcribe ≥10 hours of pre-2020 audio with published verbatim transcripts; confirm Whisper does not insert fingerprint words (insertion rate must be <1 per 100k words, else transcriber is reconsidered — this is a freeze-level gate).
-- **V2 — Reproducibility probe:** each cycle, re-process a random 1% of completed episodes; feature counts must reproduce within ±2%.
-- **V3 — Placebo monitor:** placebo rates computed continuously; sustained placebo drift triggers a red flag to the PI.
-- **V4 — Coverage ledger:** attempted/completed/excluded episode counts per host per period, reported in every daily brief.
-
----
-
-## 7. Analysis plan (pre-registered)
-
-**Primary (H1):** Difference-in-differences on log fingerprint rate: host fixed effects, half-year fixed effects, interaction of post-period × HEAVY. Standard errors clustered by host. Pre period: 2019-H1–2022-H1. Washout (excluded): 2022-H2–2023-H1. Post period: 2023-H2–2026-H1. Significance threshold α=0.05, two-sided; effect size reported with 95% CI regardless of significance.
-
-**H2:** identical model on placebo rates; the H1 interpretation requires the H1 interaction to significantly exceed the placebo interaction (seemingly-unrelated estimation or bootstrap contrast).
-
-**Pre-trend check:** the HEAVY×half-year interactions within the pre period must be jointly null; if violated, H1 is reported with this caveat prominent.
-
-**Sensitivity analyses (all pre-declared):** excluding LIGHT-by-absence hosts; excluding technology-genre hosts; per-word leave-one-out on the fingerprint list; guest-speech contamination check (re-run on episodes with diarization confidence in top tercile).
-
-**Exploratory (labeled as such):** H3 discourse features; adoption-date lag alignment; per-feature transfer ranking.
-
-**Peeking rule:** no one — PI or agent — computes any exposure × feature-rate cross-tabulation before Phase 4 data collection is declared complete. Interim reporting is limited to per-host coverage and pooled (exposure-blind) feature rates.
-
----
-
-## 8. Agent operating rules and decision queue
-
-**Deviation rule:** any action derivable from this protocol proceeds autonomously; anything requiring interpretation, deviation, or extension is queued for the PI with a recommendation. Unanswered queue items block only the hosts/episodes they concern.
-
-**Always queued:** every exposure label; every host or episode exclusion; every protocol ambiguity; anomalies (V1–V4 failures, fingerprint spikes co-occurring with AI-topic discussion); any budget-cap approach (≥80% of cap).
-
-**Never done by the agent:** computing the H1 correlation before completion; modifying Appendix A/B post-freeze; contacting any person; publishing or posting anything.
-
-**Daily brief format:** scorecard (V1–V4 green/yellow/red) → coverage numbers → decision queue with recommendations → spend vs. cap. Nothing else.
-
-**Changelog:** every post-freeze amendment is recorded here with date, reason, and PI ratification. An empty changelog section is maintained from freeze day.
-
----
-
-## 9. Ethics and data handling
-
-Public, published audio only; no private data; no contact with subjects; hosts analyzed in aggregate, with per-host results anonymized by default in any publication (host-identifiable results only with a specific PI decision at write-up). No IRB is available to an independent researcher; this section stands in its place and errs conservative. Audio deleted post-extraction; transcripts retained are of publicly published material.
-
-## 10. Budget and schedule
-
-- Transcription: ~2,000 audio-hours ≈ $200–500 (API) or ~$0 (local Whisper, slower). Hard cap set at freeze.
-- Agent compute: capped daily; cap set at freeze.
-- Schedule: Pilot (Phase 2) ~1 week → Panel & exposure (Phase 3) ~2–3 weeks → Collection (Phase 4) ~4–8 weeks → Analysis ~1–2 weeks → Write-up ~2–3 weeks.
-
-## 11. Outputs
-
-Frozen protocol (this document, publicly posted at freeze — OSF.io), open code, per-host per-period feature dataset, and a write-up (public essay and/or arXiv preprint; venue decision deferred to Phase 6).
-
----
-
-## Appendix A — Frozen feature lists
-
-_(Populated and frozen after pre-trend verification; includes final lexical fingerprint, discourse patterns with detection rules, placebo list.)_
+## Appendix A — Frozen feature lists and text-processing rules
+_(Populated during technical pilot; frozen at freeze date: final fingerprint list with per-word gate results, placebo list with matching table, lemmatization/sense rules.)_
 
 ## Appendix B — Exposure evidence search checklist
+_(Fixed queries and sources per host; frozen before dossier work begins.)_
 
-_(Fixed queries and source list per host; frozen before Phase 3.)_
+## Appendix C — Handoff notes for a full study
+_(Running list of rigor upgrades deliberately deferred: staggered-adoption estimator, larger panel, dual human raters throughout, full topic adjustment, formal measurement-error model, formal equivalence bounds.)_
+
+## Appendix D — Agent operating rules (full text)
+_(Carried from v0.1 §8.)_
 
 ## Changelog
 
-_(Empty until freeze.)_
+- **2026-07-27 v0.1 → v0.2** (pre-freeze revision, responding to external methods review): reframed as decision-oriented pilot with GO/NO-SIGNAL/INCONCLUSIVE rules; estimand narrowed to association, assisted-preparation pathway acknowledged; exposure rebuilt as time-anchored confirmed-use/confirmed-nonuse with professional involvement as covariate and absence-of-evidence demoted to exploratory; sampling frame moved to archived 2020–2021 charts; panel cut 48→24 hosts, sampling cut to 5 episodes/host-half-year (fixing v0.1's budget inconsistency); primary model changed to Poisson FE with offset and permutation inference; placebo recast as negative control with a single pre-specified contrast; pseudo-date and guest-speech negative controls added; ASR check extended to both eras and both lists; discourse features trimmed to two, exploratory; power-realism gate (8.2) and interpretation table (8.1) added; ethics section expanded (private dossiers, de-identified release, consult requirement).
