@@ -2,6 +2,25 @@
 
 _Maintained per PROTOCOL §10. Latest cycle at top._
 
+## 2026-07-28, cycle 3 (~12:12Z)
+
+**Scorecard**: V3 in motion — enrollment done, first diarizations running.
+V1/V2/V4 unchanged.
+
+**Coverage / progress**
+- WS2: 3/48 transcribed (all three EconTalk enrollment references). Pace ~1.0x
+  wall/audio-hour with diarization now sharing CPU.
+- WS3: enrollment spans transcript-verified for all 3 EconTalk references
+  (guest-entry timestamps logged in enrollment_spans.json); Lex spans
+  provisional pending his transcripts. Host centroids built (econtalk 211
+  windows, lex_fridman 315). Diarization of completed episodes launched
+  (background); first V3 numbers next cycle.
+- Bug fixed: enroll() choked on JSON "_note" key.
+
+**Decision queue**: unchanged (items 1-5 open; none blocking current work).
+
+**Spend**: $0 external.
+
 ## 2026-07-28, cycle 2 (~10:12Z)
 
 **Scorecard**: V1/V2/V4 unchanged (not started). V3: pipeline built this cycle,

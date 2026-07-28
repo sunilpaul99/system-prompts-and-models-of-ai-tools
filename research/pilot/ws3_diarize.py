@@ -79,6 +79,7 @@ def enroll(scratch):
     spans = json.load(open(os.path.join(os.path.dirname(__file__), "enrollment_spans.json")))
     cents = {}
     for host, refs in spans.items():
+        if host.startswith("_"): continue
         embs = []
         for ref in refs:  # {"file": ..., "start": s, "end": e}
             path = glob.glob(os.path.join(scratch, "audio", host, ref["file"] + "*"))[0]
