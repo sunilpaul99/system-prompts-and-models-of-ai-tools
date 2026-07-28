@@ -2,6 +2,30 @@
 
 _Maintained per PROTOCOL §10. Latest cycle at top._
 
+## 2026-07-28, cycle 4 (~14:12Z)
+
+**Scorecard**
+- V3: first diarized episode PASSES internal sanity check — intro 100% HOST
+  (165/165 words), guest first-reply correctly non-HOST, known host turn 21/21;
+  k=2, host-cluster sim 0.892, host word-share 42.5%. Formal PI audit still
+  pending (needs more episodes + stratified export).
+- V1: ground truth SOURCED — EconTalk human transcripts verified verbatim
+  w/ speaker labels + timestamps in BOTH eras (WS4_ground_truth.md). ~20 h
+  available vs. ≥10 h gate requirement.
+- V2/V4: unchanged (await counting pipeline).
+
+**Coverage / progress**
+- WS2: 4/48 transcribed (pace dipped to ~1.25x wall/audio-hour with
+  diarization sharing CPU — acceptable).
+- WS3: diarization running through completed episodes in background.
+- WS4: sourcing done (above); alignment implementation next cycle.
+
+**Decision queue**: items 1-5 unchanged. Upcoming PI time commitments now
+visible: V3 audit (~1 h) once ~10 episodes diarized; WS4 spot-verification
+(~1 h) once alignment runs.
+
+**Spend**: $0 external.
+
 ## 2026-07-28, cycle 3 (~12:12Z)
 
 **Scorecard**: V3 in motion — enrollment done, first diarizations running.
