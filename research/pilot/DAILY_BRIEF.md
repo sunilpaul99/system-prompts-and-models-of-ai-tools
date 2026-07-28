@@ -2,6 +2,28 @@
 
 _Maintained per PROTOCOL §10. Latest cycle at top._
 
+## 2026-07-28, cycle 8 (~22:12Z)
+
+**Coverage / progress**
+- WS2: 6/48 transcribed (Newstok took 116 min — CPU was shared with
+  diarization; Shortland back to 67 min once diarization idled).
+- WS6 prep: turn reconstruction implemented (ws6_turns.py) and run on 4
+  episodes; emits the metadata-stripped HOST/GUEST turn format that Stage 1/2
+  prompts consume. First conversation stats: 17-30 host turns/hour, mean host
+  turn 141-182 words.
+- **Calibration flag:** pipeline turn counts run 2x low vs human transcripts
+  (Lomborg 39 vs 82) — backchannel absorption is over-merging. Needs tuning
+  against human-transcript turn boundaries before G1 gold-sample construction
+  (the 16 EconTalk human transcripts are the free calibration target).
+  Stage 1's 30-turn sliding windows tolerate this meanwhile.
+
+**Scorecard**: V1/V3/V4 unchanged from cycle 7. V2 will use the completed
+EconTalk block for its first 1% reproducibility probe.
+
+**Decision queue**: items 1-5 unchanged.
+
+**Spend**: $0 external.
+
 ## 2026-07-28, cycle 7 (~20:12Z)
 
 **Scorecard**
