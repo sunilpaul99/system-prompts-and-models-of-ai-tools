@@ -2,6 +2,37 @@
 
 _Maintained per PROTOCOL §10. Latest cycle at top._
 
+## 2026-07-28, cycle 7 (~20:12Z)
+
+**Scorecard**
+- V1: clean rerun on decontaminated ground truth (4 pairs, 54.5k words):
+  fingerprint ins=del=0; placebo 1 deletion (1.8/100k). Gate passing so far.
+- V3 (pre-audit evidence): pipeline host word-share matches human-transcript
+  host share within ~1pp on 3/4 episodes (29.6→30.7, 32.5→32.9, 32.2→33.4);
+  Hirschfeld off 5pp (47.4→42.5) — flagged for the formal audit. Known
+  intro spans 100% HOST in all 4. k=3 selections are a junk micro-cluster
+  (0.1-0.2% of words), not speaker splits; consider min-cluster-size floor.
+- V4 seeded: WS5 counting pipeline live (ws5_count.py).
+
+**Key quantitative finding (feeds WS7 power sim)**
+Pre-era EconTalk host speech, 18.5k host words: fingerprint composite = 0
+occurrences (0/100k); placebo = 6 (32/100k). ASR ground truth (54.5k words,
+both speakers): fingerprint also 0. The lexical outcome is EXTREMELY sparse
+at baseline — the power simulation must model near-zero baselines, and the
+"increase from ~0" regime may favor absolute-rate over rate-ratio framing.
+Host words/episode 3.6-5.5k → ~20-25k per host-period at 5 eps (>5k minimum).
+
+**Coverage / progress**
+- WS2: transcription resumed post-restart, 5/48 in progress.
+- WS3: all 4 available episodes diarized; job idles until new transcripts.
+- WS4: 16/16 ground-truth parses clean (speaker allowlist fix; layout with
+  comments BEFORE transcript documented in failure catalog).
+- WS5: counting pipeline built + first baseline rates (above).
+
+**Decision queue**: items 1-5 unchanged; nothing new blocking.
+
+**Spend**: $0 external.
+
 ## 2026-07-28, cycle 6 (~18:12Z)
 
 **Anomaly: container restart.** The session container recycled between cycles
