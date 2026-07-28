@@ -1,0 +1,386 @@
+[
+ {
+  "host": "lex_fridman",
+  "date": "2020-03-21",
+  "status": 200,
+  "bytes": "28412128",
+  "type": "audio/mpeg",
+  "final": "https://content.blubrry.com/takeituneasy/lex_ai_simon_sinek.mp3"
+ },
+ {
+  "host": "lex_fridman",
+  "date": "2020-10-30",
+  "status": 200,
+  "bytes": "130617456",
+  "type": "audio/mpeg",
+  "final": "https://content.blubrry.com/takeituneasy/lex_ai_eric_weinstein_3.mp3"
+ },
+ {
+  "host": "lex_fridman",
+  "date": "2020-11-16",
+  "status": 200,
+  "bytes": "113555277",
+  "type": "audio/mpeg",
+  "final": "https://content.blubrry.com/takeituneasy/lex_ai_andrew_huberman.mp3"
+ },
+ {
+  "host": "lex_fridman",
+  "date": "2021-02-23",
+  "status": 200,
+  "bytes": "121551006",
+  "type": "audio/mpeg",
+  "final": "https://content.blubrry.com/takeituneasy/lex_ai_eric_weinstein_4.mp3"
+ },
+ {
+  "host": "lex_fridman",
+  "date": "2021-09-15",
+  "status": 200,
+  "bytes": "131073020",
+  "type": "audio/mpeg",
+  "final": "https://content.blubrry.com/takeituneasy/lex_ai_douglas_lenat.mp3"
+ },
+ {
+  "host": "lex_fridman",
+  "date": "2021-09-30",
+  "status": 200,
+  "bytes": "131418526",
+  "type": "audio/mpeg",
+  "final": "https://content.blubrry.com/takeituneasy/lex_ai_sean_kelly.mp3"
+ },
+ {
+  "host": "lex_fridman",
+  "date": "2021-11-28",
+  "status": 200,
+  "bytes": "121922208",
+  "type": "audio/mpeg",
+  "final": "https://content.blubrry.com/takeituneasy/lex_ai_robert_crews.mp3"
+ },
+ {
+  "host": "lex_fridman",
+  "date": "2021-11-30",
+  "status": 200,
+  "bytes": "46378437",
+  "type": "audio/mpeg",
+  "final": "https://content.blubrry.com/takeituneasy/lex_ai_tom_brands.mp3"
+ },
+ {
+  "host": "lex_fridman",
+  "date": "2023-05-09",
+  "status": 200,
+  "bytes": "187120800",
+  "type": "audio/mpeg",
+  "final": "https://content.blubrry.com/takeituneasy/lex_ai_stephen_wolfram_4.mp3"
+ },
+ {
+  "host": "lex_fridman",
+  "date": "2023-06-02",
+  "status": 200,
+  "bytes": "157308192",
+  "type": "audio/mpeg",
+  "final": "https://content.blubrry.com/takeituneasy/lex_ai_chris_lattner_3.mp3"
+ },
+ {
+  "host": "lex_fridman",
+  "date": "2023-09-10",
+  "status": 200,
+  "bytes": "99718264",
+  "type": "audio/mpeg",
+  "final": "https://content.blubrry.com/takeituneasy/lex_ai_walter_isaacson.mp3"
+ },
+ {
+  "host": "lex_fridman",
+  "date": "2024-03-25",
+  "status": 200,
+  "bytes": "72124305",
+  "type": "audio/mpeg",
+  "final": "https://content.blubrry.com/takeituneasy/lex_ai_dana_white.mp3"
+ },
+ {
+  "host": "lex_fridman",
+  "date": "2024-04-17",
+  "status": 200,
+  "bytes": "129981888",
+  "type": "audio/mpeg",
+  "final": "https://content.blubrry.com/takeituneasy/lex_ai_edward_gibson.mp3"
+ },
+ {
+  "host": "lex_fridman",
+  "date": "2025-08-13",
+  "status": 200,
+  "bytes": "84441546",
+  "type": "audio/mpeg",
+  "final": "https://content.blubrry.com/takeituneasy/lex_ai_keyu_jin.mp3"
+ },
+ {
+  "host": "lex_fridman",
+  "date": "2025-08-24",
+  "status": 200,
+  "bytes": "457359694",
+  "type": "audio/mpeg",
+  "final": "https://content.blubrry.com/takeituneasy/lex_ai_scott_horton.mp3"
+ },
+ {
+  "host": "lex_fridman",
+  "date": "2025-10-01",
+  "status": 200,
+  "bytes": "203485435",
+  "type": "audio/mpeg",
+  "final": "https://content.blubrry.com/takeituneasy/lex_ai_pavel_durov.mp3"
+ },
+ {
+  "host": "econtalk",
+  "date": "2019-05-20",
+  "status": 200,
+  "bytes": "36927837",
+  "type": "audio/mpeg",
+  "final": "https://cdn.simplecast.com/audio/6fdba5/6fdba516-8381-43b0-b29f-59d05512b693/aca"
+ },
+ {
+  "host": "econtalk",
+  "date": "2019-06-10",
+  "status": 200,
+  "bytes": "34046846",
+  "type": "audio/mpeg",
+  "final": "https://cdn.simplecast.com/audio/6fdba5/6fdba516-8381-43b0-b29f-59d05512b693/32a"
+ },
+ {
+  "host": "econtalk",
+  "date": "2020-09-28",
+  "status": 200,
+  "bytes": "40187897",
+  "type": "audio/mpeg",
+  "final": "https://cdn.simplecast.com/audio/6fdba516-8381-43b0-b29f-59d05512b693/episodes/b"
+ },
+ {
+  "host": "econtalk",
+  "date": "2020-10-05",
+  "status": 200,
+  "bytes": "43222073",
+  "type": "audio/mpeg",
+  "final": "https://cdn.simplecast.com/audio/6fdba516-8381-43b0-b29f-59d05512b693/episodes/f"
+ },
+ {
+  "host": "econtalk",
+  "date": "2021-01-25",
+  "status": 200,
+  "bytes": "33323145",
+  "type": "audio/mpeg",
+  "final": "https://cdn.simplecast.com/audio/6fdba516-8381-43b0-b29f-59d05512b693/episodes/c"
+ },
+ {
+  "host": "econtalk",
+  "date": "2021-06-21",
+  "status": 200,
+  "bytes": "69565824",
+  "type": "audio/mpeg",
+  "final": "https://cdn.simplecast.com/audio/6fdba516-8381-43b0-b29f-59d05512b693/episodes/1"
+ },
+ {
+  "host": "econtalk",
+  "date": "2021-07-05",
+  "status": 200,
+  "bytes": "34632753",
+  "type": "audio/mpeg",
+  "final": "https://cdn.simplecast.com/audio/6fdba516-8381-43b0-b29f-59d05512b693/episodes/5"
+ },
+ {
+  "host": "econtalk",
+  "date": "2021-10-18",
+  "status": 200,
+  "bytes": "32611478",
+  "type": "audio/mpeg",
+  "final": "https://cdn.simplecast.com/audio/6fdba516-8381-43b0-b29f-59d05512b693/episodes/f"
+ },
+ {
+  "host": "econtalk",
+  "date": "2023-05-08",
+  "status": 200,
+  "bytes": "74755066",
+  "type": "audio/mpeg",
+  "final": "https://cdn.simplecast.com/audio/6fdba516-8381-43b0-b29f-59d05512b693/episodes/0"
+ },
+ {
+  "host": "econtalk",
+  "date": "2024-06-03",
+  "status": 200,
+  "bytes": "61756684",
+  "type": "audio/mpeg",
+  "final": "https://cdn.simplecast.com/audio/6fdba516-8381-43b0-b29f-59d05512b693/episodes/f"
+ },
+ {
+  "host": "econtalk",
+  "date": "2024-08-05",
+  "status": 200,
+  "bytes": "60559344",
+  "type": "audio/mpeg",
+  "final": "https://cdn.simplecast.com/audio/6fdba516-8381-43b0-b29f-59d05512b693/episodes/9"
+ },
+ {
+  "host": "econtalk",
+  "date": "2024-11-25",
+  "status": 200,
+  "bytes": "65493794",
+  "type": "audio/mpeg",
+  "final": "https://cdn.simplecast.com/audio/6fdba516-8381-43b0-b29f-59d05512b693/episodes/7"
+ },
+ {
+  "host": "econtalk",
+  "date": "2025-06-30",
+  "status": 200,
+  "bytes": "66795700",
+  "type": "audio/mpeg",
+  "final": "https://cdn.simplecast.com/audio/6fdba516-8381-43b0-b29f-59d05512b693/episodes/4"
+ },
+ {
+  "host": "econtalk",
+  "date": "2025-08-25",
+  "status": 200,
+  "bytes": "64115728",
+  "type": "audio/mpeg",
+  "final": "https://cdn.simplecast.com/audio/6fdba516-8381-43b0-b29f-59d05512b693/episodes/c"
+ },
+ {
+  "host": "econtalk",
+  "date": "2025-09-08",
+  "status": 200,
+  "bytes": "61141662",
+  "type": "audio/mpeg",
+  "final": "https://cdn.simplecast.com/audio/6fdba516-8381-43b0-b29f-59d05512b693/episodes/f"
+ },
+ {
+  "host": "econtalk",
+  "date": "2025-09-22",
+  "status": 200,
+  "bytes": "80304251",
+  "type": "audio/mpeg",
+  "final": "https://cdn.simplecast.com/audio/6fdba516-8381-43b0-b29f-59d05512b693/episodes/8"
+ },
+ {
+  "host": "mbmbam",
+  "date": "2019-03-11",
+  "status": 200,
+  "bytes": "70241183",
+  "type": "audio/mpeg",
+  "final": "https://afp-9384-injected.calisto.simplecastaudio.com/dbf86dbd-6a9d-4db2-a354-45"
+ },
+ {
+  "host": "mbmbam",
+  "date": "2019-04-15",
+  "status": 200,
+  "bytes": "52425673",
+  "type": "audio/mpeg",
+  "final": "https://afp-9384-injected.calisto.simplecastaudio.com/dbf86dbd-6a9d-4db2-a354-45"
+ },
+ {
+  "host": "mbmbam",
+  "date": "2019-07-22",
+  "status": 200,
+  "bytes": "70934995",
+  "type": "audio/mpeg",
+  "final": "https://afp-9384-injected.calisto.simplecastaudio.com/dbf86dbd-6a9d-4db2-a354-45"
+ },
+ {
+  "host": "mbmbam",
+  "date": "2019-08-12",
+  "status": 200,
+  "bytes": "60197624",
+  "type": "audio/mpeg",
+  "final": "https://afp-9384-injected.calisto.simplecastaudio.com/dbf86dbd-6a9d-4db2-a354-45"
+ },
+ {
+  "host": "mbmbam",
+  "date": "2019-09-23",
+  "status": 200,
+  "bytes": "61006793",
+  "type": "audio/mpeg",
+  "final": "https://afp-9384-injected.calisto.simplecastaudio.com/dbf86dbd-6a9d-4db2-a354-45"
+ },
+ {
+  "host": "mbmbam",
+  "date": "2019-10-21",
+  "status": 200,
+  "bytes": "74840406",
+  "type": "audio/mpeg",
+  "final": "https://afp-9384-injected.calisto.simplecastaudio.com/dbf86dbd-6a9d-4db2-a354-45"
+ },
+ {
+  "host": "mbmbam",
+  "date": "2020-06-22",
+  "status": 200,
+  "bytes": "68574816",
+  "type": "audio/mpeg",
+  "final": "https://afp-9384-injected.calisto.simplecastaudio.com/dbf86dbd-6a9d-4db2-a354-45"
+ },
+ {
+  "host": "mbmbam",
+  "date": "2020-08-17",
+  "status": 200,
+  "bytes": "54637258",
+  "type": "audio/mpeg",
+  "final": "https://afp-9384-injected.calisto.simplecastaudio.com/dbf86dbd-6a9d-4db2-a354-45"
+ },
+ {
+  "host": "mbmbam",
+  "date": "2023-05-08",
+  "status": 200,
+  "bytes": "66071897",
+  "type": "audio/mpeg",
+  "final": "https://afp-9384-injected.calisto.simplecastaudio.com/dbf86dbd-6a9d-4db2-a354-45"
+ },
+ {
+  "host": "mbmbam",
+  "date": "2023-12-11",
+  "status": 200,
+  "bytes": "65168213",
+  "type": "audio/mpeg",
+  "final": "https://afp-9384-injected.calisto.simplecastaudio.com/dbf86dbd-6a9d-4db2-a354-45"
+ },
+ {
+  "host": "mbmbam",
+  "date": "2024-01-29",
+  "status": 200,
+  "bytes": "70449986",
+  "type": "audio/mpeg",
+  "final": "https://afp-9384-injected.calisto.simplecastaudio.com/dbf86dbd-6a9d-4db2-a354-45"
+ },
+ {
+  "host": "mbmbam",
+  "date": "2024-02-12",
+  "status": 200,
+  "bytes": "69351304",
+  "type": "audio/mpeg",
+  "final": "https://afp-9384-injected.calisto.simplecastaudio.com/dbf86dbd-6a9d-4db2-a354-45"
+ },
+ {
+  "host": "mbmbam",
+  "date": "2024-03-04",
+  "status": 200,
+  "bytes": "63785310",
+  "type": "audio/mpeg",
+  "final": "https://afp-9384-injected.calisto.simplecastaudio.com/dbf86dbd-6a9d-4db2-a354-45"
+ },
+ {
+  "host": "mbmbam",
+  "date": "2024-09-16",
+  "status": 200,
+  "bytes": "61260374",
+  "type": "audio/mpeg",
+  "final": "https://afp-9384-injected.calisto.simplecastaudio.com/dbf86dbd-6a9d-4db2-a354-45"
+ },
+ {
+  "host": "mbmbam",
+  "date": "2025-08-25",
+  "status": 200,
+  "bytes": "64334538",
+  "type": "audio/mpeg",
+  "final": "https://afp-9384-injected.calisto.simplecastaudio.com/dbf86dbd-6a9d-4db2-a354-45"
+ },
+ {
+  "host": "mbmbam",
+  "date": "2025-11-03",
+  "status": 200,
+  "bytes": "64546501",
+  "type": "audio/mpeg",
+  "final": "https://afp-9384-injected.calisto.simplecastaudio.com/dbf86dbd-6a9d-4db2-a354-45"
+ }
+]

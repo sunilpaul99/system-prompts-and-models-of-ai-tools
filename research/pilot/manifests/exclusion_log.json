@@ -1,0 +1,55 @@
+{
+ "seed": 20260728,
+ "patterns": [
+  "\\brebroadcast\\b",
+  "\\bre-?release\\b",
+  "\\bre-?run\\b",
+  "\\bbest of\\b",
+  "\\bcompilation\\b",
+  "\\bhighlights?\\b",
+  "\\btrailer\\b",
+  "\\bannouncement\\b",
+  "\\bintroducing\\b",
+  "\\bpresents\\b",
+  "\\bcrossover\\b",
+  "\\bguest host\\b"
+ ],
+ "excluded": [
+  {
+   "host": "lex_fridman",
+   "title": "New Name: Lex Fridman Podcast",
+   "date": "2020-08-24",
+   "rule": "duration<20min"
+  },
+  {
+   "host": "lex_fridman",
+   "title": "Lex Solo #3 \u2013 In Memory of My Grandmother",
+   "date": "2020-09-07",
+   "rule": "duration<20min"
+  },
+  {
+   "host": "mbmbam",
+   "title": "MBMBaM 552: Introducing Fredo Cooljazz",
+   "date": "2021-03-15",
+   "rule": "\\bintroducing\\b"
+  },
+  {
+   "host": "mbmbam",
+   "title": "MBMBaM Presents: The New Appalachian Workshop ft. the McElroy Brothers (but not Griffin)",
+   "date": "2021-04-05",
+   "rule": "\\bpresents\\b"
+  },
+  {
+   "host": "mbmbam",
+   "title": "2023 BoCo Teaser - Episode 400 Remix featuring Matt Doyle!",
+   "date": "2023-03-24",
+   "rule": "duration<20min"
+  },
+  {
+   "host": "mbmbam",
+   "title": "MaxFunDrive 2024: BoCo Highlights!",
+   "date": "2024-03-22",
+   "rule": "\\bhighlights?\\b"
+  }
+ ]
+}
