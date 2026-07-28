@@ -12,7 +12,7 @@ WS4/V1 accuracy results).
 |---|---|---|---|
 | small | 1.72× | ~46 h | ~1,020 h |
 | medium | 0.85× | ~93 h | ~2,060 h |
-| large-v3 | _(benchmark running; appended on completion)_ | — | — |
+| large-v3 | 0.49× | ~161 h | ~3,570 h |
 
 ## Decisions and implications
 
