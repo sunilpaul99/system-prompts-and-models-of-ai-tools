@@ -2,6 +2,38 @@
 
 _Maintained per PROTOCOL §10. Latest cycle at top._
 
+## 2026-07-28, cycle 5 (~16:12Z)
+
+**Scorecard**
+- V1 first pass ran on 4 episode pairs (~63k aligned words): fingerprint
+  insertions 0, deletions 0 — the words are near-absent from pre-era EconTalk
+  speech (matters for WS7 power sim: sparse-outcome regime). Provisional
+  placebo: 0 ins, 5 del. NOTE: results are provisional — one pair (Lomborg)
+  was contaminated (see anomaly) and the run will be redone cleanly.
+- V3: unchanged from cycle 4 (diarization continuing in background).
+
+**Anomaly (WS8 failure catalog + process lesson)**
+1. EconTalk page parser scooped READER COMMENTS + footer into ground truth
+   (fake speakers, +9k words on one episode). Parser fixed (comment-section
+   cutoff, speaker-name filter, offset-guarded markers).
+2. Agent process error, logged honestly: the cached good fetches were deleted
+   before the re-parse was verified, and raw HTML had not been saved despite
+   the script's docstring claiming it. Both fixed (raw HTML now cached;
+   refetch never needed after parser changes).
+3. econtalk.org rate-limited the refetch burst (403) — 32 fetches at 6s
+   pacing. Pacing raised to 45s; refetch scheduled next cycle after cooldown.
+   Failure-mode catalog entry: publisher sites rate-limit far below CDN
+   thresholds; transcripts should be fetched once, slowly, with raw caching.
+
+**Coverage / progress**
+- WS2: 5/48 transcribed. WS3: diarization continuing.
+- WS4: fetch+parse+align pipeline implemented (ws4_fetch_transcripts.py,
+  ws4_align.py); blocked ~1 cycle on the 403 cooldown.
+
+**Decision queue**: items 1-5 unchanged.
+
+**Spend**: $0 external.
+
 ## 2026-07-28, cycle 4 (~14:12Z)
 
 **Scorecard**
