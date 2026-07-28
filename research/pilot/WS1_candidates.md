@@ -1,6 +1,6 @@
 # WS1 — Pilot Host Candidate Shortlist
 
-Status: DRAFT — candidates identified; **feed-depth verification blocked by session network policy** (see "Blocker" below). No candidate is confirmed until its RSS archive is verified to reach 2019.
+Status: **FEEDS VERIFIED 2026-07-28** — all six candidate feeds confirmed to carry full archives back past 2019; see `WS1_feed_verification.md` for item counts, earliest pubDates, and per-year coverage. The network blocker below is resolved for podcast-feed hosts (direct HTTPS now succeeds from the remote session); web.archive.org access for the §3.1 frame is tracked in `WS1_feed_verification.md` and `frame/`.
 
 Selection criteria (PILOT_PLAN §0): episodes retrievable from both 2019 and 2024–2025; unscripted conversational; same host throughout; slot-specific stress properties. Pilot hosts are excluded from the confirmatory panel.
 
