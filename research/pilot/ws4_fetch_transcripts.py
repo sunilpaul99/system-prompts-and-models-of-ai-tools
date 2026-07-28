@@ -26,8 +26,22 @@ def fetch(url):
 SPEAKER_RE = re.compile(r"^([A-Z][A-Za-z.\- ]{2,40}):\s*(.*)$")
 TIME_RE = re.compile(r"^\d{1,2}:\d{2}(:\d{2})?$")
 
-def parse_transcript(page_html):
-    """Extract speaker turns from an econtalk.org episode page."""
+def guest_names(title):
+    """Guess guest name tokens from the episode title ('X on ...' / '(with X)')."""
+    m = re.search(r"\(with ([^)]+)\)", title)
+    if m: return set(m.group(1).split())
+    m = re.match(r"([A-Z][A-Za-z.\- ]+?) on ", title)
+    if m: return set(m.group(1).split())
+    return set()
+
+def parse_transcript(page_html, allowed_extra=()):
+    """Extract speaker turns from an econtalk.org episode page.
+
+    Only turns whose speaker is Russ Roberts (or a variant) or matches the
+    guest-name tokens are kept: some page layouts render READER COMMENTS
+    before the transcript in the DOM, so positional cutoffs are unreliable
+    (discovered on the 2019-06-10 Lomborg page) - commenter 'speakers' must
+    be filtered by name instead."""
     # transcript paragraphs live after the 'AUDIO TRANSCRIPT' heading
     body = page_html
     m = re.search(r"AUDIO\s+TRANSCRIPT", body, re.I)
@@ -51,7 +65,10 @@ def parse_transcript(page_html):
         if m and not TIME_RE.match(m.group(1)) and len(m.group(1).split()) <= 4 \
                 and all(w[0].isupper() for w in m.group(1).split() if w[0].isalpha()):
             if cur: turns.append(cur)
-            cur = {"speaker": m.group(1), "text": m.group(2)}
+            name = m.group(1).strip()
+            ok = name in ("Russ Roberts", "Russ") or \
+                (allowed_extra and set(name.split()) & allowed_extra)
+            cur = {"speaker": name, "text": m.group(2)} if ok else None
         elif cur:
             cur["text"] += " " + p
     if cur: turns.append(cur)
@@ -78,7 +95,8 @@ def main(scratch):
             else:
                 page = fetch(url)
                 open(raw, "w").write(page)   # keep raw HTML so parser fixes never need refetch
-            turns = parse_transcript(page)
+                time.sleep(45)  # polite pacing on network fetches only
+            turns = parse_transcript(page, guest_names(r["title"]))
             if not turns:
                 report.append((r["title"], "PARSE-EMPTY (raw kept)")); continue
             words = sum(len(t["text"].split()) for t in turns)
@@ -87,7 +105,6 @@ def main(scratch):
             report.append((r["title"], f"{len(turns)} turns, {words} words"))
         except Exception as e:
             report.append((r["title"], f"ERR {e}"))
-        time.sleep(45)  # polite pacing: 6s tripped econtalk.org's rate limit (403) on 2026-07-28
     for t, s in report: print(f"{t[:55]:57s} {s}")
 
 if __name__ == "__main__":
