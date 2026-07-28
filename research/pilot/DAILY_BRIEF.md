@@ -2,6 +2,23 @@
 
 _Maintained per PROTOCOL §10. Latest cycle at top._
 
+## 2026-07-28, cycle 6 (~18:12Z)
+
+**Anomaly: container restart.** The session container recycled between cycles
+(~18:12Z); all background compute died mid-task. Scratchpad disk, all audio,
+transcripts, and installed packages survived. All three jobs relaunched from
+their idempotent checkpoints — this is exactly the failure mode the loop
+design anticipated; no data lost. WS8 note: long-running compute in this
+environment must checkpoint per-episode (it does).
+
+**Coverage / progress**
+- WS2: relaunched (4/48 done). Pace estimate unchanged.
+- WS3: relaunched (1 episode diarized so far).
+- WS4: econtalk.org cooldown over (200 OK); refetch running at 45s pacing
+  with raw-HTML caching. V1 rerun once fetches land.
+
+**Scorecard / queue / spend**: unchanged from cycle 5.
+
 ## 2026-07-28, cycle 5 (~16:12Z)
 
 **Scorecard**
