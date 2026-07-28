@@ -1,0 +1,3 @@
+com,chartable)/charts/itunes/us-science-podcasts 20210205174511 https://chartable.com/charts/itunes/us-science-podcasts text/html 200 U5XYHTV7RJ65JAFDPEAM4HKMSTABRFIL 18503
+com,chartable)/charts/itunes/us-science-podcasts 20210506205830 https://chartable.com/charts/itunes/us-science-podcasts text/html 200 RLWTFQROGPKT5HXKVGSDCO2FR2U32I57 20169
+com,chartable)/charts/itunes/us-science-podcasts 20211206023634 https://chartable.com/charts/itunes/us-science-podcasts text/html 200 4LCQQQLA7X4J75OCLUWD6J2ULFCUWPII 20083
