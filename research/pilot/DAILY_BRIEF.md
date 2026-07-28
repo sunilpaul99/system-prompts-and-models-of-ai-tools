@@ -2,6 +2,35 @@
 
 _Maintained per PROTOCOL §10. Latest cycle at top._
 
+## 2026-07-28, cycle 2 (~10:12Z)
+
+**Scorecard**: V1/V2/V4 unchanged (not started). V3: pipeline built this cycle,
+audit pending diarized output.
+
+**Coverage / progress**
+- Frame snapshot COMPLETE (between cycles): 18 Chartable top-200 genre-chart
+  captures 2020-2021 + History supplement committed (frame/FRAME.md). WS1 fully
+  done.
+- WS2 transcription: 2/48 episodes done, on pace (~1.0x wall clock/audio-hour,
+  ~4 days remaining). Disk 21G free.
+- WS3 built this cycle: ECAPA-embedding diarizer + host-attribution pipeline
+  (ws3_diarize.py) - speechbrain/spkrec-ecapa-voxceleb (un-gated; pyannote
+  models are HF-gated, no token in env), agglomerative clustering with
+  silhouette K-selection, host enrollment from intro-monologue spans
+  (enrollment_spans.json). Smoke-tested on real audio. Runs as transcripts
+  accumulate; V3 audit export hook included.
+
+**Decision queue (PI)** — additions:
+4. History-genre frame substitution (frame/FRAME.md) — ratify or drop History.
+5. MBMBaM primary-host designation for diarization enrollment + all host-level
+   analysis (protocol E1: one host per show). Options: Justin (eldest,
+   traditionally opens the show), Griffin ("sweet baby brother", frequent
+   segment-driver), or Travis. Recommendation: whoever the V3 audit shows is
+   most acoustically separable — deferred until first MBMBaM diarization, but
+   the PI may pre-empt with a preference.
+
+**Spend**: still $0 external.
+
 ## 2026-07-28, cycle 1 (06:12Z trigger; run ~08:12Z)
 
 **Scorecard**
