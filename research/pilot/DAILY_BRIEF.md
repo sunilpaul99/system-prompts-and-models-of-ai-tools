@@ -2,6 +2,26 @@
 
 _Maintained per PROTOCOL §10. Latest cycle at top._
 
+## 2026-07-29, cycle 14 (~10:12Z)
+
+**V2 isolation experiment in progress — machine deliberately idle.**
+Probe #2 (exact settings, loaded machine) collapsed to 533 words/79 segments:
+VAD kept only ~9 min of a 77-min episode. Emerging hypothesis: CONCURRENT
+CPU LOAD corrupts pipeline output (likely audio-decode underruns feeding
+VAD), which would also explain probe #1's 13.5% delta. Probe #3 (exact
+settings, SOLO) is running now; bulk transcription paused and auto-resumes
+when it completes. No other compute launched this cycle to keep the
+experiment clean. If probe #3 reproduces ±2%: Appendix A gains an
+exclusive-execution rule + re-audit of any episode transcribed under
+contention (transcripts 5-17 all ran while diarization/other jobs shared
+the CPU — the V1 alignment numbers themselves may need a redo pass).
+If probe #3 fails: decode re-pinned deterministic, corpus redone.
+
+**Other jobs**: bulk transcription paused (auto-resumes); diarization
+deferred one cycle (would contaminate probe).
+
+**Queue / spend**: unchanged / $0.
+
 ## 2026-07-29, cycle 13b (~09:00Z, event-driven)
 
 **V2 RED FLAG — reproducibility probe FAILED at 13.5% word delta (target
