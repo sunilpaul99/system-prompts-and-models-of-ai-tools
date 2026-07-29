@@ -2,6 +2,30 @@
 
 _Maintained per PROTOCOL §10. Latest cycle at top._
 
+## 2026-07-29, cycle 11 (~04:12Z)
+
+**Priority methodological flag (for stratified V3 audit)**
+Era-2 host-attribution gaps are wider than era-1: Yudkowsky human 39.2% vs
+pipeline 32.4% (-6.8pp), Betts 19.6% vs 25.2% (+5.6pp), vs ~2pp gaps on all
+era-1 episodes. If attribution error differs by ERA it is a within-person
+trend confounder — exactly what NC3 and the era-stratified V3 audit exist to
+catch. Candidates: more produced segments/ads post-2021, remote-guest audio,
+or heavier transcript editing (Betts GT is short for 64 min). Quantify across
+all 16 EconTalk pairs when the block completes; V3 audit sample must
+oversample era-2.
+
+**Scorecard**
+- V1: 13 pairs / 145.6k words. Fingerprint ins/del still 0/0. Placebo ins
+  0.69/100k, del 9.6/100k (deletion rate creeping up in era-2 pairs —
+  consistent with the transcript-editing hypothesis above, and why deletions
+  are measured against an upper bound).
+- V2/V4: unchanged.
+
+**Coverage**: WS2 13/48 (EconTalk block nearly done — 3 remain). Era-2 runs
+~1.6x realtime. Diarization of 11-13 in background.
+
+**Queue / spend**: unchanged / $0.
+
 ## 2026-07-29, cycle 10 (~02:12Z)
 
 **Scorecard**
