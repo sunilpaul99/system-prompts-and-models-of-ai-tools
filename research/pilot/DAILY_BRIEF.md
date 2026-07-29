@@ -2,6 +2,24 @@
 
 _Maintained per PROTOCOL §10. Latest cycle at top._
 
+## 2026-07-29, cycle 10 (~02:12Z)
+
+**Scorecard**
+- V1: now 10 pairs / 116k aligned words. Fingerprint: 1 genuine occurrence,
+  correctly transcribed; insertions 0, deletions 0 → the fake-signal
+  direction (ASR inventing fingerprint words) is clean at <0.9/100k upper
+  bound. Placebo: ins 0.86/100k, del 6.9/100k. Note: fingerprint words are
+  so rare in speech that the ins-vs-del asymmetry comparison is
+  occurrence-starved — V1's meaningful gate here is the insertion rate, and
+  it passes.
+- V3: 8/8 EconTalk episodes diarized, host share within ~2pp of human
+  transcripts on 7/8. WS5 baseline now 36k host words, fingerprint still 0.
+
+**Coverage**: WS2 10/48 (era-2 EconTalk in progress; Yudkowsky 78min in
+39min — era-2 audio transcribes faster). Diarization relaunched for 9-10.
+
+**Queue / spend**: unchanged / $0.
+
 ## 2026-07-29, cycle 9 (~00:12Z)
 
 **Anomaly: second container restart** mid-cycle (the first was cycle 6).
