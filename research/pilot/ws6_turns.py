@@ -16,34 +16,43 @@ GAP_S = 1.0
 
 def turns_from(diar):
     words = [w for s in diar["segments"] for w in s["words"]]
-    turns, cur = [], None
+    # 1. maximal same-speaker runs
+    runs, cur = [], None
     for w in words:
         spk = "HOST" if w["spk"] == "HOST" else "GUEST"
         if cur and cur["spk"] == spk:
             cur["words"].append(w)
-        elif cur and len([x for x in words if x is w]) and cur["spk"] != spk:
-            # tentative switch; commit previous turn
-            turns.append(cur); cur = {"spk": spk, "words": [w]}
         else:
+            if cur: runs.append(cur)
             cur = {"spk": spk, "words": [w]}
-    if cur: turns.append(cur)
-    # absorb backchannel micro-turns into surrounding turn
-    merged = []
-    for t in turns:
-        if merged and len(t["words"]) < MIN_TURN_WORDS and merged[-1]["spk"] != t["spk"] \
-                and len(merged) >= 1:
-            # keep as separate only if it truly interrupts; absorb into previous
-            merged[-1]["words"] += t["words"]
-        elif merged and merged[-1]["spk"] == t["spk"]:
-            merged[-1]["words"] += t["words"]
+    if cur: runs.append(cur)
+    # 2. a short run sandwiched between two runs of the same OTHER speaker is a
+    #    backchannel: it does not open a turn boundary. Its words stay
+    #    attributed to their real speaker (recorded in the enclosing turn's
+    #    backchannel list) so word counts remain correct.
+    turns = []
+    i = 0
+    while i < len(runs):
+        r = runs[i]
+        if (turns and len(r["words"]) < MIN_TURN_WORDS
+                and i + 1 < len(runs)
+                and turns[-1]["spk"] == runs[i+1]["spk"] != r["spk"]):
+            turns[-1].setdefault("backchannels", []).append(
+                {"spk": r["spk"], "text": "".join(w["w"] for w in r["words"]).strip()})
+            turns[-1]["words"] += runs[i+1]["words"]
+            i += 2
+            continue
+        if turns and turns[-1]["spk"] == r["spk"]:
+            turns[-1]["words"] += r["words"]
         else:
-            merged.append(t)
-    for t in merged:
+            turns.append({"spk": r["spk"], "words": list(r["words"])})
+        i += 1
+    for t in turns:
         t["start"] = t["words"][0]["s"]; t["end"] = t["words"][-1]["e"]
         t["text"] = "".join(w["w"] for w in t["words"]).strip()
         t["n_words"] = len(t["words"])
         del t["words"]
-    return merged
+    return turns
 
 def main(scratch):
     outdir = os.path.join(scratch, "turns"); os.makedirs(outdir, exist_ok=True)

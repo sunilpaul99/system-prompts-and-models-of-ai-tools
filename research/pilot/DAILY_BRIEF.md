@@ -2,6 +2,31 @@
 
 _Maintained per PROTOCOL §10. Latest cycle at top._
 
+## 2026-07-29, cycle 9 (~00:12Z)
+
+**Anomaly: second container restart** mid-cycle (the first was cycle 6).
+Both compute jobs relaunched from checkpoints; no data loss. Restart cadence
+(~2 per day) is now an expected operating condition — WS8 will model it.
+
+**Turn-segmentation calibration (WS6)**
+- Backchannel-absorption logic rewritten (short interjections no longer
+  bridge/split turns incorrectly; their words keep true attribution).
+- Fair comparison is human SPEAKER-CHANGES (collapsing editorial paragraph
+  splits), not raw paragraph count: pipeline captures 75/104, 39/81, 69/105,
+  55/67 speaker changes (65-85%). Root cause of the misses: 1.5s embedding
+  windows can't resolve sub-1.5s interjections — they never get their own
+  window. Implication: R1 (disagreement initiation rate) undercounts short
+  sharp interjections ("No."), which is exactly R5's material. Options for
+  the decision queue AFTER quantification on more episodes: (a) finer
+  windows (0.75s/0.375s hop, ~2x compute), (b) accept + declare as
+  measurement floor, (c) word-level re-segmentation using Whisper word
+  probabilities at boundaries. Recommendation deferred until MBMBaM (the
+  stress case) is diarized.
+
+**Coverage**: WS2 8/48 transcribed; diarization catching up on eps 5-8.
+
+**Scorecard / queue / spend**: otherwise unchanged.
+
 ## 2026-07-28, cycle 8 (~22:12Z)
 
 **Coverage / progress**
