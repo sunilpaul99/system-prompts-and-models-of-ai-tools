@@ -2,6 +2,21 @@
 
 _Maintained per PROTOCOL §10. Latest cycle at top._
 
+## 2026-07-29, cycle 18b (event-driven — PI decisions)
+
+**Decision queue CLEARED by PI** (full log: DECISIONS.md):
+1. Second rater: PI's adult children (blind to hypotheses), wife as
+   fallback — covers G1/G2 gold labeling and exposure ratification.
+   Next agent action: prepare rater rubric + labeling sheets in week-2
+   window; record rater onboarding date when known.
+2. History frame substitution: ACCEPTED as documented.
+3. MBMBaM primary host: JUSTIN — enrollment spans queue behind MBMBaM
+   transcripts (redo in progress).
+4. EconTalk courtesy email: DECLINED — proceed under existing ToS posture.
+
+Open PI items remaining: NONE decision-shaped. Scheduled PI time: V3 audit
+(~1h), WS4 spot-verification (~1h), G1/G2 gold labeling (rater-dependent).
+
 ## 2026-07-29, cycle 18 (~18:12Z)
 
 **Redo status: 3/48 done, and a big schedule surprise.** Single-threaded

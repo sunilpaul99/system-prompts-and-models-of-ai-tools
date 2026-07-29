@@ -1,5 +1,5 @@
 {
- "_note": "WS3 host-voice enrollment spans. Spans are host-solo speech, chosen from episode-intro monologues; each must be verified against the WS2 transcript text before the enroll run, and the verification is logged in DAILY_BRIEF. MBMBaM is ABSENT pending the PI's primary-host designation (decision queue) - protocol E1 permits only one host per show.",
+ "_note": "WS3 host-voice enrollment spans. Spans are host-solo speech, chosen from episode-intro monologues; each must be verified against the WS2 transcript text before the enroll run. MBMBaM primary host = JUSTIN McELROY (PI decision 2026-07-29, DECISIONS.md); his spans to be drafted from show-opening monologues once MBMBaM transcripts land.",
  "econtalk": [
   {
    "file": "2019-05-20_Mary_Hirschfeld_on_Economics_Culture_and_Aquinas_and_the_Mar",
@@ -39,5 +39,6 @@
    "end": 90,
    "verified": null
   }
- ]
+ ],
+ "mbmbam": []
 }
