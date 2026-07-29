@@ -2,6 +2,21 @@
 
 _Maintained per PROTOCOL §10. Latest cycle at top._
 
+## 2026-07-29, cycle 18 (~18:12Z)
+
+**Redo status: 3/48 done, and a big schedule surprise.** Single-threaded
+workers run ~0.9-1.1x realtime EACH (CT2's multithreading was near-useless
+on this CPU) → aggregate ~3.6x realtime → corpus completes in ~18h, not
+2.5 days. The deterministic fix costs nearly nothing in wall-clock.
+
+**Anomaly:** shard 0 OOM-killed at startup (4 models + decode buffers vs
+15GB RAM). Relaunched; RAM at 10G used with 4 workers live. Contingency:
+drop to 3 workers on any repeat OOM. WS8 note: memory, not CPU, is the
+binding constraint for parallel single-threaded transcription; full study
+should size workers to RAM/2.5GB or stream decode.
+
+**Queue / spend**: unchanged / $0.
+
 ## 2026-07-29, cycle 17 (~16:12Z)
 
 **Container restart #4** killed the redo before any episode completed
