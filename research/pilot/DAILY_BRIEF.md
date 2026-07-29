@@ -2,6 +2,28 @@
 
 _Maintained per PROTOCOL §10. Latest cycle at top._
 
+## 2026-07-29, cycle 15 (~12:12Z)
+
+**V2 verdict from probe #3: BOTH factors real.**
+- Solo, exact settings: 5.02% delta (vs 96% under load) — load corruption
+  is the dominant effect and is CONFIRMED (transcription must run
+  exclusively; likely audio-decode underruns feeding VAD).
+- But 5% > the ±2% gate even solo, and segmentation still differs (932 vs
+  1,703 segments) — residual nondeterminism from the temperature-fallback
+  sampling ladder.
+
+**Action (pre-registered in cycle 13b):** old-settings bulk transcription
+STOPPED (no more compute on to-be-discarded transcripts). Determinism test
+running: two solo runs of one episode with fully pinned decode
+(temperature=[0.0], beam_size=5) compared to each other. If identical/±2%:
+adopt pinned settings into Appendix A (with exclusive-execution rule),
+REDO the 17-episode corpus (~1 day solo compute), rerun V1 + baselines.
+Existing V1/host-share/baseline numbers are provisional until then —
+directionally informative (attribution validated against human transcripts
+independently) but not freeze-quality.
+
+**Queue / spend**: unchanged / $0. Schedule impact: ~1.5 days.
+
 ## 2026-07-29, cycle 14 (~10:12Z)
 
 **V2 isolation experiment in progress — machine deliberately idle.**
