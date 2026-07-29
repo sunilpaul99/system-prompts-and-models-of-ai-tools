@@ -2,6 +2,26 @@
 
 _Maintained per PROTOCOL §10. Latest cycle at top._
 
+## 2026-07-29, cycle 19 (~20:12Z)
+
+**Redo OOM cascade caught and fixed.** The 4-worker layout (incl. the
+shard-0 relaunch, which restored the 4-model footprint) was progressively
+OOM-killed; the launcher's `wait` then returned cleanly and printed a FALSE
+"corpus complete" at 14/48. Two fixes: (a) workers cut to 3, sized to RAM;
+(b) sharding replaced with an atomic-claim WORK QUEUE so any worker picks up
+any remaining episode and a dead worker's unclaimed files are never
+stranded. WS8 lessons: false-success on partial completion is a real
+failure mode - completion checks must count OUTPUTS, not process exits
+(the new launcher reports N/48 explicitly); OOM sizing = RAM / (model
+footprint + longest-episode decode buffer), which for 3-4h Lex episodes
+is ~4GB/worker.
+
+**Status:** 14/48 deterministic; 3-worker queue confirmed running (3 procs,
+14G available RAM). ETA ~15-16h for the remaining ~50h of audio.
+
+**Queue**: EMPTY (PI cleared all four items — see DECISIONS.md).
+**Spend**: $0.
+
 ## 2026-07-29, cycle 18b (event-driven — PI decisions)
 
 **Decision queue CLEARED by PI** (full log: DECISIONS.md):
