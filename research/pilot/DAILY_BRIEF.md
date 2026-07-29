@@ -2,6 +2,23 @@
 
 _Maintained per PROTOCOL §10. Latest cycle at top._
 
+## 2026-07-29, cycle 13b (~09:00Z, event-driven)
+
+**V2 RED FLAG — reproducibility probe FAILED at 13.5% word delta (target
+±2%).** Re-transcription of Hirschfeld produced 11,098 words vs 12,836
+original; identical time coverage but radically different segmentation
+(753 vs 1,703 segments) and 2,476 tokens unique to the original run.
+CONFOUND in probe #1: rerun used cpu_threads=2 vs 4 (thread count changes
+float reduction order -> can flip decode paths); faster-whisper's default
+temperature-fallback ladder also samples nondeterministically at T>0.
+Probe #2 with EXACT original settings is running. Outcomes:
+- If probe #2 reproduces ±2%: pin cpu_threads in Appendix A alongside model
+  version; V2 passes with a sharpened settings-pin lesson.
+- If probe #2 also fails: decode params must be re-pinned (temperature=[0],
+  fixed beam) and the transcribed corpus REDONE under deterministic
+  settings before any confirmatory counting. Cost: ~1 day compute. This
+  is a freeze-blocking issue and exactly what V2 exists to catch.
+
 ## 2026-07-29, cycle 13 (~08:12Z)
 
 **Container restart #3** — transcription relaunched from checkpoint (17/48;
