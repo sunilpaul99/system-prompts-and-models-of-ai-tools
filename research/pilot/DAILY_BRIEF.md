@@ -2,6 +2,24 @@
 
 _Maintained per PROTOCOL §10. Latest cycle at top._
 
+## 2026-07-29, cycle 13 (~08:12Z)
+
+**Container restart #3** — transcription relaunched from checkpoint (17/48;
+EconTalk block 16/16 COMPLETE, Lex block begun).
+
+**Milestones**
+- **V1 GATE: PASS** on the full EconTalk corpus — WS4_V1_report.md. Zero
+  fingerprint insertions/deletions in 176k aligned words. Deletion-side
+  caveats declared (occurrence starvation; copy-editing upper bound).
+- V2: first reproducibility probe RUNNING (Hirschfeld re-transcription,
+  2 threads; word-count and count deltas vs ±2% target on completion).
+- V3: 15/16 EconTalk diarized + validated (Pinker queued next cycle).
+
+**Next**: Lex transcripts → verify his enrollment spans → Lex diarization;
+V3 audit-sample export once Lex episodes accumulate (host x era strata).
+
+**Queue / spend**: unchanged / $0. Second-rater decision due in ~4 days.
+
 ## 2026-07-29, cycle 12 (~06:12Z)
 
 **Era-differential update (softening):** episodes 11-13 validate at 2-4pp
