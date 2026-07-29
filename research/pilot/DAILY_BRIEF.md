@@ -2,6 +2,22 @@
 
 _Maintained per PROTOCOL §10. Latest cycle at top._
 
+## 2026-07-29, cycle 15b (event-driven)
+
+**V2 root cause isolated + fix candidate validated at clip scale.**
+Chain: audio decode bit-identical (md5 x3); VAD deterministic; divergence
+begins at the first tokens -> CTranslate2 multi-threaded float-reduction
+nondeterminism, cascaded by condition_on_previous_text. Load sensitivity is
+the same mechanism (scheduling variance), unifying all prior probe results.
+5-min A/B: cpu_threads=4 -> word counts differ (688 vs 669);
+cpu_threads=1 -> word counts IDENTICAL (715 vs 715; text near- but not
+bit-identical). V2's +/-2% gate is on COUNTS, so threads=1 is gate-passing
+at clip scale. Full-episode validation running (2 solo runs, threads=1,
+OMP pinned). If <=2%: Appendix A pins {medium/int8, cpu_threads=1,
+temperature=[0.0], beam_size=5}; corpus redo runs as 4 PARALLEL
+single-threaded workers (aggregate ~1.2x realtime — faster than the old
+single 4-thread job, and load-robust by construction).
+
 ## 2026-07-29, cycle 15 (~12:12Z)
 
 **V2 verdict from probe #3: BOTH factors real.**
