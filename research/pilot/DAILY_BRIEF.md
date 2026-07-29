@@ -2,6 +2,22 @@
 
 _Maintained per PROTOCOL §10. Latest cycle at top._
 
+## 2026-07-29, cycle 16 (~14:12Z)
+
+**V2 full-episode validation in flight**: run A complete at threads=1 —
+6,435 words, vs 4,595/5,997 from the two nondeterministic runs of the SAME
+episode: the multithreaded configuration was not just irreproducible, it was
+DROPPING real content (~7-28%). The deterministic config is more complete,
+not merely more stable. Run B in progress (~2h); machine kept otherwise
+idle. Deterministic 4-worker redo script staged (ws2_bulk_det.sh), fires on
+a passing A-vs-B comparison.
+
+**Downstream implications once corpus is redone**: V1 realignment, WS5
+baseline recount, diarization re-run (word timestamps shift), host-share
+revalidation. Human-transcript ground truth and enrollment spans unaffected.
+
+**Queue / spend**: unchanged / $0.
+
 ## 2026-07-29, cycle 15b (event-driven)
 
 **V2 root cause isolated + fix candidate validated at clip scale.**
