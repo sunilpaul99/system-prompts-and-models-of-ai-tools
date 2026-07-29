@@ -2,6 +2,25 @@
 
 _Maintained per PROTOCOL §10. Latest cycle at top._
 
+## 2026-07-29, cycle 20 (~22:12Z)
+
+**Container restart #5** hit mid-cycle; the harness auto-restarted the
+queue launcher, which re-ran its embedded `rm -rf claims` — wiping live
+claim markers. Agent initially misread the fresh claims as stale and
+deleted them, then caught the error and restored them (workers unaffected;
+output writes are idempotent so worst case was duplicate compute, not
+corruption). Launcher lesson for WS8 + immediate practice: claim hygiene
+on restart-prone infra needs heartbeats (claim mtime refresh) rather than
+launch-time wipes; for the pilot's scale, manual reconciliation at each
+cycle (claims vs outputs vs live processes) suffices and is now the
+documented procedure.
+
+**Status:** 14/48 deterministic; 3 workers healthy on the first Lex
+episodes post-restart. Restarts cost ~1-1.5h of worker progress each when
+they land mid-episode; ETA drifts accordingly (~afternoon tomorrow).
+
+**Queue**: empty. **Spend**: $0.
+
 ## 2026-07-29, cycle 19 (~20:12Z)
 
 **Redo OOM cascade caught and fixed.** The 4-worker layout (incl. the
