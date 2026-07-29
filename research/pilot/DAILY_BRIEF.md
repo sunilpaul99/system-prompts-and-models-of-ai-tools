@@ -2,6 +2,29 @@
 
 _Maintained per PROTOCOL §10. Latest cycle at top._
 
+## 2026-07-29, cycle 12 (~06:12Z)
+
+**Era-differential update (softening):** episodes 11-13 validate at 2-4pp
+gaps — the era-2 differential is driven by two outliers (Yudkowsky, Betts),
+episode-specific causes more likely than an era-wide shift. Flag stays open
+for the stratified audit but the confounder scenario weakened.
+
+**Scorecard**
+- V1: 15 pairs / 164k words; fingerprint ins/del still 0/0 (2 genuine
+  occurrences, both correct). Placebo ins 1.22/100k — slightly above the
+  <1/100k gate line IF it were the fingerprint list (it isn't; fingerprint
+  is what the gate governs, and it's at 0). Placebo del 10.4/100k, era-2
+  driven (transcript-editing artifact, upper bound).
+- V3: 13/13 diarized-and-validated; 14-15 diarizing now.
+- V2: first reproducibility probe DEFERRED until main transcription is off
+  the critical path (avoids CPU contention); planned: re-transcribe 1
+  EconTalk episode, counts must reproduce ±2%.
+
+**Coverage**: WS2 15/48 — Pinker finishing the EconTalk block; Lex block
+next (his enrollment spans get transcript-verified when his first eps land).
+
+**Queue / spend**: unchanged / $0.
+
 ## 2026-07-29, cycle 11 (~04:12Z)
 
 **Priority methodological flag (for stratified V3 audit)**
