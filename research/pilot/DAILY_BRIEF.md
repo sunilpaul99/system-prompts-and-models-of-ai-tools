@@ -2,6 +2,21 @@
 
 _Maintained per PROTOCOL §10. Latest cycle at top._
 
+## 2026-07-29, cycle 17 (~16:12Z)
+
+**Container restart #4** killed the redo before any episode completed
+(restart landed within the first episodes' ~60-90min processing window —
+single-threaded episodes are longer-lived checkpoints, so restarts hurt
+more now; WS8 note: deterministic redo on restart-prone infra wants
+smaller work units or mid-episode checkpointing... accepted as-is for the
+pilot, ~2 episode-slots lost per restart worst case). Redo relaunched.
+
+**Status**: deterministic corpus 0/48 after relaunch; ~2.5 days to
+completion at 4x single-threaded workers. All downstream reruns
+(V1/WS5/WS3) queue behind it. Machine dedicated to the redo.
+
+**Queue / spend**: unchanged / $0.
+
 ## 2026-07-29, cycle 16b (event-driven)
 
 **V2 GATE: PASS under pinned config.** Full-episode A/B at cpu_threads=1:
