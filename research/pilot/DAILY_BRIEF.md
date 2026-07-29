@@ -2,6 +2,19 @@
 
 _Maintained per PROTOCOL §10. Latest cycle at top._
 
+## 2026-07-29, cycle 16b (event-driven)
+
+**V2 GATE: PASS under pinned config.** Full-episode A/B at cpu_threads=1:
+count delta 0.389% (gate: ±2%), token agreement 97.3%. Config pinned into
+WS2_throughput.md (Appendix A material):
+faster-whisper-1.2.1/medium/int8/threads1/temp0/beam5, OMP_NUM_THREADS=1.
+**Deterministic corpus redo LAUNCHED** — 4 parallel single-threaded workers,
+all 48 episodes, ~65-70h audio at ~1.2x aggregate → ~2.5 days. Old
+transcripts retained until V1/WS5/WS3 rerun on the deterministic corpus,
+then retired. Residual 2.7% token disagreement (boundary effects) is
+declared in the V2 report as the irreducible floor of this stack; counts
+(the analysis quantity) reproduce well inside gate.
+
 ## 2026-07-29, cycle 16 (~14:12Z)
 
 **V2 full-episode validation in flight**: run A complete at threads=1 —

@@ -1,10 +1,18 @@
 # WS2 — Transcription Setup & Throughput
 
 Environment: remote session container, **4 CPU cores, no GPU**, 15 GB RAM.
-Stack: **faster-whisper 1.2.1** (CTranslate2), compute_type=int8, cpu_threads=4,
-vad_filter=on, word_timestamps=on. Candidate pinned version string for
-Appendix A: `faster-whisper-1.2.1/medium/int8` (final pin at freeze, gated on
-WS4/V1 accuracy results).
+Stack: **faster-whisper 1.2.1** (CTranslate2), compute_type=int8,
+vad_filter=on, word_timestamps=on.
+
+**PINNED CONFIG (V2-validated 2026-07-29):**
+`faster-whisper-1.2.1/medium/int8/threads1/temp0/beam5` — cpu_threads=1,
+temperature=[0.0], beam_size=5, OMP_NUM_THREADS=1. Rationale: CTranslate2
+multithreaded inference is nondeterministic (float reduction order) and
+under load DROPS 7-96% of content; single-threaded decode reproduces counts
+to 0.39% (97.3% token agreement) at full-episode scale and recovers content
+the multithreaded runs lost. Throughput recovered by running 4 parallel
+single-threaded workers (~1.2x aggregate realtime). Full V2 history in
+DAILY_BRIEF cycles 13b-16.
 
 ## Measured throughput (10-min slice, EconTalk 2019-05-20)
 
