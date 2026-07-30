@@ -2,6 +2,22 @@
 
 _Maintained per PROTOCOL §10. Latest cycle at top._
 
+## 2026-07-30, cycle 30 (~18:12Z)
+
+**Redo**: 105 chunks / 20 assembled / ~8h uptime (best window yet).
+**All three Lex enrollment spans now det2-verified** (Sinek, Weinstein
+#134, Huberman — solo intro+sponsor reads in each). The existing
+lex_fridman voice centroid was computed from exactly these spans on
+unchanged audio, so it stands without re-enrollment. Lex deterministic
+diarization is now fully unblocked — deliberately deferred until
+transcription workers free up (CPU contention lesson from V2).
+
+**Milestones remaining in corpus**: rest of Lex block, then MBMBaM →
+draft Justin's enrollment spans from his show-opening monologues →
+3-speaker diarization stress test (the pilot's hardest V3 case).
+
+**Queue**: empty. **Spend**: $0.
+
 ## 2026-07-30, cycle 29 (~16:12Z)
 
 **Redo**: 96 chunks / 19 assembled / ~6h uptime. Both Weinstein episodes
