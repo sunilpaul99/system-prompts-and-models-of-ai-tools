@@ -2,6 +2,23 @@
 
 _Maintained per PROTOCOL §10. Latest cycle at top._
 
+## 2026-07-30, cycle 23 (~04:12Z)
+
+**Redo steady**: 33 chunks, 6/48 assembled, 3 workers, ~4h uptime (no
+restart since cycle 21).
+
+**Incremental V1 on the deterministic corpus (6 EconTalk pairs, 75.5k
+aligned words): fingerprint ins/del 0/0; placebo deletions 1.33/100k vs
+10.2/100k on the old corpus.** Reading: most of the old deletion signal
+was content LOST by the nondeterministic transcription, not transcript
+copy-editing and not ASR word-misses. The deterministic corpus is
+measurably more complete; the era-2 "transcript editing" hypothesis will
+be re-tested on det2 era-2 pairs as they assemble (if deletions stay low
+there too, that flag closes entirely). PI's WS4 spot-verification hour may
+shrink accordingly.
+
+**Queue**: empty. **Spend**: $0.
+
 ## 2026-07-30, cycle 22 (~02:12Z)
 
 **Chunked redo running cleanly** — no restart in ~2h (longest uptime today);

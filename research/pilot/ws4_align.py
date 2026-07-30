@@ -68,14 +68,14 @@ def merge(a, b):
         d = a.setdefault(k, {"match": 0, "ins": 0, "del": 0})
         for kk in v: d[kk] += v[kk]
 
-def main(scratch):
+def main(scratch, tdir="transcripts"):
     targets = set(FINGERPRINT + PLACEBO_PROVISIONAL)
     tot_f = {"match": 0, "ins": 0, "del": 0}; tot_p = {"match": 0, "ins": 0, "del": 0}
     per_word, aligned_words = {}, 0
     pairs = 0
     for gt_path in sorted(glob.glob(os.path.join(scratch, "ws4_ground_truth", "*.json"))):
         base = os.path.basename(gt_path)[:10]  # date prefix
-        wh = glob.glob(os.path.join(scratch, "transcripts", base + "*.json"))
+        wh = glob.glob(os.path.join(scratch, tdir, base + "*.json"))
         if not wh: continue
         human = episode_tokens_human(gt_path)
         whisper = episode_tokens_whisper(wh[0])
@@ -99,4 +99,4 @@ def main(scratch):
                "per_word": per_word}, open(os.path.join(scratch, "ws4_v1_results.json"), "w"))
 
 if __name__ == "__main__":
-    main(sys.argv[1])
+    main(sys.argv[1], *sys.argv[2:3])
