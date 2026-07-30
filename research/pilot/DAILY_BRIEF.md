@@ -2,6 +2,21 @@
 
 _Maintained per PROTOCOL §10. Latest cycle at top._
 
+## 2026-07-30, cycle 27 (~12:12Z)
+
+**Throughput fix.** Pace had dropped to ~0.6x/worker on the Lex block: all
+three workers crowded the same long episode, each re-decoding the full
+3-4h audio for every 25-min chunk under RAM pressure. Patched: (a) worker-
+episode affinity (worker w prefers episodes where index%3==w, falls back
+to any), (b) per-worker decoded-audio cache reused across chunks of the
+same episode. Workers restarted under the patched launcher. Expected
+recovery to ~0.9-1x/worker. Determinism unaffected (decode is
+bit-identical; caching changes nothing in the compute path).
+
+**Status**: 81 chunks / 17 assembled; Weinstein #134 nearly done.
+
+**Queue**: empty. **Spend**: $0.
+
 ## 2026-07-30, cycle 26 (~10:12Z)
 
 **Restart #8** — workers dead since shortly after cycle 25 (~2h idle; no
