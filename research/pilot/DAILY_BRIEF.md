@@ -2,6 +2,21 @@
 
 _Maintained per PROTOCOL §10. Latest cycle at top._
 
+## 2026-07-30, cycle 28 (~14:12Z)
+
+**Redo pace assessment (revised, honest).** Affinity+cache patch holds
+(workers sticky to episodes, no redundant decodes), but Lex chunks run
+~0.6x/worker regardless — content-dependent decode cost (longer/denser
+episodes make beam search slower), not an infra fault. EconTalk chunks ran
+0.85-0.95x; Lex is simply slower material. Revised ETA: ~80 chunks remain
+(~165 total for 48 eps) → ~1-1.5 days including restart overhead. No
+further optimization planned — the pipeline is correct, deterministic, and
+restart-proof; remaining time is intrinsic compute.
+
+**Status**: 85 chunks / 17 assembled / 3 workers / ~4h uptime.
+
+**Queue**: empty. **Spend**: $0.
+
 ## 2026-07-30, cycle 27 (~12:12Z)
 
 **Throughput fix.** Pace had dropped to ~0.6x/worker on the Lex block: all
