@@ -2,6 +2,21 @@
 
 _Maintained per PROTOCOL §10. Latest cycle at top._
 
+## 2026-07-30, cycle 22 (~02:12Z)
+
+**Chunked redo running cleanly** — no restart in ~2h (longest uptime today);
+17 chunks done, 3/48 episodes assembled, 3 workers healthy. Chunk pace ~1x
+realtime/worker as expected. ETA still governed by restart luck, but every
+chunk is now permanent progress.
+
+**WS6:** rater rubric drafted (RATER_RUBRIC.md) — plain-language G1
+(episode detection, 300 items) and G2 (turn labels, 200 items)
+instructions with UNSURE option, calibration block, and no-discussion
+rule. Ready for the PI's raters; sheet generator queues behind Stage-1
+screening on the finished corpus.
+
+**Queue**: empty. **Spend**: $0.
+
 ## 2026-07-30, cycle 21 (~00:12Z)
 
 **Restarts #6 and #7 within the cycle; redo architecture upgraded to
