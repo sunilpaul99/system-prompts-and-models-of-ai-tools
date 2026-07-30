@@ -2,6 +2,21 @@
 
 _Maintained per PROTOCOL §10. Latest cycle at top._
 
+## 2026-07-30, cycle 24 (~06:12Z)
+
+**Redo**: 56 chunks, 12/48 assembled (EconTalk era-1 complete, era-2 half
+done), ~6h uptime, workers healthy.
+
+**V1 on 12 deterministic pairs (136k words): fingerprint 0/0; placebo
+0.73 ins / 0.73 del per 100k — including 4 era-2 pairs.** The era-2
+deletion excess is GONE on the deterministic corpus: the "heavier
+transcript editing in era-2" hypothesis is effectively closed — it was
+transcription loss all along. V1 gate comfortably passing on
+freeze-quality data; final formal rerun when all 16 EconTalk pairs
+assemble.
+
+**Queue**: empty. **Spend**: $0.
+
 ## 2026-07-30, cycle 23 (~04:12Z)
 
 **Redo steady**: 33 chunks, 6/48 assembled, 3 workers, ~4h uptime (no
