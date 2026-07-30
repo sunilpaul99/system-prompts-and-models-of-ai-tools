@@ -15,17 +15,16 @@ insertions/deletions counted inside the aligned overlap only.
 
 ## Gate assessment (§6.1)
 
-- **Insertions <1/100k for fingerprint words: PASS** (0 observed in 176k;
-  binomial 95% upper bound ≈ 1.7/100k — below the placebo's observed 1.13
-  ins/100k in any case, so no adverse asymmetry).
-- **No material fingerprint-vs-placebo asymmetry: PASS in the direction that
-  matters** — ASR does not invent fingerprint words more readily than other
-  words. Caveat, declared: fingerprint words are so rare in conversational
-  speech (2 occurrences in 176k words) that deletion-side asymmetry is
-  occurrence-starved; the deletion gate is effectively assessed on the
-  placebo side (10.2/100k), which is dominated by era-2 pairs where the
-  human transcripts appear more heavily copy-edited (an upper bound, not an
-  ASR error rate). PI spot-verification (~1h, planned) adjudicates.
+- **Insertions <1/100k for fingerprint words: PASS** (0 observed in 178k;
+  binomial 95% upper bound ≈ 1.7/100k; placebo insertions 1.12/100k — no
+  adverse asymmetry).
+- **No material fingerprint-vs-placebo asymmetry: PASS** — and on the
+  deterministic corpus the placebo side is symmetric (ins 1.12 = del 1.12
+  per 100k), removing the earlier deletion-side concern entirely. Remaining
+  caveat, declared: fingerprint words are so rare in conversational speech
+  (2 occurrences in 178k words) that fingerprint-specific deletion rates
+  are occurrence-starved; the placebo side stands in for them. PI
+  spot-verification (~1h) is now confirmatory rather than adjudicative.
 
 ## Era note (RESOLVED)
 
