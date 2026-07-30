@@ -2,6 +2,15 @@
 
 _Maintained per PROTOCOL §10. Latest cycle at top._
 
+## 2026-07-30, cycle 31 (~20:12Z)
+
+**Restart #9** ended the 8h window; no chunk progress lost beyond the
+in-flight chunks (chunked design working as intended). Workers relaunched
+and confirmed. Status: 105 chunks / 20 of 48 assembled; Lex block
+continuing, MBMBaM after.
+
+**Queue**: empty. **Spend**: $0.
+
 ## 2026-07-30, cycle 30 (~18:12Z)
 
 **Redo**: 105 chunks / 20 assembled / ~8h uptime (best window yet).
