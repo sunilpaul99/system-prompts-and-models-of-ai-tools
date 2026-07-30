@@ -2,6 +2,23 @@
 
 _Maintained per PROTOCOL §10. Latest cycle at top._
 
+## 2026-07-30, cycle 25 (~08:12Z)
+
+**V1 FORMAL RERUN — GATE PASS on freeze-quality data.** All 16 EconTalk
+pairs, deterministic corpus, 177.9k aligned words: fingerprint ins/del
+0/0; placebo 1.12/1.12 per 100k (symmetric, both eras).
+WS4_V1_report.md updated (supersedes the provisional 07-29 run; era note
+RESOLVED — the old deletion excess was V2's transcription loss).
+
+**Corpus**: 17/48 assembled (EconTalk complete + Sinek); ~8h uptime.
+Lex block in progress. Sinek enrollment span det2-verified (Lex solo
+0-100s+ incl. ad reads — his voice throughout).
+
+**Next**: Lex refs (Weinstein/Huberman) verify as they assemble → Lex
+re-enrollment + diarization on det2; then MBMBaM + Justin enrollment.
+
+**Queue**: empty. **Spend**: $0.
+
 ## 2026-07-30, cycle 24 (~06:12Z)
 
 **Redo**: 56 chunks, 12/48 assembled (EconTalk era-1 complete, era-2 half

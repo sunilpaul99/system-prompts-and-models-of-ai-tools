@@ -1,8 +1,8 @@
 # WS4 — V1 ASR Bias Report (EconTalk block complete)
 
-Date: 2026-07-29. Corpus: all 16 sampled EconTalk episodes, both eras
-(8 × 2019-2021, 8 × 2023-2025), 176,224 aligned human-transcript words.
-Transcriber: faster-whisper 1.2.1 / medium / int8 (pinned candidate).
+Date: 2026-07-30 (SUPERSEDES 2026-07-29 run — deterministic corpus). Corpus: all 16 sampled EconTalk episodes, both eras
+(8 × 2019-2021, 8 × 2023-2025), 177,898 aligned human-transcript words.
+Transcriber: faster-whisper-1.2.1/medium/int8/threads1/temp0/beam5/chunk1500 (V2-validated pinned config).
 Method: ws4_align.py — token alignment vs verbatim human transcripts;
 insertions/deletions counted inside the aligned overlap only.
 
@@ -11,7 +11,7 @@ insertions/deletions counted inside the aligned overlap only.
 | List | Genuine occurrences (matched) | Insertions | Deletions | Ins/100k | Del/100k |
 |---|---|---|---|---|---|
 | Fingerprint (§5.1 candidates) | 2 | **0** | **0** | **0.00** | 0.00 |
-| Placebo (provisional) | 54 | 2 | 18 | 1.13 | 10.21 |
+| Placebo (provisional) | 71 | 2 | 2 | 1.12 | 1.12 |
 
 ## Gate assessment (§6.1)
 
@@ -27,12 +27,15 @@ insertions/deletions counted inside the aligned overlap only.
   human transcripts appear more heavily copy-edited (an upper bound, not an
   ASR error rate). PI spot-verification (~1h, planned) adjudicates.
 
-## Era note
+## Era note (RESOLVED)
 
-Placebo deletions concentrate in era-2 pairs, consistent with heavier
-copy-editing of newer EconTalk transcripts rather than era-dependent ASR
-performance. See DAILY_BRIEF cycles 10-12 for the parallel (softened)
-era-differential in diarization attribution.
+On the nondeterministic corpus, placebo deletions ran 10.2/100k and
+concentrated in era-2 — initially hypothesized as transcript copy-editing.
+On the deterministic corpus the excess vanished (1.12/100k, symmetric with
+insertions, both eras): the signal was content dropped by nondeterministic
+multithreaded transcription (see V2 investigation, DAILY_BRIEF cycles
+13b-16b). No evidence of era-dependent ASR bias or meaningful ground-truth
+editing remains.
 
 ## Baseline-rate corollary (feeds WS7)
 
