@@ -2,6 +2,20 @@
 
 _Maintained per PROTOCOL §10. Latest cycle at top._
 
+## 2026-07-30, cycle 26 (~10:12Z)
+
+**Restart #8** — workers dead since shortly after cycle 25 (~2h idle; no
+chunk progress). Relaunched; stale-claim reconciliation handled by the
+launcher. Status: 77 chunks / 17 of 48 assembled; Lex block in progress
+(Weinstein and Huberman reference episodes not yet assembled — their span
+verification and Lex re-enrollment wait on them).
+
+Observed restart pattern for WS8: uptime windows today ranged 2-8h;
+compute loses the tail of the window each time. Chunked design caps the
+loss at ~25min/worker; without it the corpus would be unfinishable.
+
+**Queue**: empty. **Spend**: $0.
+
 ## 2026-07-30, cycle 25 (~08:12Z)
 
 **V1 FORMAL RERUN — GATE PASS on freeze-quality data.** All 16 EconTalk
