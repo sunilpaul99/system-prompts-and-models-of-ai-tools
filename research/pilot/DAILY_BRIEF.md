@@ -2,6 +2,29 @@
 
 _Maintained per PROTOCOL §10. Latest cycle at top._
 
+## 2026-07-30, cycle 21 (~00:12Z)
+
+**Restarts #6 and #7 within the cycle; redo architecture upgraded to
+CHUNKED.** Restart cadence has accelerated to ~2h, below the runtime of
+long Lex episodes (1-4h single-threaded) — un-chunked, those episodes
+could NEVER complete. New pipeline (ws2_bulk_det_chunked.sh):
+- Episodes split at VAD-silence-aligned boundaries near 1500s marks —
+  deterministic (VAD is deterministic), so the chunking is part of the
+  pinned config: .../threads1/temp0/beam5/chunk1500.
+- Each chunk is an atomic checkpoint + claim; a restart costs <=25 min of
+  work per worker instead of a whole episode.
+- Launch-time stale-claim reconciliation built in (the restart-#5 lesson).
+- The 14 unchunked deterministic transcripts will be superseded by chunked
+  versions for config consistency across the corpus (uniform pinned
+  config; redo cost ~5h aggregate, absorbed by restart resilience).
+- V2 note: chunked config needs its own A/B reproducibility probe once the
+  corpus lands (chunk boundaries deterministic in principle; verify).
+
+**WS8**: infra restart cadence is a first-class design parameter; work-unit
+duration must be << restart interval.
+
+**Queue**: empty. **Spend**: $0.
+
 ## 2026-07-29, cycle 20 (~22:12Z)
 
 **Container restart #5** hit mid-cycle; the harness auto-restarted the
