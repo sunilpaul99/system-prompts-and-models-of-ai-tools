@@ -2,6 +2,18 @@
 
 _Maintained per PROTOCOL §10. Latest cycle at top._
 
+## 2026-07-30, cycle 29 (~16:12Z)
+
+**Redo**: 96 chunks / 19 assembled / ~6h uptime. Both Weinstein episodes
+assembled; Weinstein #134 enrollment span det2-verified (Lex solo
+0-103s+). Huberman reference still pending -> Lex re-enrollment fires
+when it lands. Note for WS5: pre-era Lex uses "realm" unprompted
+(#134, 0:95, "the realm of conversation") - a genuine host-attributed
+fingerprint-word baseline occurrence; the counting pipeline will pick it
+up on the det2 recount.
+
+**Queue**: empty. **Spend**: $0.
+
 ## 2026-07-30, cycle 28 (~14:12Z)
 
 **Redo pace assessment (revised, honest).** Affinity+cache patch holds
