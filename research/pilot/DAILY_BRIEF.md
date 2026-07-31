@@ -2,6 +2,13 @@
 
 _Maintained per PROTOCOL §10. Latest cycle at top._
 
+## 2026-07-31, cycle 36 (~06:12Z)
+
+**Restart #11**; redo relaunched (workers confirmed). Progress held at
+~150 chunks / 28 of 48 assembled — Lex block nearly done.
+
+**Queue**: empty. **Spend**: $0.
+
 ## 2026-07-31, cycle 35 (~04:12Z)
 
 **Redo**: 148 chunks / 27 of 48; workers healthy, ~6h uptime. 5 Lex + 16
