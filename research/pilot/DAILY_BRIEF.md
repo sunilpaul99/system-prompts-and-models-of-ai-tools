@@ -2,6 +2,16 @@
 
 _Maintained per PROTOCOL §10. Latest cycle at top._
 
+## 2026-07-31, cycle 44 (~22:12Z)
+
+**Redo**: 43/48; 5 episodes remain. One worker exited on a benign
+tail-race ("no more work" while the others held the only claimable
+chunks — a small queue-logic wart at the tail, harmless; noted for WS8:
+workers should sleep-and-retry rather than exit while unfinished episodes
+exist). Claims verified clean (0 stale). 2 workers finishing, ~3-4h.
+
+**Queue**: empty. **Spend**: $0.
+
 ## 2026-07-31, cycle 43 (~20:12Z)
 
 **Restart #14**; relaunched with 3 workers for the final 7 episodes.
