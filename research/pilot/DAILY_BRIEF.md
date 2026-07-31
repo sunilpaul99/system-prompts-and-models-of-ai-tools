@@ -2,6 +2,17 @@
 
 _Maintained per PROTOCOL §10. Latest cycle at top._
 
+## 2026-07-31, cycle 39 (~12:12Z)
+
+**Redo**: 196 chunks / 37 of 48; ~14h uptime; ~11 episodes remain
+(MBMBaM tail). Justin span harvest at 4 spans / 27s; two 2019 episodes
+skipped (opener derailed by bits — a 2019-era show habit, apparently).
+Watch item: if 2019 episodes systematically fail the opener match,
+Justin's enrollment pool skews late-era; acceptable for voice ID (voices
+are stable) but noted for the V3 audit.
+
+**Queue**: empty. **Spend**: $0.
+
 ## 2026-07-31, cycle 38 (~10:12Z)
 
 **Redo**: 182 chunks / 35 of 48 (MBMBaM 5); 12h uptime — record window.
