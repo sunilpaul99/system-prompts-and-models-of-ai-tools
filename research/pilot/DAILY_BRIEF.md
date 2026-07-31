@@ -2,6 +2,14 @@
 
 _Maintained per PROTOCOL §10. Latest cycle at top._
 
+## 2026-07-31, cycle 35 (~04:12Z)
+
+**Redo**: 148 chunks / 27 of 48; workers healthy, ~6h uptime. 5 Lex + 16
+MBMBaM remain. No other action this cycle (transcription-dedicated CPU;
+nothing else unblocked; queue empty).
+
+**Queue**: empty. **Spend**: $0.
+
 ## 2026-07-31, cycle 34 (~02:12Z)
 
 **Redo**: 135 chunks / 25 of 48 (EconTalk 16 + Lex 9); workers healthy,
