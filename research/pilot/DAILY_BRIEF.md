@@ -2,6 +2,12 @@
 
 _Maintained per PROTOCOL §10. Latest cycle at top._
 
+## 2026-07-31, cycle 43 (~20:12Z)
+
+**Restart #14**; relaunched with 3 workers for the final 7 episodes.
+
+**Queue**: empty. **Spend**: $0.
+
 ## 2026-07-31, cycle 42 (~18:12Z)
 
 **Redo**: 41/48; 7 episodes remain (~20 chunks, ~3-4h at 2 workers — one
