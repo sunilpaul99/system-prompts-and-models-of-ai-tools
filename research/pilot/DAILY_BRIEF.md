@@ -2,6 +2,24 @@
 
 _Maintained per PROTOCOL §10. Latest cycle at top._
 
+## 2026-07-31, cycle 33 (~00:12Z)
+
+**Redo**: 119 chunks / 23 of 48 assembled; 3 workers healthy. Restart #10
+occurred and was absorbed WITHOUT agent intervention (harness auto-restarted
+the launcher; launch-time claim reconciliation did its job) — the pipeline
+is now fully self-healing. Lex block continuing; MBMBaM not yet reached.
+
+**Between-cycles**: literature review completed at PI request
+(LITERATURE.md): 4 must-reads pre-freeze, theory tier, gap analysis.
+Key updates: Yakura et al. v4 now includes an 824k-episode podcast
+synthetic-control + N=496 entrainment experiment; a Science paper
+establishes sycophantic-AI effects on conflict behavior (mechanism for
+H1-R). Gap analysis confirms both our hypotheses sit in open territory —
+protocol's related-work section should be updated before freeze
+(action queued for the amendment pass).
+
+**Queue**: empty. **Spend**: $0.
+
 ## 2026-07-30, cycle 31 (~20:12Z)
 
 **Restart #9** ended the 8h window; no chunk progress lost beyond the
