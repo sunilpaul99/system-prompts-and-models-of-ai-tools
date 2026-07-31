@@ -2,6 +2,17 @@
 
 _Maintained per PROTOCOL §10. Latest cycle at top._
 
+## 2026-07-31, cycle 34 (~02:12Z)
+
+**Redo**: 135 chunks / 25 of 48 (EconTalk 16 + Lex 9); workers healthy,
+~4h uptime. Remaining: 7 Lex + 16 MBMBaM. At current pace (~3.5
+chunks/h aggregate on Lex material) the Lex block finishes ~mid-day;
+MBMBaM (shorter, 3-voice episodes) should run faster. Diarization of
+assembled episodes stays deferred until transcription is done (CPU
+dedication rule).
+
+**Queue**: empty. **Spend**: $0.
+
 ## 2026-07-31, cycle 33 (~00:12Z)
 
 **Redo**: 119 chunks / 23 of 48 assembled; 3 workers healthy. Restart #10
