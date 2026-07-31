@@ -2,6 +2,14 @@
 
 _Maintained per PROTOCOL §10. Latest cycle at top._
 
+## 2026-07-31, cycle 42 (~18:12Z)
+
+**Redo**: 41/48; 7 episodes remain (~20 chunks, ~3-4h at 2 workers — one
+worker died again; not restarting since relaunch cost ≈ gain this close to
+the end). Justin harvest rerun on new episodes.
+
+**Queue**: empty. **Spend**: $0.
+
 ## 2026-07-31, cycle 41 (~16:12Z)
 
 **Restart #13**; redo relaunched. MBMBaM tail in progress.
