@@ -2,6 +2,26 @@
 
 _Maintained per PROTOCOL §10. Latest cycle at top._
 
+## 2026-07-31, cycle 37 (~08:12Z)
+
+**Redo**: 169 chunks / 32 of 48 (EconTalk 16, Lex 13, MBMBaM 3); one
+worker had died (claim-race exception) — launcher restarted, 3 workers
+restored. ~10h uptime window.
+
+**MBMBaM structure findings (first det2 transcripts):**
+- Cold-open disclaimer voice is an ANNOUNCER, not a brother — must be
+  excluded from any host-attribution assumptions (and from R-family
+  denominators; it's scripted).
+- Justin's solo opener is only ~5-8s/episode ("...I'm your oldest
+  brother, Justin McElroy"), and live "Face 2 Face" episodes have atypical
+  openings + crowd noise. Enrollment plan: text-anchored harvest of the
+  opener span across ALL 16 sampled episodes (~100s Justin-solo total,
+  each span auto-located by transcript text match and PI-auditable),
+  skipping live episodes. Live-episode handling itself goes to the WS8
+  failure/handling catalog (crowd noise will also stress diarization).
+
+**Queue**: empty. **Spend**: $0.
+
 ## 2026-07-31, cycle 36 (~06:12Z)
 
 **Restart #11**; redo relaunched (workers confirmed). Progress held at
