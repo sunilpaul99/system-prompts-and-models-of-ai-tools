@@ -2,6 +2,12 @@
 
 _Maintained per PROTOCOL §10. Latest cycle at top._
 
+## 2026-07-31, cycle 40 (~14:12Z)
+
+**Restart #12**; redo relaunched. ~10 episodes remain (MBMBaM tail).
+
+**Queue**: empty. **Spend**: $0.
+
 ## 2026-07-31, cycle 39 (~12:12Z)
 
 **Redo**: 196 chunks / 37 of 48; ~14h uptime; ~11 episodes remain
