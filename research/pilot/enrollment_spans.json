@@ -40,5 +40,24 @@
    "verified": "det2-transcript-verified: Lex solo (intro+sponsor reads) 0-95s+"
   }
  ],
- "mbmbam": []
+ "mbmbam": [
+  {
+   "file": "2020-06-22_MBMBaM_515_Viscous_Bod",
+   "start": 45.0,
+   "end": 53.1,
+   "verified": "text-anchored: Everybody and welcome to My Brother, My Brother, and Me, an  / I'm your oldest brother, Justin McElroy."
+  },
+  {
+   "file": "2023-12-11_MBMBaM_690_Freewheeling_Josh_Types",
+   "start": 71.8,
+   "end": 78.0,
+   "verified": "text-anchored: Welcome to my brother and brother me and my show from the mo / I'm your oldest brother Justin McElroy"
+  },
+  {
+   "file": "2024-03-04_MBMBaM_701_Party_Panda",
+   "start": 71.0,
+   "end": 78.4,
+   "verified": "text-anchored: Welcome to my brother, my brother mead advice show from the "
+  }
+ ]
 }

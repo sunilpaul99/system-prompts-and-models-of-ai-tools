@@ -2,6 +2,23 @@
 
 _Maintained per PROTOCOL §10. Latest cycle at top._
 
+## 2026-07-31, cycle 38 (~10:12Z)
+
+**Redo**: 182 chunks / 35 of 48 (MBMBaM 5); 12h uptime — record window.
+ETA for corpus completion: ~4-6h.
+
+**WS3 Justin enrollment harvest built + first run** (ws3_justin_spans.py):
+text-anchored opener spans, auto-verified by matched transcript text.
+First pass: 3 spans / 22s Justin-solo (ep 515, 690, 701); 1 live episode
+skipped by rule; 1 skipped where the opener was derailed by a comedy bit
+(correctly unmatched — the pattern requires his actual self-intro).
+Reruns automatically as remaining episodes assemble; expect ~10-12 usable
+spans (~70-90s, ~60-80 embedding windows). If the pooled centroid proves
+too thin at V3 audit, declared fallback: harvest Justin's "Munch Squad"
+solo press-release readings (longer solo stretches, locatable by text).
+
+**Queue**: empty. **Spend**: $0.
+
 ## 2026-07-31, cycle 37 (~08:12Z)
 
 **Redo**: 169 chunks / 32 of 48 (EconTalk 16, Lex 13, MBMBaM 3); one
