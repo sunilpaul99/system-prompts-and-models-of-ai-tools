@@ -2,6 +2,16 @@
 
 _Maintained per PROTOCOL §10. Latest cycle at top._
 
+## 2026-08-01, cycle 55 (~20:12Z)
+
+**Restart #18** killed the v3 finisher mid-run; relaunched (idempotent —
+the subprocess-timeout design survives restarts trivially since chunks
+write atomically). Still 47/48 + chunks 1,5 of Horton. Note: chunk 1's
+timeout budget is ~80min, so a completed run needs an uptime window of
+~3h; windows today have been 2-6h — should fit.
+
+**Queue**: empty. **Spend**: $0.
+
 ## 2026-08-01, cycle 54 (~18:12Z)
 
 **Loop-guard v1 didn't fire** — the repetition loop stalls INSIDE a single
