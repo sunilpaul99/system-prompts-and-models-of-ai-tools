@@ -2,6 +2,19 @@
 
 _Maintained per PROTOCOL §10. Latest cycle at top._
 
+## 2026-08-01, cycle 52 (~14:12Z)
+
+**Horton endgame.** All chunks but 1 and 5 complete — those two workers
+died mid-chunk (OOM attrition) leaving stale claims the surviving worker
+couldn't take, so it exited at 47/48. Claims cleared; a single chained job
+now transcribes the 2 missing chunks (~60-80min), assembles the episode,
+and FIRES THE POST-CORPUS CHAIN (V2 chunked probe → enrollment →
+diarization of all 48 → WS5 recount) in one uninterrupted sequence.
+WS8 note (final form): claim staleness needs heartbeats; every stall in
+the corpus's last 10% traced to exactly this gap.
+
+**Queue**: empty. **Spend**: $0.
+
 ## 2026-08-01, cycle 51 (~12:12Z)
 
 **Restart #17** stalled Horton at 15/20 for the inter-cycle window;
