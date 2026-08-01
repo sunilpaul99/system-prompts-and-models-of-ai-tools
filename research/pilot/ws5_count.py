@@ -63,9 +63,9 @@ def count_episode(path, window=50):
             "counts": {f"{k[0]}:{k[1]}:{k[2]}": v for k, v in counts.items()},
             "hits": hits}
 
-def main(scratch):
+def main(scratch, ddir="transcripts_diarized"):
     out = []
-    for p in sorted(glob.glob(os.path.join(scratch, "transcripts_diarized", "*.json"))):
+    for p in sorted(glob.glob(os.path.join(scratch, ddir, "*.json"))):
         r = count_episode(p)
         out.append(r)
         fp = sum(v for k, v in r["counts"].items() if k.startswith("fingerprint"))
@@ -79,4 +79,4 @@ def main(scratch):
           f"| placebo {pl} ({pl/max(hw,1)*1e5:.1f}/100k)")
 
 if __name__ == "__main__":
-    main(sys.argv[1])
+    main(*sys.argv[1:])

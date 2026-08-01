@@ -2,6 +2,17 @@
 
 _Maintained per PROTOCOL §10. Latest cycle at top._
 
+## 2026-08-01, cycle 45 (~00:12Z)
+
+**Redo**: 45/48; final 3 episodes in flight (2 workers). Post-corpus
+analysis chain staged (post_corpus.sh): guards on 48/48, then runs (1)
+chunked-config V2 A/B probe (<=2% gate), (2) Justin harvest + full
+3-host enrollment, (3) deterministic diarization of all 48, (4) WS5
+recount. Fires next cycle if the corpus is done. Tooling patched to be
+directory-parametric (ws3_diarize, ws5_count).
+
+**Queue**: empty. **Spend**: $0.
+
 ## 2026-07-31, cycle 44 (~22:12Z)
 
 **Redo**: 43/48; 5 episodes remain. One worker exited on a benign

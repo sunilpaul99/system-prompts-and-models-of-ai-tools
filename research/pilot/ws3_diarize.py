@@ -130,10 +130,10 @@ def diarize_episode(mp3, tr_path, centroid, outdir):
     json.dump(out, open(os.path.join(outdir, os.path.basename(tr_path)), "w"))
     return {"status": status, "k": k, "host_share": out["host_word_share"]}
 
-def run(scratch):
+def run(scratch, tdir="transcripts", outname="transcripts_diarized"):
     cents = json.load(open(os.path.join(scratch, "host_centroids.json")))
-    outdir = os.path.join(scratch, "transcripts_diarized"); os.makedirs(outdir, exist_ok=True)
-    for tr_path in sorted(glob.glob(os.path.join(scratch, "transcripts", "*.json"))):
+    outdir = os.path.join(scratch, outname); os.makedirs(outdir, exist_ok=True)
+    for tr_path in sorted(glob.glob(os.path.join(scratch, tdir, "*.json"))):
         base = os.path.basename(tr_path).replace(".json", "")
         if os.path.exists(os.path.join(outdir, base + ".json")): continue
         mp3s = glob.glob(os.path.join(scratch, "audio", "*", base + ".mp3"))
@@ -144,4 +144,4 @@ def run(scratch):
         print(base[:60], r, flush=True)
 
 if __name__ == "__main__":
-    {"enroll": enroll, "run": run}[sys.argv[1]](sys.argv[2])
+    {"enroll": enroll, "run": run}[sys.argv[1]](*sys.argv[2:])
