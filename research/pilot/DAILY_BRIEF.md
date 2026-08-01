@@ -2,6 +2,13 @@
 
 _Maintained per PROTOCOL §10. Latest cycle at top._
 
+## 2026-08-01, cycle 51 (~12:12Z)
+
+**Restart #17** stalled Horton at 15/20 for the inter-cycle window;
+relaunched. 5 chunks (~1.5h at 3 workers) to corpus completion.
+
+**Queue**: empty. **Spend**: $0.
+
 ## 2026-08-01, cycle 50 (~10:12Z)
 
 **Restart #16**; relaunched. Horton at 15/20 chunks — 5 remain (~1.5-2h).
