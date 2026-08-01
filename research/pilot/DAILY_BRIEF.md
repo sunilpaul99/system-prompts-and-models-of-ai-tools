@@ -2,6 +2,17 @@
 
 _Maintained per PROTOCOL §10. Latest cycle at top._
 
+## 2026-08-01, cycle 48 (~06:12Z)
+
+**Horton**: 6/20 chunks. Worker attrition mechanism identified: 3 workers
+x full-4h decoded-audio cache (~1.8GB each) + models exceeds RAM on this
+one episode -> OOM reaper trims to 2. Two workers IS the RAM-fit for this
+episode; no more relaunch churn. ~4-5h remaining. WS8 note: audio-cache
+memory should scale with episode length (cap or mmap) when multiple
+workers share one long episode.
+
+**Queue**: empty. **Spend**: $0.
+
 ## 2026-08-01, cycle 47 (~04:12Z)
 
 **Horton grind**: 3/20 chunks after 2h at 2 workers (worker attrition
