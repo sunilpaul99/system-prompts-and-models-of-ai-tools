@@ -2,6 +2,13 @@
 
 _Maintained per PROTOCOL §10. Latest cycle at top._
 
+## 2026-08-01, cycle 49 (~08:12Z)
+
+**Horton**: 11/20 chunks; 2 workers steady through a 6h window. ~9 chunks
+(~3h) to corpus completion, then the post-corpus chain fires.
+
+**Queue**: empty. **Spend**: $0.
+
 ## 2026-08-01, cycle 48 (~06:12Z)
 
 **Horton**: 6/20 chunks. Worker attrition mechanism identified: 3 workers
