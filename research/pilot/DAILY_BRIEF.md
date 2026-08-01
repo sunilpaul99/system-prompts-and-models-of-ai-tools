@@ -2,6 +2,26 @@
 
 _Maintained per PROTOCOL §10. Latest cycle at top._
 
+## 2026-08-01, cycle 53 (~16:12Z)
+
+**ROOT CAUSE of the unfinishable chunks found: decode repetition loops.**
+Horton chunks 1 and 5 (sponsor/music-adjacent content) send the pinned
+temperature=[0.0] decode into repetition loops — the fallback ladder that
+normally breaks loops was removed for determinism. 227 CPU-minutes on one
+25-min chunk before the kill. Every earlier "worker attrition" event on
+these chunks now re-attributed to this, not OOM.
+**Fix (Appendix A rule, deterministic + declared):** loop-guard — a chunk
+exceeding 3x realtime wall-clock aborts and re-runs with
+condition_on_previous_text=False (6x budget), output flagged
+loopguard_no_context. Finisher relaunched with the guard; post-corpus
+chain queues behind it. V2 note: the loop-guard rule is itself
+deterministic (wall-clock-triggered — declared as the one
+non-bit-reproducible trigger; the FLAG makes affected chunks auditable
+and excludable in sensitivity analysis; expected incidence <=2 chunks in
+~210).
+
+**Queue**: empty. **Spend**: $0.
+
 ## 2026-08-01, cycle 52 (~14:12Z)
 
 **Horton endgame.** All chunks but 1 and 5 complete — those two workers
