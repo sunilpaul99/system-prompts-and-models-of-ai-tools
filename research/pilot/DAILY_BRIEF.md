@@ -2,6 +2,18 @@
 
 _Maintained per PROTOCOL §10. Latest cycle at top._
 
+## 2026-08-01, cycle 46 (~02:12Z)
+
+**Final episode push.** Corpus at 47/48; the holdout is the 4h Scott
+Horton Lex episode (20 chunks). Two fixes landed between cycles: a stale
+chunk-claim released, and a queue-logic bug patched (a claimed todo[0]
+made workers skip the whole episode — now they iterate all unclaimed
+chunks, so 3 workers share the final episode in parallel). Restart #15
+absorbed; workers relaunched. ETA ~2.5-3h, then post_corpus.sh fires
+(guarded on 48/48).
+
+**Queue**: empty. **Spend**: $0.
+
 ## 2026-08-01, cycle 45 (~00:12Z)
 
 **Redo**: 45/48; final 3 episodes in flight (2 workers). Post-corpus
