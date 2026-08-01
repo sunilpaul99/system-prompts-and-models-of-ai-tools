@@ -2,6 +2,18 @@
 
 _Maintained per PROTOCOL §10. Latest cycle at top._
 
+## 2026-08-01, cycle 54 (~18:12Z)
+
+**Loop-guard v1 didn't fire** — the repetition loop stalls INSIDE a single
+decode window, so the segment generator never yields and an in-process
+per-segment check never runs. Guard rebuilt as a HARD per-chunk subprocess
+timeout (3x realtime + 300s; kill; fresh subprocess with
+condition_on_previous_text=False; flag; escalating budget). Finisher v3
+running. Appendix A rule text updated accordingly (subprocess-timeout
+semantics). ~2h of compute lost to the unguarded attempt — logged.
+
+**Queue**: empty. **Spend**: $0.
+
 ## 2026-08-01, cycle 53 (~16:12Z)
 
 **ROOT CAUSE of the unfinishable chunks found: decode repetition loops.**
