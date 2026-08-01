@@ -2,6 +2,13 @@
 
 _Maintained per PROTOCOL §10. Latest cycle at top._
 
+## 2026-08-01, cycle 50 (~10:12Z)
+
+**Restart #16**; relaunched. Horton at 15/20 chunks — 5 remain (~1.5-2h).
+Corpus completion this morning; post-corpus chain fires on 48/48.
+
+**Queue**: empty. **Spend**: $0.
+
 ## 2026-08-01, cycle 49 (~08:12Z)
 
 **Horton**: 11/20 chunks; 2 workers steady through a 6h window. ~9 chunks
