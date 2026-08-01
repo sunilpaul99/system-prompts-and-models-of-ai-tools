@@ -2,6 +2,15 @@
 
 _Maintained per PROTOCOL §10. Latest cycle at top._
 
+## 2026-08-01, cycle 47 (~04:12Z)
+
+**Horton grind**: 3/20 chunks after 2h at 2 workers (worker attrition
+again; 4h-episode chunks run ~40min each). Relaunched to restore 3
+workers (in-flight loss < gain with ~5h of tail remaining). Revised
+completion: ~4-5h, then post_corpus chain fires.
+
+**Queue**: empty. **Spend**: $0.
+
 ## 2026-08-01, cycle 46 (~02:12Z)
 
 **Final episode push.** Corpus at 47/48; the holdout is the 4h Scott
