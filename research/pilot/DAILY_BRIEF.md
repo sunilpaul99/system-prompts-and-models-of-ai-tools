@@ -2,6 +2,18 @@
 
 _Maintained per PROTOCOL §10. Latest cycle at top._
 
+## 2026-08-01, cycle 56 (~22:12Z)
+
+**Subprocess timeout also failed to fire** (child at 235 CPU-min, parent
+wedged in the wait — cause under investigation, but moot). Three
+independent attempts confirm chunks 1/5 loop under with-context decode,
+which IS the loop-guard criterion — so the with-context attempt is now
+skipped by evidence: both chunks running DIRECTLY in no-context mode
+(flagged loopguard_no_context per the Appendix A rule), then assembly +
+post-corpus chain, all in one background sequence (~1h).
+
+**Queue**: empty. **Spend**: $0.
+
 ## 2026-08-01, cycle 55 (~20:12Z)
 
 **Restart #18** killed the v3 finisher mid-run; relaunched (idempotent —
