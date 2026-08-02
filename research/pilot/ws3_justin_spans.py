@@ -34,6 +34,10 @@ def harvest(scratch):
                 end_i = i; break
         if start_i is None or end_i is None:
             skipped.append((base, "opener not matched")); continue
+        # guard: if welcome->self-intro spans >15s, banter (other brothers)
+        # intervenes — use ONLY the self-intro segment (pure Justin)
+        if segs[end_i]["end"] - segs[start_i]["start"] > 15:
+            start_i = end_i
         spans.append({
             "file": base,
             "start": round(segs[start_i]["start"], 1),

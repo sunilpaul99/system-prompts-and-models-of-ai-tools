@@ -2,6 +2,26 @@
 
 _Maintained per PROTOCOL §10. Latest cycle at top._
 
+## 2026-08-02, cycle 58 (~02:12Z)
+
+**V2 CHUNKED-CONFIG PROBE: PASS** — full-pipeline A/B on the Lomborg
+episode, 1.27% count delta (gate ±2%). The production configuration is
+formally reproducibility-validated end to end. All V-gates that can be
+machine-checked are now green: V1 PASS, V2 PASS (both configs).
+
+**Enrollment QA catch:** the final Justin harvest pulled 3 long spans
+whose welcome→self-intro stretch contained multi-brother banter — a
+contaminated centroid (211 windows, implausibly high). Caught by
+plausibility check before ANY MBMBaM episode was diarized. Harvest rule
+hardened (span >15s → use self-intro segment only); clean re-harvest:
+7 spans / 39s pure Justin → 41-window centroid. Thin but pure — Munch
+Squad fallback remains if the V3 audit shows weak separation.
+
+**Diarization** relaunched with clean centroids: 48 episodes, sequential
+(~a day with restart overhead). WS5 recount + V3 audit export follow.
+
+**Queue**: empty. **Spend**: $0.
+
 ## 2026-08-02, cycle 57 (~00:12Z)
 
 **DETERMINISTIC CORPUS COMPLETE: 48/48.** All episodes transcribed under
