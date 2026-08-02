@@ -2,6 +2,36 @@
 
 _Maintained per PROTOCOL §10. Latest cycle at top._
 
+## 2026-08-02, cycle 66 (~18:12Z)
+
+**CONSTRAINED (num_speakers=3) MAKES IT WORSE — first paired result.**
+Episode 472: unconstrained 0.621/0.305/... -> constrained
+**0.975/0.022/0.002**. Forcing three speakers did not split the brothers;
+it collapsed them into ONE cluster plus two noise slivers.
+
+**What this reveals (the informative part):** the 9-14 clusters found
+unconstrained were never "3 brothers + noise". The brothers were being
+split ACROSS those clusters, and music/noise/room-tone are further apart
+in embedding space than the brothers are from each other. So the
+segmentation isn't over-eager — the sibling voices are genuinely closer to
+each other than to anything else in the audio. A count constraint cannot
+fix that; it just tells the clusterer to merge the nearest things, which
+are the brothers.
+
+Two episodes still running (478 = second failure, 455 = the CONTROL that
+worked unconstrained at 0.394/0.329/0.233). The control is now the
+decisive test: if k=3 also wrecks 455, the constraint is affirmatively
+harmful and the approach is exhausted.
+
+**Direction of travel:** toward fallback (c) — multi-speaker formats NOT
+reliably measurable with available tooling, full-study panel restricted to
+interview formats. Holding that recommendation until the control lands.
+455 remains proof the ceiling is not absolute (pyannote CAN split them,
+just not dependably), which makes this a bounded engineering finding
+rather than a dead end — the right shape for the handoff memo.
+
+**Queue**: empty. **Spend**: $0.
+
 ## 2026-08-02, cycle 65b (event-driven — self-inflicted job kill)
 
 Both background jobs died instantly with exit 144, no output, no restart.
