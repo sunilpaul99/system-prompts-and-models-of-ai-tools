@@ -2,6 +2,41 @@
 
 _Maintained per PROTOCOL §10. Latest cycle at top._
 
+## 2026-08-02, cycle 68 (~22:12Z)
+
+**Restart #23** killed the constrained run again before the control
+finished; k=3 still 1/3. Relaunched (control first). The MBMBaM test has
+now lost four runs to restarts — each attempt needs ~1h uninterrupted
+against a ~2h cadence, so completion is luck-dependent.
+
+**RECOMMENDATION QUEUED FOR PI — the evidence no longer requires the
+control episode.** Reasoning: even the best case for the constraint does
+not rescue the method.
+- Unconstrained pyannote: **1 of 3 studio episodes** correctly split
+  (0.394/0.329/0.233); the other two collapse to ~0.62/0.31.
+- Constrained k=3 on a failing episode: **worse** (0.621 -> 0.975).
+- Identification is not the problem (sim 0.83-0.89 throughout);
+  segmentation is, and the brothers are closer to each other in embedding
+  space than to any non-speech in the audio.
+- Decisive point: **there is no way to tell, per episode and without
+  ground truth, which outcome you got.** A host-share that lands at 0.39
+  or 0.62 unpredictably feeds noise straight into every rate denominator
+  in the relational battery. "Sometimes correct, unknowable which" is
+  unusable as an outcome measure regardless of how the control resolves.
+
+**Recommended (PI ratifies — this is an E-rule amendment, not agent's to
+self-approve):** adopt fallback (c). P3/multi-speaker reported as NOT
+MEASURABLE with available tooling; full-study panel restricted to
+interview/two-voice formats at freeze; MBMBaM's 16 episodes retained as a
+documented methods finding rather than analysed. Episode 455 is preserved
+as evidence the ceiling is engineering, not physics — a diarizer that
+handles sibling voices (or per-speaker enrollment of ALL co-hosts, an
+Appendix C upgrade) would reopen the format.
+The control run continues opportunistically for completeness; its result
+will be reported either way but does not change the recommendation.
+
+**Queue**: 1 item (fallback (c) ratification). **Spend**: $0.
+
 ## 2026-08-02, cycle 67 (~20:12Z)
 
 **Restart #22** killed the constrained run at 1/3. Relaunched with the
