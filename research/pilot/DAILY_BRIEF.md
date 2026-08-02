@@ -2,6 +2,28 @@
 
 _Maintained per PROTOCOL §10. Latest cycle at top._
 
+## 2026-08-02, cycle 59d (event-driven — pyannote RUNNING)
+
+**All four gates cleared; pyannote pipeline loads.** Gate chain in full
+(for the WS8 catalog, since a full study will hit this too):
+speaker-diarization-3.1 -> segmentation-3.0 ->
+speaker-diarization-community-1 (4.x redirect), each a separate
+acceptance form; ~15 min of PI time total. Token authenticates as the
+PI's HF account, stored 0600 outside the repo.
+
+**pyannote diarization of the 16 MBMBaM episodes LAUNCHED**
+(ws3_diarize_pyannote.py, 2 threads, idempotent per episode). This is the
+decisive test for the P3/multi-speaker question: can a purpose-built
+diarizer separate three sibling voices where ECAPA+agglomerative could
+not? Read on the FIRST completed episode: speaker count (expect 3-4:
+three brothers + announcer) and host_word_share (expect ~0.30-0.40 for
+Justin; the ECAPA failure produced 0.94-1.00).
+
+**Interview formats** unaffected and continuing on the ECAPA path (which
+validated within ~2pp of human transcripts) — no plan to re-diarize them
+with pyannote unless the V3 audit motivates it, and any such switch would
+be a declared, documented change rather than a silent one.
+
 ## 2026-08-02, cycle 59c (event-driven — pyannote auth, cont.)
 
 segmentation-3.0 now accessible (PI accepted). Next gate surfaced:
