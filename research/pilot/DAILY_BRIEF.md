@@ -2,6 +2,23 @@
 
 _Maintained per PROTOCOL §10. Latest cycle at top._
 
+## 2026-08-02, cycle 57 (~00:12Z)
+
+**DETERMINISTIC CORPUS COMPLETE: 48/48.** All episodes transcribed under
+the pinned config (faster-whisper-1.2.1/medium/int8/threads1/temp0/beam5/
+chunk1500); Horton chunks 1+5 carry the loopguard_no_context flag (2 of
+~210 chunks, as predicted). Corpus took ~3 days wall including 18
+container restarts, one full config redo, and the V2 investigation — all
+of which is exactly the WS8 material a full study needs.
+
+**Post-corpus chain FIRED at 23:53Z** and is running: (1) chunked-config
+V2 A/B probe (in progress), (2) 3-host enrollment, (3) deterministic
+diarization x48, (4) WS5 recount. Note: diarization is single-process
+sequential (~20-40min/episode → ~a day with restart overhead); if it
+becomes the bottleneck, parallelize by host next cycle.
+
+**Queue**: empty. **Spend**: $0 of $75 pilot cap.
+
 ## 2026-08-01, cycle 56 (~22:12Z)
 
 **Subprocess timeout also failed to fire** (child at 235 CPU-min, parent
