@@ -2,6 +2,16 @@
 
 _Maintained per PROTOCOL §10. Latest cycle at top._
 
+## 2026-08-02, cycle 61 (~08:12Z)
+
+**pyannote**: first episode mid-run (~30 min wall, 191% CPU); turn cache
+writes on pipeline return, so the next verdict-or-bug cycle is cheap.
+ECAPA interview run remains parked at 15/48 by design. No other action
+this cycle — the machine is deliberately dedicated to the P3 test, and
+nothing else is unblocked without it.
+
+**Queue**: empty. **Spend**: $0.
+
 ## 2026-08-02, cycle 60b (event-driven)
 
 **pyannote run completed its ~2h diarization then threw the result away**
