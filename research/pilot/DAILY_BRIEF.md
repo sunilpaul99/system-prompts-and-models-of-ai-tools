@@ -2,6 +2,21 @@
 
 _Maintained per PROTOCOL §10. Latest cycle at top._
 
+## 2026-08-02, cycle 65b (event-driven — self-inflicted job kill)
+
+Both background jobs died instantly with exit 144, no output, no restart.
+**Cause: `pkill -f "ws3_diarize_pyannote.py"` matched its OWN shell
+wrapper** (the wrapper's command line contains the pattern string), so it
+killed itself and the job it had just spawned in the same command. No data
+lost (turn caches intact; the constrained run had produced nothing yet),
+~15 min of wall-clock lost.
+
+Practice rule adopted (and a WS8 note, since Phase 4 will orchestrate many
+jobs): never `pkill -f` on a pattern that appears in the killing command
+itself — resolve PIDs first (`pgrep -f ... | grep -v $$`) or kill by
+recorded PID. Constrained test relaunched cleanly with nothing else
+running, so no kill was needed at all.
+
 ## 2026-08-02, cycle 65 (~16:12Z)
 
 **Studio base rate now 1 of 3.** Episode 478 also collapsed (0.646/0.315),
