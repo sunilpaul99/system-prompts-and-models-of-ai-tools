@@ -65,18 +65,37 @@ def embed(audio_slice):
     e = encoder().encode_batch(torch.from_numpy(audio_slice).unsqueeze(0)).squeeze().numpy()
     return e / np.linalg.norm(e)
 
-def diarize_episode(mp3, tr_path, centroid, outdir, pipeline):
+def raw_turns(mp3, pipeline, cache_dir):
+    """Run pyannote and CACHE the speaker turns before any downstream work.
+
+    The pipeline costs ~1x realtime on CPU; a bug in later stages must never
+    discard it again (it did once — pyannote 4.x returns DiarizeOutput, not
+    Annotation, and the parse error threw away a 2h run)."""
     import torch
+    os.makedirs(cache_dir, exist_ok=True)
+    cache = os.path.join(cache_dir, os.path.basename(mp3) + ".turns.json")
+    if os.path.exists(cache):
+        return [tuple(t) for t in json.load(open(cache))]
+    audio = decode(mp3)   # PyAV: this container's torchcodec cannot load
+    out = pipeline({"waveform": torch.from_numpy(audio).unsqueeze(0),
+                    "sample_rate": SR})
+    # pyannote 4.x: DiarizeOutput wrapper. "exclusive" resolves overlapping
+    # speech to one speaker per instant, which is what word attribution needs.
+    ann = getattr(out, "exclusive_speaker_diarization", None)
+    if ann is None:
+        ann = getattr(out, "speaker_diarization", out)
+    turns = [(seg.start, seg.end, str(label))
+             for seg, _, label in ann.itertracks(yield_label=True)]
+    tmp = cache + ".tmp"
+    json.dump(turns, open(tmp, "w")); os.replace(tmp, cache)
+    return turns
+
+def diarize_episode(mp3, tr_path, centroid, outdir, pipeline):
     tr = json.load(open(tr_path))
-    # feed a pre-decoded waveform: this container's torchcodec fails to load,
-    # and PyAV decoding is the same path the rest of the pipeline already uses
-    audio = decode(mp3)
-    diar = pipeline({"waveform": torch.from_numpy(audio).unsqueeze(0),
-                     "sample_rate": SR})
-    turns = [(seg.start, seg.end, label)
-             for seg, _, label in diar.itertracks(yield_label=True)]
+    turns = raw_turns(mp3, pipeline, os.path.join(os.path.dirname(outdir), "pyannote_turns"))
     if not turns:
         return {"status": "NO_TURNS"}
+    audio = decode(mp3)
     # per-speaker centroid from longest turns (capped)
     sims = {}
     for label in {t[2] for t in turns}:

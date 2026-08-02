@@ -2,6 +2,25 @@
 
 _Maintained per PROTOCOL §10. Latest cycle at top._
 
+## 2026-08-02, cycle 60b (event-driven)
+
+**pyannote run completed its ~2h diarization then threw the result away**
+on a downstream parse error: pyannote 4.x returns a `DiarizeOutput`
+wrapper, not the classic `Annotation`, so `.itertracks()` failed AFTER all
+the expensive work. Two fixes:
+1. Correct parse: use `exclusive_speaker_diarization` (overlap resolved to
+   one speaker per instant — exactly what word attribution needs), falling
+   back to `speaker_diarization`.
+2. **Structural fix (the real lesson): raw speaker turns are now CACHED to
+   pyannote_turns/<ep>.turns.json immediately after the pipeline returns,
+   before any downstream processing.** Any later bug now costs seconds, not
+   hours. This mirrors the chunk-checkpoint principle from WS2 and is a
+   WS8 rule: expensive irreversible compute must be persisted at the
+   boundary where it is produced, not at the end of the enclosing job.
+
+Relaunched. ECAPA interview-format run stays parked at 15/48 until the
+first pyannote verdict lands.
+
 ## 2026-08-02, cycle 60 (~06:12Z)
 
 **Two diarization jobs were contending for 4 cores**: ECAPA interview-format
