@@ -2,6 +2,29 @@
 
 _Maintained per PROTOCOL §10. Latest cycle at top._
 
+## 2026-08-02, cycle 65 (~16:12Z)
+
+**Studio base rate now 1 of 3.** Episode 478 also collapsed (0.646/0.315),
+matching 472 (0.621/0.305); 455 remains the lone clean three-way split
+(0.394/0.329/0.233). Identification stays strong throughout (sim
+0.85-0.89) — segmentation is the sole failure mode, and 9-14 detected
+speakers against a cast of 3 confirms it is OVER-segmentation.
+
+**Paired experiment launched** (ws3_pyannote_constrained.py): the two
+failing episodes plus the working one, re-run with num_speakers=3.
+Same attribution code, only segmentation differs — the working episode
+is the control, so the constraint must not break it. Outputs go to
+separate directories, leaving unconstrained results intact for
+comparison. The unconstrained sweep was stopped to give this the CPU;
+its 4 completed episodes are banked and it resumes afterward.
+
+Rationale recorded for Appendix A: constraining the count encodes a KNOWN
+fact about the show's cast, not a preference about the outcome, and would
+apply only to formats with fixed known casts. If it works, this becomes a
+declared handling rule; if not, fallback (c) stands.
+
+**Queue**: empty. **Spend**: $0.
+
 ## 2026-08-02, cycle 64 (~14:12Z)
 
 **STUDIO VERDICT (2 episodes): pyannote PARTIALLY solves the
