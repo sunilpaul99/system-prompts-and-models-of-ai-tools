@@ -2,6 +2,31 @@
 
 _Maintained per PROTOCOL §10. Latest cycle at top._
 
+## 2026-08-02, cycle 60 (~06:12Z)
+
+**Two diarization jobs were contending for 4 cores**: ECAPA interview-format
+run (15/48) and the pyannote MBMBaM test (first episode still in flight
+after ~65 min wall). Since the pyannote result unblocks a protocol
+decision (P3 measurable or not) and the ECAPA run is routine throughput,
+the ECAPA job is PAUSED with SIGSTOP (resumable in place, no episode work
+lost — per-episode idempotence plus a stopped process keeps its state) and
+pyannote now has the machine. ECAPA resumes (SIGCONT) once the first
+pyannote verdict is in.
+
+**Note on pyannote cost**: ~65+ min wall for a ~1.3h episode on 4 CPU
+cores, i.e. roughly realtime. For WS8: 16 MBMBaM episodes ~= 20h of
+compute here; a full study using pyannote across ~1,800 episodes would
+need GPU (pyannote is ~20-50x realtime on a consumer GPU) — this is a
+concrete argument for the full study budgeting one GPU box rather than
+CPU fleets.
+
+**Scorecard**: V1 PASS, V2 PASS (both configs), V3 pending (interview
+formats validating within ~2pp; multi-speaker under test), V4 pending
+recount.
+
+**Queue**: empty (PI cleared the multi-speaker item by choosing option b
+and completing all four HF gates). **Spend**: $0.
+
 ## 2026-08-02, cycle 59d (event-driven — pyannote RUNNING)
 
 **All four gates cleared; pyannote pipeline loads.** Gate chain in full
