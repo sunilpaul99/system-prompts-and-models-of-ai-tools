@@ -2,6 +2,35 @@
 
 _Maintained per PROTOCOL §10. Latest cycle at top._
 
+## 2026-08-02, cycle 59 (~04:12Z)
+
+**V3 STRUCTURAL FINDING — multi-speaker diarization FAILS on MBMBaM
+(the pre-registered P3 stress test).** All 8 MBMBaM episodes diarized so
+far: k=2 with one cluster = ALL THREE BROTHERS pooled (sibling voices too
+similar for ECAPA embeddings at 1.5s windows; silhouette prefers the
+speech-vs-music split), host_share 0.94-1.00 (nonsense). Interview shows
+(EconTalk/Lex) diarize correctly — the failure is format-specific,
+exactly as PILOT_PLAN WS3 anticipated ("P3 is the expected failure
+point").
+
+**DECISION QUEUE (PI) — multi-speaker handling, options:**
+(a) Cheap retry: force k>=3 + finer windows (0.75s) for known-3-speaker
+    shows — agent will test on one episode next cycle; sibling similarity
+    may defeat it anyway.
+(b) Better diarizer: pyannote speaker-diarization-3.1 — needs a free
+    HuggingFace account token with model terms accepted (PI action:
+    ~5 min; token pasted into session env). Most likely real fix.
+(c) Declare multi-speaker formats unmeasurable with this pipeline: pilot
+    reports P3 as NOT MEASURABLE; full-study panel restricted to
+    interview formats (protocol E-rule amendment at freeze).
+Recommendation: (a) now, (b) if PI provides token, (c) as the honest
+fallback for the exit review. No action blocks interview-format work.
+
+**Also this cycle**: restart #19 absorbed; diarization relaunched
+(13/48 done; interview episodes unaffected and validating normally).
+
+**Queue**: 1 item (above). **Spend**: $0.
+
 ## 2026-08-02, cycle 58 (~02:12Z)
 
 **V2 CHUNKED-CONFIG PROBE: PASS** — full-pipeline A/B on the Lomborg
