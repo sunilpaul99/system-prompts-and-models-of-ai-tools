@@ -2,6 +2,29 @@
 
 _Maintained per PROTOCOL §10. Latest cycle at top._
 
+## 2026-08-02, cycle 67 (~20:12Z)
+
+**Restart #22** killed the constrained run at 1/3. Relaunched with the
+CONTROL EPISODE FIRST (455, the one that split correctly unconstrained) —
+it is the decisive test, so with ~1h/episode against a 2-6h restart
+cadence it should not be queued behind a second failure case. Same
+ordering lesson as cycle 63, applied to the experiment rather than the
+sweep.
+
+**Standing evidence** (unchanged this cycle):
+- unconstrained studio base rate 1/3 correct (455 clean; 472, 478 collapse)
+- constrained k=3 on 472: 0.621 -> 0.975 (much worse)
+- identification solid throughout (sim 0.83-0.89); segmentation is the
+  sole failure mode, and the brothers sit closer to each other in
+  embedding space than to any non-speech in the audio
+
+**Pending**: k=3 on the control. If it wrecks 455, the constraint is
+affirmatively harmful, the approach is exhausted, and fallback (c)
+(interview-formats-only panel) becomes the pilot's recommendation for the
+exit review.
+
+**Queue**: empty. **Spend**: $0.
+
 ## 2026-08-02, cycle 66 (~18:12Z)
 
 **CONSTRAINED (num_speakers=3) MAKES IT WORSE — first paired result.**
