@@ -2,6 +2,25 @@
 
 _Maintained per PROTOCOL §10. Latest cycle at top._
 
+## 2026-08-02, cycle 59b (event-driven — pyannote auth)
+
+**HF token installed** (stored 0600 at ~/.cache/huggingface/token, outside
+the repo; never committed/logged). Authentication CONFIRMED — whoami
+resolves, and the error moved 401 -> 403 (authenticated but not
+authorized).
+
+**Remaining gate:** pyannote/speaker-diarization-3.1 is a meta-pipeline
+that downloads two separately gated models. Terms are accepted for the
+pipeline repo but NOT for **pyannote/segmentation-3.0**, whose weight
+download 403s. NOTE for the record: an api.model_info() probe returned OK
+for all three repos — that check reads metadata and does NOT test
+file-download authorization, so it was a false green; the authoritative
+test is a weight fetch (or the model page showing no pending form).
+PI action queued: accept terms at huggingface.co/pyannote/segmentation-3.0
+(and huggingface.co/pyannote/wespeaker-voxceleb-resnet34-LM if it also
+prompts). No other work is blocked; interview-format diarization
+continues.
+
 ## 2026-08-02, cycle 59 (~04:12Z)
 
 **V3 STRUCTURAL FINDING — multi-speaker diarization FAILS on MBMBaM
