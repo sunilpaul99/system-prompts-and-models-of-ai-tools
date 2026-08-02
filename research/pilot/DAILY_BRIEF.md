@@ -2,6 +2,30 @@
 
 _Maintained per PROTOCOL §10. Latest cycle at top._
 
+## 2026-08-02, cycle 62 (~10:12Z)
+
+**First pyannote MBMBaM episode complete — INTERIM, not the verdict.**
+The alphabetically-first episode is 450 "Face 2 Face", a LIVE show with
+audience noise — the hardest case in the sample and one already excluded
+from enrollment by rule. Result: 13 speakers detected; time shares
+SPEAKER_12 0.588 (36.5 min), SPEAKER_11 0.312 (19.4 min), remainder in
+11 micro-clusters (audience/noise, <2.2% each). Justin identified
+confidently (sim 0.792 vs next-best 0.451 — a clean margin, so the ECAPA
+enrollment centroid IS discriminative). Diagnostic: 98.9% of words fall
+inside a real pyannote turn, so the nearest-turn fallback is NOT inflating
+shares — the 59/31 split is genuine.
+
+**Read:** pyannote clearly beats ECAPA (which produced one all-brothers
+cluster at 0.94-1.00 host share) — it is separating speakers. But 59/31
+on a three-brother show suggests two brothers still merged into the
+"Justin" cluster, OR that Justin genuinely dominates this live episode.
+Cannot distinguish yet. **The verdict needs a STUDIO episode** (455, next
+in queue, ~1h). Reporting this now rather than waiting, with the caveat
+attached, because the interim number is easy to over-read in either
+direction.
+
+**Queue**: empty. **Spend**: $0.
+
 ## 2026-08-02, cycle 61 (~08:12Z)
 
 **pyannote**: first episode mid-run (~30 min wall, 191% CPU); turn cache
