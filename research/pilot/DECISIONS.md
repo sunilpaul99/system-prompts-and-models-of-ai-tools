@@ -3,6 +3,23 @@
 Per PROTOCOL §10: every queued decision, its resolution, date, and where it
 took effect. Latest first.
 
+## 2026-08-02 — multi-speaker diarization (V3 structural failure)
+
+**PI decision: option (b) — adopt pyannote/speaker-diarization-3.1.**
+Context: ECAPA+agglomerative clustering pools the three McElroy brothers
+into one speaker (DAILY_BRIEF cycle 59); interview formats unaffected.
+Implementation staged this cycle (ws3_diarize_pyannote.py): pyannote
+supplies speaker turns; host identification still uses the ECAPA
+enrollment centroid, so enrollment_spans.json and the interview-format
+path stay authoritative; output schema unchanged so WS5/WS6 consume it
+unmodified. PI has accepted the model terms on Hugging Face
+(2026-08-02). **Remaining: an HF read token in the session environment**
+(website acceptance alone yields 401). Token is a credential: stored
+outside the repo, never committed, never logged.
+Fallbacks if pyannote underperforms on sibling voices: (c) declare
+multi-speaker NOT MEASURABLE and restrict the full-study panel to
+interview formats at freeze.
+
 ## 2026-07-29 — batch resolution (PI, in-session)
 
 1. **Second rater: RESOLVED.** PI's adult children (25, blind to the
