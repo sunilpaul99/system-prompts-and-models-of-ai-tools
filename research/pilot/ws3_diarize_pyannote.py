@@ -66,13 +66,17 @@ def embed(audio_slice):
     return e / np.linalg.norm(e)
 
 def diarize_episode(mp3, tr_path, centroid, outdir, pipeline):
+    import torch
     tr = json.load(open(tr_path))
-    diar = pipeline(mp3)                      # pyannote reads the file directly
+    # feed a pre-decoded waveform: this container's torchcodec fails to load,
+    # and PyAV decoding is the same path the rest of the pipeline already uses
+    audio = decode(mp3)
+    diar = pipeline({"waveform": torch.from_numpy(audio).unsqueeze(0),
+                     "sample_rate": SR})
     turns = [(seg.start, seg.end, label)
              for seg, _, label in diar.itertracks(yield_label=True)]
     if not turns:
         return {"status": "NO_TURNS"}
-    audio = decode(mp3)
     # per-speaker centroid from longest turns (capped)
     sims = {}
     for label in {t[2] for t in turns}:
