@@ -2,6 +2,25 @@
 
 _Maintained per PROTOCOL §10. Latest cycle at top._
 
+## 2026-08-02, cycle 59c (event-driven — pyannote auth, cont.)
+
+segmentation-3.0 now accessible (PI accepted). Next gate surfaced:
+**pyannote/speaker-diarization-community-1**. Cause identified: the
+installed pyannote.audio is 4.x, and 4.x REDIRECTS the
+"speaker-diarization-3.1" identifier to the newer community-1 pipeline,
+which carries its own gate. So the gate chain is a property of the 4.x
+client, not of our request. Two paths:
+  (i) PI accepts community-1 (recommended — it is the current pipeline
+      and generally outperforms 3.1); OR
+  (ii) pin pyannote.audio 3.1.x, which uses segmentation-3.0 +
+      wespeaker directly (both already accepted) — but 3.x is
+      incompatible with this container's torchaudio (AudioMetaData
+      removed), so it would need a torchaudio downgrade and revalidation.
+Recommendation: (i). Honest caveat recorded: gate chains cannot be
+enumerated ahead of time (metadata probes are false greens), so the agent
+cannot promise this is the last form — though community-1 bundles its
+own weights, so it should be.
+
 ## 2026-08-02, cycle 59b (event-driven — pyannote auth)
 
 **HF token installed** (stored 0600 at ~/.cache/huggingface/token, outside
