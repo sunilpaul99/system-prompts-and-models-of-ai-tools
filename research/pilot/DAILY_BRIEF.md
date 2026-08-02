@@ -2,6 +2,26 @@
 
 _Maintained per PROTOCOL §10. Latest cycle at top._
 
+## 2026-08-02, cycle 63 (~12:12Z)
+
+**Restart #21** killed the pyannote run mid-studio-episode. Episode 450's
+turns survived (the cycle-60b cache doing its job); the in-flight studio
+episode was lost.
+
+**Scheduling change**: episodes now processed STUDIO-FIRST (live
+"Face 2 Face" shows deferred to the end). Rationale: the
+measurable-or-not verdict depends on studio episodes, each costs ~1h, and
+the restart cadence is 2-6h — so processing order directly determines how
+fast the pilot learns anything. Alphabetical order had spent the first
+(and so far only completed) run on the atypical live case.
+Bug caught pre-launch: the new sort used `re` without importing it —
+would have crashed at first use.
+
+**Status**: pyannote 1/16 (the live episode), studio verdict ~1h out.
+ECAPA interview run still parked at 15/48 by design.
+
+**Queue**: empty. **Spend**: $0.
+
 ## 2026-08-02, cycle 62 (~10:12Z)
 
 **First pyannote MBMBaM episode complete — INTERIM, not the verdict.**

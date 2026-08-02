@@ -26,7 +26,7 @@ Usage:
   python3 ws3_diarize_pyannote.py <scratchpad> [host_filter] [tdir] [outdir]
     host_filter: substring of the audio subdir, e.g. "mbmbam" (default: all)
 """
-import glob, json, os, sys
+import glob, json, os, re, sys
 import numpy as np
 
 SR = 16000
@@ -146,7 +146,13 @@ def main(scratch, host_filter="", tdir="transcripts_det2", outname="transcripts_
     cents = json.load(open(os.path.join(scratch, "host_centroids.json")))
     outdir = os.path.join(scratch, outname); os.makedirs(outdir, exist_ok=True)
     pipeline = load_pipeline()
-    for tr_path in sorted(glob.glob(os.path.join(scratch, tdir, "*.json"))):
+    # STUDIO EPISODES FIRST: live "Face 2 Face" shows carry audience noise and
+    # are the atypical case; the measurable-or-not verdict depends on studio
+    # episodes, and at ~1h/episode against a 2-6h restart cadence the ordering
+    # decides how fast we learn anything.
+    paths = sorted(glob.glob(os.path.join(scratch, tdir, "*.json")),
+                   key=lambda p: (1 if re.search(r"face_?2_?face", p, re.I) else 0, p))
+    for tr_path in paths:
         base = os.path.basename(tr_path).replace(".json", "")
         if os.path.exists(os.path.join(outdir, base + ".json")): continue
         mp3s = glob.glob(os.path.join(scratch, "audio", "*", base + ".mp3"))
