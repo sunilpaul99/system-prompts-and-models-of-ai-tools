@@ -2,6 +2,43 @@
 
 _Maintained per PROTOCOL §10. Latest cycle at top._
 
+## 2026-08-02, cycle 64 (~14:12Z)
+
+**STUDIO VERDICT (2 episodes): pyannote PARTIALLY solves the
+three-brother case — real improvement, not yet reliable.**
+
+| episode | type | speakers | Justin sim | word shares |
+|---|---|---|---|---|
+| 455 Fear Sponging | studio | 9 | 0.853 | **0.394 / 0.329 / 0.233** + noise |
+| 472 LASIK Voicemails | studio | 9 | 0.886 | 0.621 / 0.305 + noise |
+| 450 Face 2 Face | live | 13 | 0.792 | 0.587 / 0.330 + noise |
+
+- **455 is a textbook three-way split** (39/33/23) — pyannote separated
+  all three brothers, which ECAPA could never do (0.94-1.00 single
+  cluster). Proof the problem is tractable.
+- **472 collapses to 62/31** — two brothers still merged.
+- Justin identification is strong and stable everywhere (sim 0.79-0.89,
+  clean margins), so the 39s enrollment centroid is adequate; the
+  variance is in SEGMENTATION, not identification.
+
+**Read:** "sometimes correct" is not usable as-is for a within-person
+outcome measure — a host-share that swings 39%->62% by episode would
+inject noise directly into every rate denominator. Two paths, in order:
+1. **Constrained run (agent, next):** pyannote accepts num_speakers /
+   min-max. MBMBaM studio episodes have a KNOWN speaker count (3 brothers,
+   + a scripted announcer in the cold open). Forcing 3-4 is principled
+   rather than fitted, and 9 detected speakers means over-segmentation is
+   the failure mode. Test on 472 (the failing case) — ~1h, invalidates
+   that episode's turn cache only.
+2. **PI V3 audit arbitrates** the final call, on a stratified sample that
+   should now oversample MBMBaM.
+If the constrained run does not stabilize shares, fallback (c) —
+interview-formats-only panel — becomes the recommendation, and 455 stands
+as evidence that the limit is engineering, not physics.
+
+**Queue**: empty (no PI decision needed yet; audit comes after the
+constrained test). **Spend**: $0.
+
 ## 2026-08-02, cycle 63 (~12:12Z)
 
 **Restart #21** killed the pyannote run mid-studio-episode. Episode 450's
