@@ -2,6 +2,41 @@
 
 _Maintained per PROTOCOL §10. Latest cycle at top._
 
+## 2026-08-03, cycle 69 (~00:12Z)
+
+**CONTROL RESULT IN — constraint is affirmatively harmful; the
+multi-speaker question is now closed on the evidence.**
+
+| episode | unconstrained | k=3 |
+|---|---|---|
+| 455 (the one that WORKED) | 0.394 / 0.329 / 0.233 | **0.979 / 0.014 / 0.007** |
+| 472 (failure case) | 0.621 / 0.305 / 0.029 | 0.975 / 0.022 / 0.002 |
+
+Forcing three speakers destroyed the single episode that had split
+correctly, collapsing it to one 98% cluster. Justin-similarity also fell
+on that episode (0.85 -> 0.72), consistent with the surviving cluster
+being a BLEND of brothers rather than one voice — an independent
+confirmation that the merge is real and not a labelling artifact.
+
+**Final evidence set for the exit review:** unconstrained 1/3 studio
+episodes correct, unpredictably; constraining makes both the failures and
+the success collapse; identification is sound throughout, so the limit is
+segmentation of closely-matched sibling voices. The cycle-68
+recommendation (fallback (c)) stands unchanged and now rests on a
+complete paired experiment rather than a partial one. pyannote runs
+stopped — the remaining episode would add cost, not information.
+
+**Interview-format work RESUMED** (the furthest unblocked workstream, and
+unaffected by the pending decision): ECAPA diarization of the 33
+remaining EconTalk/Lex episodes relaunched, 15/48 banked.
+
+**Scorecard**: V1 PASS, V2 PASS (both configs), V3 partial (interview
+formats within ~2pp of human transcripts; multi-speaker NOT MEASURABLE
+pending PI ratification), V4 awaits recount.
+
+**Queue**: 1 item — ratify fallback (c) (E-rule amendment, cycle 68).
+Nothing else blocks on it. **Spend**: $0.
+
 ## 2026-08-02, cycle 68 (~22:12Z)
 
 **Restart #23** killed the constrained run again before the control
