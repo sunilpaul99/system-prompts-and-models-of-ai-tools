@@ -2,6 +2,26 @@
 
 _Maintained per PROTOCOL §10. Latest cycle at top._
 
+## 2026-08-03, cycle 72 (~08:12Z)
+
+**Interview diarization at 41/48**, running through a ~10h window (best
+since the corpus phase). Remaining: 3 EconTalk, 2 Lex, 2 MBMBaM.
+
+Considered skipping the 2 remaining MBMBaM episodes since they will not be
+analysed under fallback (c). Decided AGAINST: ~1h of otherwise-idle CPU
+buys a complete, symmetric ECAPA diarization set across all 48 episodes,
+which makes the retained methods evidence cleaner than a partial set
+(the failure is the finding; a full set documents it consistently).
+
+**Next, once 48/48 lands** — all protocol-derivable, no PI input needed:
+WS5 recount with the MBMBaM exclusion flag, WS6 turn/disagreement-density
+stats on interview formats, then the stratified V3 audit export (interview
+only, Lex-weighted) for the PI's ~1h.
+
+**Scorecard**: V1 PASS, V2 PASS, V3 partial (interview within ~2pp of
+human transcripts; multi-speaker NOT MEASURABLE, ratified), V4 pending.
+**Queue**: empty. **Spend**: $0.
+
 ## 2026-08-03, cycle 71b (event-driven — PI ratification)
 
 **Fallback (c) RATIFIED by PI.** Multi-speaker/co-host formats declared
