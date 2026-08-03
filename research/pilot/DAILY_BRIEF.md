@@ -2,6 +2,40 @@
 
 _Maintained per PROTOCOL §10. Latest cycle at top._
 
+## 2026-08-03, cycle 78 (~20:12Z)
+
+**WS8 FEASIBILITY MEMO DRAFTED** (WS8_FEASIBILITY.md) — the PROTOCOL §8.3
+handoff artifact, and the last major deliverable that needed no PI input.
+Every figure is pilot-measured rather than taken from documentation.
+
+Headline: the full study is feasible inside the $400 cap but **not on
+CPU-only infrastructure**. Transcription and diarization both run ~1x
+realtime per worker (~3,600 worker-hours for 1,800 episodes); one consumer
+GPU collapses that to days. Recommended configuration — GPU + Haiku-class
+annotator — comes to **~$95-145**, leaving ~75% of the cap unspent. The
+binding constraint on this study is PI/rater time and wall-clock, not money.
+
+The memo's most valuable section is §3, the eight non-obvious findings,
+each of which cost days here and would cost a future team the same:
+CTranslate2 multithreading is nondeterministic AND lossy under load;
+determinism removes Whisper's loop-breaker; work units must be much
+shorter than the infrastructure restart interval; expensive compute must
+be persisted where it is produced; completion checks must count outputs
+not process exits; memory caps parallelism, not CPU; co-host formats are
+undiarizable; publisher sites rate-limit far below CDN thresholds.
+
+Also recorded: measured decision-queue volume (~1 PI decision per 8-10
+agent cycles, clustering at methodological forks) so Phase 4 can staff
+for it — 2-4 decisions/week plus the scheduled labelling blocks.
+
+Memo is explicitly DRAFT: three open items (V3 audit result, G1/G2 gates,
+Stage-1 flag rate) are listed as pending rather than guessed at.
+
+**Queue (PI, unchanged)**: V3 audit (~40 min, ready); exclusion decision
+(the audit answers it); rater onboarding; annotation-model pin.
+**Scorecard**: V1 PASS, V2 PASS, V3 audit-ready, V4 counts produced.
+**Spend**: $0 actual.
+
 ## 2026-08-03, cycle 77 (~18:12Z)
 
 **Annotation-model cost estimate MEASURED** (the input the PI's model-pin
