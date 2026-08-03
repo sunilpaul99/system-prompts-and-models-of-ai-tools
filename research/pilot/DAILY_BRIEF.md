@@ -2,6 +2,43 @@
 
 _Maintained per PROTOCOL §10. Latest cycle at top._
 
+## 2026-08-03, cycle 77 (~18:12Z)
+
+**Annotation-model cost estimate MEASURED** (the input the PI's model-pin
+decision was waiting on). Token volumes from the actual pilot corpus, not
+assumed:
+
+- pilot interview corpus: 32 episodes, 3,733 turns, 3.71M chars
+- Stage-1 screening (30-turn windows, 10-turn overlap -> ~1.5x): **1.39M
+  input tokens**, i.e. ~43k per episode
+- Stage-2 labelling (assume 15% of windows flagged, +context): 0.27M
+- pilot total ~1.66M input tokens; full study (~1,800 episodes, 56x
+  scale-up) ~93M input tokens. Output is negligible (JSON labels).
+
+| model class | pilot | full study | vs $400 cap |
+|---|---|---|---|
+| Haiku-class (~$1/Mtok) | $1.66 | **$93** | fits comfortably |
+| Sonnet-class (~$3/Mtok) | $4.98 | **$280** | fits, but 70% of cap |
+| Opus-class (~$15/Mtok) | $24.92 | $1,402 | **exceeds cap 3.5x** |
+
+**Recommendation for the pin (PI ratifies):** run the G1/G2 validation on
+a Sonnet-class model. Rationale: the pilot spend either way is trivial
+($5 vs $2), so the pilot should be run on the model most likely to PASS
+the gates — a failed G1/G2 costs a workstream, not $3. Then, if it passes,
+re-validate Haiku-class on the same gold sample before committing the full
+study to it: if the cheap model also clears κ≥0.70, the full study runs at
+$93 and leaves the cap almost intact; if it doesn't, $280 still fits and
+the design memo can say exactly what the cheaper option cost in accuracy.
+That sequencing buys a real number for the handoff memo instead of a guess.
+
+Caveat stated: the 15% flag-rate for Stage 2 is an assumption, not a
+measurement — the pilot's own Stage-1 run will replace it, and the full
+figure moves roughly ±10% with it.
+
+**Queue (PI)**: V3 audit (~40 min, ready); exclusion decision (the audit
+answers it); rater onboarding; annotation-model pin (recommendation
+above). **Spend**: $0 actual.
+
 ## 2026-08-03, cycle 76 (~16:12Z)
 
 **WS7 POWER SIMULATION RUN — §8.2 gate PASSES for the lexical family,
