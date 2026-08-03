@@ -2,6 +2,16 @@
 
 _Maintained per PROTOCOL §10. Latest cycle at top._
 
+## 2026-08-03, cycle 71 (~04:12Z)
+
+**Restart #24**; interview-format diarization relaunched (idempotent,
+resumes at 20/48). No other action — the multi-speaker question is closed
+pending PI ratification, and WS5/WS6/V3-audit all queue behind this run
+reaching 48/48 (~1 day at current pace, restart-dependent).
+
+**Queue**: 1 item — ratify fallback (c), the interview-formats-only E-rule
+amendment (evidence complete as of cycle 69). **Spend**: $0.
+
 ## 2026-08-03, cycle 70 (~02:12Z)
 
 **Interview-format diarization progressing cleanly**: 20/48 (up from 15),
