@@ -2,6 +2,42 @@
 
 _Maintained per PROTOCOL §10. Latest cycle at top._
 
+## 2026-08-03, cycle 79 (~22:12Z)
+
+**Protocol amendment list DRAFTED** (PROTOCOL_AMENDMENTS.md) — the
+PILOT_PLAN week-3 deliverable. Nothing is applied; each item is
+pilot-evidenced and awaits PI accept/modify/reject at the exit review.
+11 amendments across eligibility, pipeline config, analysis, power, and
+scope — plus an explicit "not amended" section recording that the blinding
+and peeking rules, the estimand framing, and the two-family structure all
+held and need no change.
+
+The two that most affect the full study's validity:
+- **B1**: pin the FULL transcription config, not just the model version —
+  thread count alone changes output 7-96% under load. A model version is
+  not sufficient to reproduce a corpus, which is the sort of thing a
+  replication would discover the hard way.
+- **D1**: the design passes §8.2 at n=24 (min detectable RR ~1.9) but
+  FAILS at its own n=18 floor (~2.1). The protocol should either raise
+  the floor to ~21 hosts or declare that dropping below it converts the
+  study to descriptive.
+
+**§5.5 meta-mention rule exercised**: 2 of 12 QA-clean fingerprint hits
+were flagged near AI references (one "realm" in a computational-language
+discussion, one "intricacies" beside a markets/AI passage) — the rule
+fires, at a rate the sensitivity analyses (0/20/50-word windows) can
+absorb. Fingerprint words actually occurring in host speech: realm (6),
+intricate (4), surpass (2). Nothing else in the frozen candidate list
+appeared at all in 157k host words, which is itself an Appendix A finding.
+
+**All agent-doable pilot work is now complete.** Remaining items are PI
+time, not agent time: V3 audit (~40 min, ready), exclusion decision
+(the audit answers it), rater onboarding, annotation-model pin. Cycles
+from here will be no-ops unless something arrives — per §10, no busywork.
+
+**Scorecard**: V1 PASS, V2 PASS, V3 audit-ready, V4 counts produced.
+**Spend**: $0 actual of $75 pilot cap.
+
 ## 2026-08-03, cycle 78 (~20:12Z)
 
 **WS8 FEASIBILITY MEMO DRAFTED** (WS8_FEASIBILITY.md) — the PROTOCOL §8.3
