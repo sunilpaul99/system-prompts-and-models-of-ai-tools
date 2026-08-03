@@ -3,6 +3,15 @@
 Compiled 2026-07-30 for the PI. Tiered by priority; within tiers, ordered by
 relevance to the pilot's two families (lexical H1-L, relational H1-R).
 
+> Cross-reference: `../LITERATURE.md` (planning-session scan, 2026-07-28) has
+> three items not listed below — the "norm leakage" perspective piece
+> (Communications Psychology 2026, nature.com/articles/s44271-026-00486-9;
+> proposes the exact construct H1-R tests and predicts effects in BOTH
+> directions, softening and bluntening — cite in §5.2 rationale alongside
+> Cheng et al.), the USC written-language homogenization study
+> (arXiv:2603.18161), and the Cognitive Spillover TOCHI experiments
+> (doi.org/10.1145/3805039). Merge the two files at write-up.
+
 ## Tier 1 — Direct hits: read before freeze (affects our design)
 
 1. **Yakura et al., "Empirical evidence of LLM's influence on human spoken

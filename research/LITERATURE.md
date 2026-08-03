@@ -1,6 +1,6 @@
 # Literature Scan
 
-Status: screening-level scan (targeted web searches, 2026-07-27/28), NOT a systematic review. Purpose: establish that the pilot's two questions are open, and anchor the protocol to published work. A fuller review belongs to the write-up phase; gaps are flagged at the bottom.
+Status: screening-level scan (targeted web searches, 2026-07-27/28), NOT a systematic review. **See also `pilot/LITERATURE.md`** — a prioritized reading list compiled independently by the pilot session (2026-07-30), deeper on theory (Pickering & Garrod, Pomerantz, accommodation theory) and on Tier-1 papers (Yakura v4's N=496 entrainment experiment; the Cheng et al. Science sycophancy paper). Unique to THIS file: the norm-leakage perspective piece (Communications Psychology 2026), the USC written-language homogenization study, and the Cognitive Spillover TOCHI experiments. The two documents should be merged during the write-up-phase systematic review. Purpose: establish that the pilot's two questions are open, and anchor the protocol to published work. A fuller review belongs to the write-up phase; gaps are flagged at the bottom.
 
 ## A. Lexical family — what's established
 
