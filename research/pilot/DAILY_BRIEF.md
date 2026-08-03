@@ -2,6 +2,23 @@
 
 _Maintained per PROTOCOL §10. Latest cycle at top._
 
+## 2026-08-03, cycle 70 (~02:12Z)
+
+**Interview-format diarization progressing cleanly**: 20/48 (up from 15),
+running unattended through a ~6h window. First Lex episodes now landing
+with plausible host shares (Lenat 0.299, Hauer 0.435 — interview range,
+k=2-3). Note: Lex has no published verbatim transcripts, so his episodes
+get plausibility checks rather than the ground-truth comparison EconTalk
+allowed; the PI V3 audit is where Lex attribution actually gets verified,
+and the audit sample should therefore weight Lex episodes more heavily
+than EconTalk's (which are already externally validated within ~2pp).
+
+No other action: the multi-speaker question is closed pending PI
+ratification, and everything downstream (WS5 recount, WS6 turn stats, V3
+audit export) waits on this run finishing 48/48.
+
+**Queue**: 1 item — ratify fallback (c). **Spend**: $0.
+
 ## 2026-08-03, cycle 69 (~00:12Z)
 
 **CONTROL RESULT IN — constraint is affirmatively harmful; the
