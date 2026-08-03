@@ -2,6 +2,55 @@
 
 _Maintained per PROTOCOL §10. Latest cycle at top._
 
+## 2026-08-03, cycle 74 (event-driven — DIARIZED CORPUS COMPLETE + first counts)
+
+**48/48 diarized.** WS5 recount and WS6 turn stats ran; a QA problem
+surfaced immediately and materially changes the numbers.
+
+**NEW V3 FINDING — implausible-share failures (2/32 interview episodes).**
+Weinstein #134 (share 0.999, sim 0.50) and Horton #478 (share 0.996,
+sim 0.30) diarized to ~100% HOST. The existing HOST_SIM_MIN=0.30 gate let
+them through because it only asks "is the best cluster close enough to the
+host?" and never "is the resulting SPLIT plausible?". Horton passed at
+sim=0.30 — exactly the threshold.
+**These 2 episodes hold 47.4% of all host words**, because a collapsed
+diarization sweeps GUEST speech into the host bucket. Any count computed
+over them is contaminated at the denominator.
+New QA rule implemented (ws3_qa_flags.py): for known two-voice formats a
+host share outside [0.15, 0.75] is a failure regardless of similarity.
+Flagged, reported, never silently dropped.
+
+**WS5 counts, both ways (descriptive only — pilot hosts carry NO exposure
+labels, so no exposure x feature contrast is computed, per §2):**
+
+| | eps | host words | fingerprint | placebo |
+|---|---|---|---|---|
+| as computed (contaminated) | 32 | 298,875 | 23 (7.7/100k) | 122 (40.8/100k) |
+| **QA-clean** | **30** | **157,243** | **12 (7.6/100k)** | **72 (45.8/100k)** |
+
+QA-clean coverage: econtalk era1 0.0/100k (0 occurrences in 35.6k words),
+econtalk era2 6.2, lex era1 5.0, lex era2 16.4. Reported as coverage, not
+as a result: n=2 hosts, no exposure labels, and era differences here are
+confounded with everything (guest mix, show format changes, episode
+length). The pilot's job is variance estimates, not effects.
+
+**WS6 disagreement-density input (the H1-R viability number):** median 36
+host turns/episode, 26.3/hour; at 5 episodes per host-half-year that is
+**~182 host turns per host-period**. If disagreement episodes run even
+5-10% of host turns, that clears the §7 minimum of 5 disagreement turns
+per period comfortably — H1-R looks estimable at pilot sampling, pending
+G1/G2 validation of the detector itself.
+
+**DECISION QUEUE (PI): 1 item.** Exclude the 2 implausible-share episodes
+from analysis (recommended), or attempt re-diarization first? Agent does
+not self-ratify exclusions. Note both are Lex episodes and one (Weinstein
+#134) is an enrollment reference — its failure is on the full episode, not
+the enrollment span, but that coincidence is worth your eye.
+
+**Scorecard**: V1 PASS, V2 PASS, V3 partial (interview validated within
+~2pp on EconTalk; 6.2% failure rate now quantified; PI audit pending),
+V4 counts produced. **Spend**: $0.
+
 ## 2026-08-03, cycle 73 (~10:12Z)
 
 **Restart #25** at 46/48 — two episodes short. Relaunched; ~1h to a
