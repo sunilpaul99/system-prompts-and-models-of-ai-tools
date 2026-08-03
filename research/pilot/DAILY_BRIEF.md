@@ -2,6 +2,38 @@
 
 _Maintained per PROTOCOL §10. Latest cycle at top._
 
+## 2026-08-03, cycle 75 (~14:12Z)
+
+**V3 AUDIT EXPORT READY — PI action available now** (V3_AUDIT_SHEET.md).
+20 two-minute clips, stratified host x era, interview formats only:
+14 Lex / 6 EconTalk. Lex is deliberately overweighted because EconTalk
+attribution is already externally validated against published human
+transcripts (~2pp), while Lex publishes none — the audit is his only
+validation route.
+
+Design choices worth noting:
+- **Blind labelling**: the sheet carries no pipeline answers; those sit in
+  audit/answer_key.json and are scored afterward.
+- **The two QA-flagged episodes are included UNMARKED.** The PI labels
+  them alongside the rest without knowing which they are, so the pending
+  exclusion decision is settled by ears rather than by the same heuristic
+  that flagged them.
+- Windows skip the first 120s (intros and sponsor reads are host-solo and
+  would flatter the pipeline).
+- Seeded and reproducible; clips live in scratchpad only (audio is not
+  committed, per §9). Say the word and I will send them directly.
+
+**Effort**: ~40 min (20 clips x 2 min), vs the ~1h budgeted.
+
+**Queue (2, both PI):**
+1. Exclude the 2 implausible-share episodes? — the audit above answers it
+   empirically; no need to decide before labelling.
+2. G1/G2 rater onboarding, whenever your rater is ready (rubric and sheet
+   already drafted).
+
+**Scorecard**: V1 PASS, V2 PASS, V3 audit-ready, V4 counts produced
+(QA-clean: 30 eps, 157k host words, fingerprint 7.6/100k). **Spend**: $0.
+
 ## 2026-08-03, cycle 74 (event-driven — DIARIZED CORPUS COMPLETE + first counts)
 
 **48/48 diarized.** WS5 recount and WS6 turn stats ran; a QA problem
