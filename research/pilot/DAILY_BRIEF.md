@@ -2,6 +2,30 @@
 
 _Maintained per PROTOCOL §10. Latest cycle at top._
 
+## 2026-08-03, cycle 71b (event-driven — PI ratification)
+
+**Fallback (c) RATIFIED by PI.** Multi-speaker/co-host formats declared
+NOT MEASURABLE with available tooling. Full record in DECISIONS.md.
+Applied this cycle:
+- ws5_count.py gains an exclusion flag; MBMBaM drops out of analytic
+  totals while remaining computable and reported separately (the
+  exclusion is visible in output, never silent).
+- V3 audit sample scope narrowed to interview formats, weighted toward
+  Lex (his episodes have no published verbatim transcripts, so the audit
+  is their only validation route).
+- E-rule amendment (eligibility = interview/two-voice formats) STAGED for
+  the freeze amendment pass — protocol text is not edited mid-flight per
+  §10; DECISIONS.md is the authority until freeze.
+- MBMBaM transcripts and diarization outputs retained in the repo as
+  evidence for the methods finding.
+
+**Decision queue: EMPTY.** Remaining PI time is scheduled work, not
+decisions: V3 audit (~1h, once the run completes), WS4 spot-verification
+(~1h, now confirmatory), G1/G2 gold labeling (6-8h, rater-dependent).
+
+**Coverage**: interview diarization running toward 48/48; WS5 recount,
+WS6 turn stats, and the audit export fire behind it.
+
 ## 2026-08-03, cycle 71 (~04:12Z)
 
 **Restart #24**; interview-format diarization relaunched (idempotent,

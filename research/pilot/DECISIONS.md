@@ -3,6 +3,49 @@
 Per PROTOCOL §10: every queued decision, its resolution, date, and where it
 took effect. Latest first.
 
+## 2026-08-03 — multi-speaker formats: fallback (c) ADOPTED
+
+**PI decision: multi-speaker/co-host formats are NOT MEASURABLE with
+available tooling.** Ratified 2026-08-03 on the completed paired
+experiment (DAILY_BRIEF cycles 59, 64-69).
+
+Evidence base:
+- ECAPA + agglomerative clustering: all three brothers pooled into one
+  cluster (host share 0.94-1.00) on 8/8 episodes.
+- pyannote speaker-diarization (community-1): correct three-way split in
+  **1 of 3** studio episodes (0.394/0.329/0.233); the other two collapsed
+  to ~0.62/0.31.
+- num_speakers=3 constraint: made things WORSE everywhere, including
+  destroying the one working episode (0.394 -> 0.979). Host-similarity
+  fell on that episode (0.85 -> 0.72), consistent with the surviving
+  cluster being a blend of voices.
+- Host IDENTIFICATION was reliable throughout (sim 0.83-0.89); the limit
+  is SEGMENTATION of closely-matched sibling voices, which sit nearer to
+  each other in embedding space than to any non-speech in the audio.
+- Decisive: no per-episode way to know which outcome occurred without
+  ground truth, so host-share noise would propagate into every rate
+  denominator in the relational battery.
+
+**Effects (staged for the freeze amendment pass; protocol is not edited
+mid-flight per §10):**
+1. E-rule amendment: eligibility restricted to interview / two-voice
+   conversational formats. Co-host and panel shows excluded from the
+   full-study panel, with this finding cited as the reason.
+2. Pilot P3 slot reported as **NOT MEASURABLE**, itself a WS8/Appendix C
+   deliverable rather than a gap.
+3. MBMBaM's 16 episodes: retained as a documented methods case; NOT
+   analysed for H1-L/H1-R. Their transcripts and diarization outputs stay
+   in the repo as evidence.
+4. V3 audit sample: interview formats only, weighted toward Lex (no
+   published verbatim transcripts, so the audit is his only validation).
+5. WS5/WS6 recounts: MBMBaM excluded from analytic totals, reported
+   separately if at all.
+
+**Appendix C (upgrade path, not a permanent limit):** episode 455 proves
+separation is achievable. A diarizer trained for closely-matched voices,
+or per-speaker enrollment of ALL co-hosts rather than the primary only,
+would reopen co-host formats for a better-resourced study.
+
 ## 2026-08-02 — multi-speaker diarization (V3 structural failure)
 
 **PI decision: option (b) — adopt pyannote/speaker-diarization-3.1.**

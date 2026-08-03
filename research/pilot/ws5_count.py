@@ -63,9 +63,16 @@ def count_episode(path, window=50):
             "counts": {f"{k[0]}:{k[1]}:{k[2]}": v for k, v in counts.items()},
             "hits": hits}
 
-def main(scratch, ddir="transcripts_diarized"):
-    out = []
+def main(scratch, ddir="transcripts_diarized", exclude=""):
+    """exclude: substring (e.g. "MBMBaM") dropped from analytic totals.
+
+    Per PI decision 2026-08-03 (DECISIONS.md), multi-speaker formats are
+    NOT MEASURABLE and are excluded from analysis; their counts remain
+    computable by omitting the flag, and are reported separately."""
+    out, skipped = [], []
     for p in sorted(glob.glob(os.path.join(scratch, ddir, "*.json"))):
+        if exclude and exclude.lower() in os.path.basename(p).lower():
+            skipped.append(os.path.basename(p)); continue
         r = count_episode(p)
         out.append(r)
         fp = sum(v for k, v in r["counts"].items() if k.startswith("fingerprint"))
@@ -77,6 +84,9 @@ def main(scratch, ddir="transcripts_diarized"):
     pl = sum(v for r in out for k, v in r["counts"].items() if k.startswith("placebo"))
     print(f"\nTOTAL: {hw} host words | fingerprint {fp} ({fp/max(hw,1)*1e5:.1f}/100k) "
           f"| placebo {pl} ({pl/max(hw,1)*1e5:.1f}/100k)")
+    if skipped:
+        print(f"EXCLUDED from totals ({len(skipped)} episodes, PI decision "
+              f"2026-08-03, multi-speaker NOT MEASURABLE)")
 
 if __name__ == "__main__":
     main(*sys.argv[1:])
