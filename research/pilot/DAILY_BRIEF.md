@@ -2,6 +2,55 @@
 
 _Maintained per PROTOCOL §10. Latest cycle at top._
 
+## 2026-08-03, cycle 76 (~16:12Z)
+
+**WS7 POWER SIMULATION RUN — §8.2 gate PASSES for the lexical family,
+narrowly.** (ws7_power.py, committed and runnable; results JSON alongside.)
+
+Inputs are pilot-MEASURED, not assumed: baseline 7.6 fingerprint
+occurrences per 100k host words, ~25k host words per host-period (5
+episodes x ~5k), 7 pre-periods / 6 post.
+
+**The number that matters: expected count is 1.90 per host-period.** The
+lexical outcome is extremely sparse — about 13 pre-period and 11
+post-period occurrences per host in total. Everything below follows from
+that.
+
+| | RR=1.5 | RR=2.0 | RR=3.0 |
+|---|---|---|---|
+| n=24, host SD 0.3 | 0.51 | **0.93** | 1.00 |
+| n=24, host SD 0.6 | 0.49 | **0.92** | 1.00 |
+| n=18, host SD 0.3 | 0.42 | 0.85 | 1.00 |
+| n=18, host SD 0.6 | 0.36 | 0.77 | 0.99 |
+
+**Minimum detectable RR (80% power) ~= 1.9 at n=24, ~2.1 at n=18.**
+§8.2 requires <=2.0, so the design passes at n=24 and FAILS at the n=18
+floor — worth stating plainly, since attrition to 18 hosts is a real risk
+and would put the study below its own gate.
+
+**Honest limitation, stated rather than buried:** the pilot has TWO
+interview hosts, so between-host variance cannot be estimated from it.
+Rather than quote a point estimate from n=2, the simulation sweeps host
+SD (0.3 and 0.6) and reports power across it. Reassuringly, power is
+insensitive to that choice here (0.93 vs 0.92 at RR=2.0) because sparsity,
+not host heterogeneity, dominates.
+
+**Design implications for the memo:** the study can detect a doubling of
+fingerprint use but not a 50% increase. Since Yakura et al. report
+population-level shifts well below 2x, an individual-level pilot at this
+size is powered only for a LARGE personal effect — exactly the "worth a
+real study" screening question, and precisely why §8.1 has a GO(weak)
+row. Levers if more power is wanted: more episodes per period (words is
+the binding constraint, and it is linear), a broader feature list, or
+coarser periods.
+
+**Relational family (H1-R) power: still blocked** — needs disagreement-turn
+density from the Stage-1 annotator, which needs the model pin + cost
+estimate (PI item).
+
+**Queue (PI)**: V3 audit (~40 min, ready); exclusion decision (answered by
+the audit); rater onboarding; annotation-model pin. **Spend**: $0.
+
 ## 2026-08-03, cycle 75 (~14:12Z)
 
 **V3 AUDIT EXPORT READY — PI action available now** (V3_AUDIT_SHEET.md).
