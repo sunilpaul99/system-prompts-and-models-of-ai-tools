@@ -2,6 +2,24 @@
 
 _Maintained per PROTOCOL §10. Latest cycle at top._
 
+## 2026-08-03, cycle 73 (~10:12Z)
+
+**Restart #25** at 46/48 — two episodes short. Relaunched; ~1h to a
+complete diarized corpus.
+
+**On deck the moment 48/48 lands** (all protocol-derivable, no PI input):
+1. WS5 recount on the deterministic corpus, MBMBaM excluded per the
+   ratified decision (exclusion printed, not silent).
+2. WS6 turn reconstruction + disagreement-density estimate on interview
+   formats — this produces the number that decides H1-R's viability
+   (disagreement turns per host-period at 5-episode sampling; PROTOCOL
+   §7 coarsens to host-year if >30% of periods fall under 5 turns).
+3. Stratified V3 audit export, interview-only and Lex-weighted, for the
+   PI's ~1h.
+
+**Scorecard**: V1 PASS, V2 PASS, V3 partial (pending audit), V4 pending
+recount. **Queue**: empty. **Spend**: $0 of $75.
+
 ## 2026-08-03, cycle 72 (~08:12Z)
 
 **Interview diarization at 41/48**, running through a ~10h window (best
