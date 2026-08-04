@@ -2,6 +2,34 @@
 
 _Maintained per PROTOCOL §10. Latest cycle at top._
 
+## 2026-08-03, cycle 80 (~00:12Z) — HOLDING PATTERN
+
+No agent-actionable work remains. No background jobs running, working tree
+clean, everything committed and pushed. Per §10 and the loop's own rule, no
+busywork changes made this cycle.
+
+**Everything now waits on PI time, not agent time:**
+1. V3 audit — ~40 min, ready (V3_AUDIT_SHEET.md, 20 clips). Also settles
+   item 2 empirically.
+2. Exclusion decision for the 2 implausible-share episodes.
+3. Rater onboarding for G1/G2 (rubric + sheet drafted).
+4. Annotation-model pin (cost measured: $93 Haiku / $280 Sonnet full study).
+
+**Pilot state at rest:**
+- Corpus: 48/48 transcribed under one pinned deterministic config;
+  48/48 diarized; 2 QA-flagged.
+- Gates: V1 PASS (0 fingerprint ins/del in 178k aligned words), V2 PASS
+  (0.39% count reproducibility; chunked config 1.27%), V3 audit-ready,
+  V4 counts produced.
+- Deliverables complete: WS8 feasibility memo, WS7 power simulation
+  (min detectable RR ~1.9 at n=24), protocol amendment list (11 items),
+  literature review, decision log.
+- Spend: $0 actual of $75 pilot cap.
+
+**Note on future cycles:** to avoid turning this log into noise, subsequent
+no-op cycles will NOT add entries. The next brief entry will appear when
+something actually changes — PI input, a new instruction, or a job result.
+
 ## 2026-08-03, cycle 79 (~22:12Z)
 
 **Protocol amendment list DRAFTED** (PROTOCOL_AMENDMENTS.md) — the
