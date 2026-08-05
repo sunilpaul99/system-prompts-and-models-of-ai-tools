@@ -2,6 +2,37 @@
 
 _Maintained per PROTOCOL §10. Latest cycle at top._
 
+## 2026-08-05, cycle 81 — V3 AUDIT PACKET DELIVERED TO PI
+
+First substantive change since cycle 80. The PI stated the audit begins
+tomorrow (2026-08-06), so the audit materials were packaged and handed off.
+
+**Done this cycle:**
+- Re-encoded the 20 audit clips from wav to 64 kbps mono mp3 (77 MB → 16 MB)
+  and verified all 20 decode to exactly 120.0 s.
+- Wrote `V3_AUDIT_HOWTO.md` — procedure, the blind rule, per-column
+  definitions, and what each gate outcome means (including that a FAIL is a
+  reportable pilot finding, not a rater error).
+- Added `audit_labels_TEMPLATE.csv` — one row per clip, host named per row
+  so the PI never has to infer which voice is the host.
+- Shipped `v3_audit_packet.zip` (clips + CSV + HOWTO + sheet) directly to
+  the PI. **`answer_key.json` was deliberately excluded from the packet** so
+  the blind constraint cannot be violated by accident; it stays in the
+  session scratchpad.
+- Flagged to the PI that the container is ephemeral: the 3.9 GB source audio
+  will not survive a reclaim, so the delivered zip is the durable copy.
+
+**Still PI-blocked** (unchanged): V3 labels, the exclusion decision (which
+the audit settles empirically), rater onboarding, annotation-model pin.
+
+**Gates**: V1 PASS · V2 PASS · V3 audit-ready, packet with PI · V4 counts
+produced. **Coverage**: 48/48 transcribed and diarized; 30 QA-clean episodes
+/ 157,243 host words in analytic totals. **Spend**: $0 of $75.
+
+**On return of the filled CSV**, the downstream chain is: score `host_pct`
+against `audit/answer_key.json` → V3 report → apply or reject the two
+exclusions per the PI's blind labels, recorded in DECISIONS.md.
+
 ## 2026-08-03, cycle 80 (~00:12Z) — HOLDING PATTERN
 
 No agent-actionable work remains. No background jobs running, working tree
