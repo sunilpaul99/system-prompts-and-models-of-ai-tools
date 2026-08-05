@@ -1,8 +1,32 @@
 # SpaceX (NASDAQ: SPCX) Valuation Analysis
 
-**Prepared: August 4, 2026** — the day of SpaceX's first-ever public earnings report (Q2 2026, after market close), two days before an in-kind venture distribution of SPCX shares.
+**Prepared: August 4, 2026; updated August 5, 2026** after SpaceX's first-ever public earnings report (Q2 2026, reported Aug 4 after close), one day before an in-kind venture distribution of SPCX shares and the first major lockup unlock (both August 6).
 
 > This is an analytical exercise, not investment, tax, or legal advice. All figures are drawn from public reporting and are approximate; private-company history in particular is based on press accounts of the S-1 and tender offers.
+
+---
+
+## 0. UPDATE — Q2 2026 results (reported August 4, after close)
+
+SpaceX's first public earnings report was a **double beat with a violent two-act market reaction**: the stock fell ~8% after hours on capex shock, then reversed to close-in on **~$125 on August 5 (+9% on the day, range $115.72–$126.71)** as the market digested the growth and the guidance raise.
+
+**The quarter:**
+- **Revenue $7.81B, up 92% YoY** (vs. ~$6.8–6.9B expected) and up 66% sequentially from Q1's $4.69B.
+- **Net loss narrowed to $541M** (−$0.09/share vs. −$0.26 expected), from a $1.0B loss a year ago; **operating loss just $143M**, from −$970M.
+- **Connectivity:** revenue **$4.29B (+66% YoY)**, operating income **$1.66B (~39% margin, margin holding)**; **12M subscribers (+17% QoQ, 2× YoY)**; **ARPU $66 — flat sequentially** for the first time after two years of decline (down from $85 a year ago).
+- **AI:** revenue **$2.56B, up 247% YoY** — annualizing above $10B — with the implied segment operating loss narrowing to roughly **$1.2–1.3B** (from $2.47B in Q1). The CFO disclosed **$6.7B of new cloud-services contracts** signed in the first weeks of Q3, ramping from October. Backlog across the company hit **$47.5B**.
+- **Space:** revenue ~$0.96B; operating loss $542M — the smallest story of the quarter.
+- **The shock: capex of $18.37B in a single quarter** (up ~6× YoY), of which **$15.83B was AI**. Musk said data centers will be built exclusively on Nvidia chips, targeting **>2 GW of compute by year-end 2026, scaling toward 10 GW**. Free cash flow is now on the order of **−$15B+ per quarter**.
+- **Balance sheet: ~$100B in cash and marketable securities** (largely the IPO raise) — roughly 6–7 quarters of runway at the current burn before new capital is needed.
+- SpaceX **raised full-year guidance**, its first raise as a public company.
+
+**What this changes in the analysis below:**
+1. **The base case moves up, but less than the stock did.** The two genuinely new fundamental facts are (a) ARPU stabilizing while subscribers grew 17% in a quarter — this de-risks the Starlink base case materially — and (b) AI revenue compounding at a pace that makes the segment's $250B merger mark look less fanciful. I'd revise my sum-of-the-parts base case from ~$65–85 to roughly **$75–95/share**, driven by higher Starlink revenue confidence and a higher probability weight on the AI segment.
+2. **But the capex number is the new dominant risk.** $60B+/year of annualized capex means the $100B war chest is a countdown clock: SpaceX has effectively converted itself into a hyperscaler mid-buildout. The bull case now requires those AI data centers to earn hyperscaler-like returns; the bear case is that this is capex-fueled revenue (xAI buying growth) that forces a large dilutive raise by 2028. Note the circularity risk: a company spending $60B/yr on Nvidia chips reporting 247% AI revenue growth is the same pattern the market has begun questioning across the AI capex complex.
+3. **At ~$125, the reverse-DCF hurdle got harder, not easier.** Implied equity value is now ~$1.6T, requiring roughly **$110B of 2031 net income** (at 25× exit, 12% return) — the print was good, but one strong quarter does not close a gap of that size. The stock remains priced for the Morgan Stanley trajectory.
+4. **The supply event is now, and it's bigger than trailed.** The first unlock releases **~911.5M shares (~$116B, ~7% of the company) on August 6** — the same day as your distribution — with the tranche schedule below unchanged after that. A +9% tape into a $116B unlock is exactly the setup where mechanical distribution-driven selling meets fresh momentum buyers; expect elevated volatility and volume for several sessions rather than a clean directional move.
+
+The original analysis follows; figures there predate the Q2 print except where noted.
 
 ---
 
@@ -119,7 +143,7 @@ Your suspicion is structurally correct, with important nuance:
 
 **The supply schedule** (per lockup trackers and IPO documents as reported):
 - IPO float was tiny — roughly **4%** of shares (~$75B sold at $135).
-- **~20% tranche unlocks after tonight's Q2 earnings** (the report itself is the trigger).
+- **First earnings-triggered tranche: ~911.5M shares (~$116B, ~7% of the company) unlock August 6** — confirmed post-earnings; the same day as your distribution.
 - **~7% tranches every 2–4 weeks, August through October**; public float reaches roughly **one-third of the company by October 31**.
 - **~28% tranche after Q3 earnings** (early November).
 - **Remainder of the 180-day pool on December 8, 2026.**
@@ -139,9 +163,9 @@ Your suspicion is structurally correct, with important nuance:
 
 ## 9. Bottom line
 
-1. **Is it significantly overvalued or undervalued?** On visible, underwritable cash flows, **overvalued**: fundamental support is roughly **$50–75/share** against a ~$114 price, and my sum-of-the-parts base case is **~$65–85**. The current price is defensible only with near-full credit for the AI segment and on-schedule Starship commercialization. It is simultaneously far below the Street's syndicate-bank targets — but those targets require believing in a 2030 income statement that does not yet exist.
+1. **Is it significantly overvalued or undervalued?** On visible, underwritable cash flows, **overvalued**: fundamental support is roughly **$50–75/share** against a ~$114–125 price, and my sum-of-the-parts base case is **~$65–85** (revised to **~$75–95** after the Q2 print — see Section 0). The current price is defensible only with near-full credit for the AI segment and on-schedule Starship commercialization. It is simultaneously far below the Street's syndicate-bank targets — but those targets require believing in a 2030 income statement that does not yet exist.
 2. **Will lockup supply pressure the stock?** More likely than not, through at least December 8, 2026, with a second overhang at Musk's June 2027 unlock. The effect is partially priced after a 50% drawdown, but the float math (4% → ~33% by Halloween → ~50%+ by year-end) is unusually extreme even by mega-IPO standards.
-3. **Timing note for Thursday:** your shares arrive two days after the first earnings report and the first big unlock tranche — into maximum-uncertainty, maximum-supply conditions. Whatever you decide, decide it on the valuation framework above rather than on the tape of the next few weeks, which will be dominated by supply mechanics rather than fundamentals.
+3. **Timing note for Thursday:** your shares now arrive on the *same day* as the first big unlock tranche (~$116B of stock), one day after a +9% post-earnings rally — into maximum-supply, maximum-volatility conditions. Whatever you decide, decide it on the valuation framework above rather than on the tape of the next few weeks, which will be dominated by supply mechanics rather than fundamentals.
 4. **On cost basis** (verify with your tax advisor): for in-kind distributions from a venture fund (partnership), your basis is generally the *fund's carryover basis* in the shares (often very low, dating to early rounds), not the value on distribution day, and the holding period tacks — meaning a sale would likely realize a large long-term gain. This materially changes the sell-vs-hold calculus versus a fresh purchase, and is worth resolving before Thursday.
 
 ---
@@ -169,3 +193,13 @@ Your suspicion is structurally correct, with important nuance:
 - [The Next Web — Starlink's cash-machine math is getting harder](https://thenextweb.com/news/starlink-is-spacexs-cash-machine-but-the-maths-is-getting-harder)
 - [ValueAdd VC — Starlink revenue, subscribers, ARPU](https://valueaddvc.com/blog/starlink-revenue-2025-2026-subscriber-count-arpu-and-the-path-to-profitability)
 - [Roic — Starlink ARPU falls 18% as base quadruples](https://www.roic.ai/news/starlinks-revenue-per-user-falls-18-as-customer-base-quadruples-signaling-shift-to-volume-over-pricing-04-29-2026)
+
+**Q2 2026 earnings update (Aug 4–5):**
+- [SpaceX — Q2 2026 results press release (PDF)](https://s21.q4cdn.com/184289198/files/doc_financials/2026/q2/SpaceX-Reports-Second-Quarter-2026-Results.pdf)
+- [Fortune — Revenue surges 92% to $7.8B, ~$1B beat](https://fortune.com/2026/08/04/spacex-revenue-surges-92-to-7-8-billion-blowing-past-wall-street-expectations-by-nearly-1-billion/)
+- [Benzinga — Double beat, backlog $47.5B](https://www.benzinga.com/markets/earnings/26/08/60931182/spacex-q2-highlights-double-beat-revenue-up-92-backlog-hits-47-5-billion)
+- [TradingKey — AI revenue +247%, capex spike, after-hours drop](https://www.tradingkey.com/analysis/stocks/us-stocks/262074436-spacex-q2-revenue-92-percent-ai-income-247-percent-capex-double-stock-drop-tradingkey)
+- [Investing.com — Earnings call transcript coverage](https://www.investing.com/news/transcripts/earnings-call-transcript-spacex-beats-revenue-estimates-in-q2-2026-shares-swing-93CH-4836052)
+- [TechTimes — First-ever guidance raise as $116B lockup looms](https://www.techtimes.com/articles/323056/20260804/spacex-q2-beat-raises-full-year-guidance-first-time-116b-lock-looms.htm)
+- [StartupHub — Aug 6 unlock: 911.5M shares, ~$116B](https://www.startuphub.ai/ai-news/ipo-watch/2026/spacex-spcx-earnings-lockup-august-2026)
+- [CNBC — Q2 earnings live updates](https://www.cnbc.com/2026/08/04/spacex-spcx-earnings-live-updates-q2-2026.html)
