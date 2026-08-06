@@ -28,6 +28,20 @@ SpaceX's first public earnings report was a **double beat with a violent two-act
 
 The original analysis follows; figures there predate the Q2 print except where noted.
 
+### 0.5 What the earnings call itself revealed (August 4)
+
+The transcript and call coverage add substance the press release didn't:
+
+1. **The AI segment's business model is now visible — and it's a "neocloud," not (yet) an AI lab winning on models.** The 247% AI revenue growth is driven by **renting compute to other AI companies — including Anthropic and Google, on leases reported at roughly $26B/year of contracted capacity** — plus the $6.7B of cloud contracts ramping from October. SpaceX's AI revenue is thus substantially its *competitors* paying for capacity in its data centers. That makes the revenue real and contracted, but it is CoreWeave-style infrastructure economics (capital-intensive, customer-concentrated, priced by others' capex cycles), not software-margin lab economics — a distinction that matters enormously for what multiple the segment deserves. There is also an obvious circularity exposure: this revenue exists only as long as the industry-wide AI capex boom does.
+2. **SpaceX exercised its option to acquire Cursor (Anysphere) for $60B.** An April agreement gave SpaceX the right to buy Cursor for $60B or pay $10B for a partnership; it chose the acquisition. This is a very large consideration for a coding-tool company and — if stock-funded — meaningful dilution (~4% at current cap). The CFO's year-end revenue target explicitly "assumes contributions from Cursor."
+3. **The $100B ARR claim deserves heavy discounting.** CFO Bret Johnsen carefully framed a path to a **$100B annualized revenue run-rate by December** (current run-rate: ~$31B) built from contracted cloud capacity coming online, Cursor, and Starlink growth. Musk then cut in to remove the hedging: the $100B "is not a question mark… that's what we would achieve if we basically did nothing." Even granting the contracted backlog, tripling the run-rate in five months requires every ramp to land on schedule; treat this as contracted-capacity-annualized arithmetic plus Musk-time, not guidance in the conventional sense.
+4. **A pattern ran through the whole call: executives gave careful targets and Musk publicly escalated each one in real time** — including a claim of **$1 trillion in revenue by 2030** (three times Morgan Stanley's bullish $319B model) and a lunar-robots aside that Fortune's coverage called "totally nuts." For a company whose valuation dispute is entirely about which promises to believe, the first public call demonstrated that official guidance and CEO ambition will be running on separate tracks.
+5. **Management claimed sub-one-year payback on AI compute capex.** No hyperscaler claims anything close (typical GPU fleet economics assume 4–6 year useful lives). If remotely true, the $18B/quarter capex is self-funding and the bear case collapses; the claim is unverifiable from disclosed segment data and should be treated as the single most important number to test in Q3/Q4 filings.
+6. **Starship news was concretely positive:** Flight 13's heat-shield problem "appears to be solved"; **Flight 14 is scheduled for end of August with an upper-stage catch attempt and the first operational payload deployment — Starlink V3 satellites**. Management said ~1,000 V3 satellites (achievable ~Q2 2027) trigger a ~20× broadband capacity step-change, and a standalone **Starlink Mobile service is planned for end of 2027**.
+7. **Adjusted EBITDA was $3.5B (+191% YoY)** — the cash engine is improving even as capex swamps it.
+
+**Valuation read-through:** the call strengthens the *revenue* case for the AI segment while weakening the *quality* case — contracted neocloud revenue plus a $60B coding-tool acquisition is a different (and lower-multiple) asset than the "xAI as top-tier lab" story, and the gap between CFO framing and CEO claims is itself a risk factor. I leave the revised base case at ~$75–95/share: the Starship and Starlink disclosures push up, the revenue-quality and dilution disclosures push down.
+
 ---
 
 ## 1. Executive summary
