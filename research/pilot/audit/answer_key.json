@@ -1,0 +1,542 @@
+[
+ {
+  "id": "A01",
+  "episode": "2020-10-30__134_Eric_Weinstein_On_the_Nature_of_Good_and_Evil_Genius_an",
+  "flagged": true,
+  "window": [
+   6036.2,
+   6156.2
+  ],
+  "pipeline_runs": [
+   {
+    "spk": "HOST",
+    "start": 6036.7,
+    "end": 6156.1
+   }
+  ]
+ },
+ {
+  "id": "A02",
+  "episode": "2025-08-24__478_Scott_Horton_The_Case_Against_War_and_the_Military_Indu",
+  "flagged": true,
+  "window": [
+   22174.9,
+   22294.9
+  ],
+  "pipeline_runs": [
+   {
+    "spk": "HOST",
+    "start": 22174.8,
+    "end": 22294.6
+   }
+  ]
+ },
+ {
+  "id": "A03",
+  "episode": "2021-11-30__245_Tom_Brands_Iowa_Wrestling",
+  "flagged": false,
+  "window": [
+   3201.2,
+   3321.2
+  ],
+  "pipeline_runs": [
+   {
+    "spk": "S2",
+    "start": 3201.2,
+    "end": 3256.1
+   },
+   {
+    "spk": "HOST",
+    "start": 3256.1,
+    "end": 3265.4
+   },
+   {
+    "spk": "S2",
+    "start": 3265.4,
+    "end": 3276.4
+   },
+   {
+    "spk": "HOST",
+    "start": 3277.2,
+    "end": 3289.6
+   },
+   {
+    "spk": "S2",
+    "start": 3289.6,
+    "end": 3307.1
+   },
+   {
+    "spk": "S2",
+    "start": 3308.3,
+    "end": 3321.3
+   }
+  ]
+ },
+ {
+  "id": "A04",
+  "episode": "2020-11-16__139_Andrew_Huberman_Neuroscience_of_Optimal_Performance",
+  "flagged": false,
+  "window": [
+   9075.8,
+   9195.8
+  ],
+  "pipeline_runs": [
+   {
+    "spk": "S1",
+    "start": 9077.4,
+    "end": 9195.8
+   }
+  ]
+ },
+ {
+  "id": "A05",
+  "episode": "2021-11-28__244_Robert_Crews_Afghanistan_Taliban_Bin_Laden_and_War_in_t",
+  "flagged": false,
+  "window": [
+   9185.2,
+   9305.2
+  ],
+  "pipeline_runs": [
+   {
+    "spk": "S0",
+    "start": 9185.3,
+    "end": 9251.5
+   },
+   {
+    "spk": "HOST",
+    "start": 9251.9,
+    "end": 9273.0
+   },
+   {
+    "spk": "S0",
+    "start": 9274.3,
+    "end": 9305.2
+   }
+  ]
+ },
+ {
+  "id": "A06",
+  "episode": "2021-02-23__163_Eric_Weinstein_Difficult_Conversations_Freedom_of_Speec",
+  "flagged": false,
+  "window": [
+   9204.7,
+   9324.7
+  ],
+  "pipeline_runs": [
+   {
+    "spk": "S2",
+    "start": 9204.6,
+    "end": 9210.1
+   },
+   {
+    "spk": "HOST",
+    "start": 9210.1,
+    "end": 9219.7
+   },
+   {
+    "spk": "S2",
+    "start": 9221.0,
+    "end": 9232.5
+   },
+   {
+    "spk": "HOST",
+    "start": 9233.5,
+    "end": 9253.5
+   },
+   {
+    "spk": "HOST",
+    "start": 9256.3,
+    "end": 9275.8
+   },
+   {
+    "spk": "S2",
+    "start": 9277.3,
+    "end": 9324.4
+   }
+  ]
+ },
+ {
+  "id": "A07",
+  "episode": "2020-03-21__82_Simon_Sinek_Leadership_Hard_Work_Optimism_and_the_Infini",
+  "flagged": false,
+  "window": [
+   1480.2,
+   1600.2
+  ],
+  "pipeline_runs": [
+   {
+    "spk": "HOST",
+    "start": 1480.0,
+    "end": 1529.9
+   },
+   {
+    "spk": "S1",
+    "start": 1529.9,
+    "end": 1600.1
+   }
+  ]
+ },
+ {
+  "id": "A08",
+  "episode": "2021-09-30__227_Sean_Kelly_Existentialism_Nihilism_and_the_Search_for_M",
+  "flagged": false,
+  "window": [
+   1257.7,
+   1377.7
+  ],
+  "pipeline_runs": [
+   {
+    "spk": "S1",
+    "start": 1257.6,
+    "end": 1290.5
+   },
+   {
+    "spk": "HOST",
+    "start": 1290.5,
+    "end": 1310.6
+   },
+   {
+    "spk": "S1",
+    "start": 1311.0,
+    "end": 1378.1
+   }
+  ]
+ },
+ {
+  "id": "A09",
+  "episode": "2025-10-01__482_Pavel_Durov_Telegram_Freedom_Censorship_Money_Power_Hum",
+  "flagged": false,
+  "window": [
+   7179.5,
+   7299.5
+  ],
+  "pipeline_runs": [
+   {
+    "spk": "S2",
+    "start": 7180.3,
+    "end": 7191.1
+   },
+   {
+    "spk": "S2",
+    "start": 7191.8,
+    "end": 7294.4
+   }
+  ]
+ },
+ {
+  "id": "A10",
+  "episode": "2025-08-13__477_Keyu_Jin_China_s_Economy_Tariffs_Trade_Trump_Communism_",
+  "flagged": false,
+  "window": [
+   3695.9,
+   3815.9
+  ],
+  "pipeline_runs": [
+   {
+    "spk": "HOST",
+    "start": 3698.4,
+    "end": 3719.6
+   },
+   {
+    "spk": "S1",
+    "start": 3720.0,
+    "end": 3738.1
+   },
+   {
+    "spk": "HOST",
+    "start": 3738.7,
+    "end": 3763.3
+   },
+   {
+    "spk": "S1",
+    "start": 3763.9,
+    "end": 3792.8
+   },
+   {
+    "spk": "HOST",
+    "start": 3792.8,
+    "end": 3796.8
+   },
+   {
+    "spk": "S1",
+    "start": 3797.0,
+    "end": 3815.5
+   }
+  ]
+ },
+ {
+  "id": "A11",
+  "episode": "2023-09-10__395_Walter_Isaacson_Elon_Musk_Steve_Jobs_Einstein_Da_Vinci_",
+  "flagged": false,
+  "window": [
+   7234.2,
+   7354.2
+  ],
+  "pipeline_runs": [
+   {
+    "spk": "S1",
+    "start": 7234.6,
+    "end": 7237.9
+   },
+   {
+    "spk": "HOST",
+    "start": 7239.9,
+    "end": 7257.5
+   },
+   {
+    "spk": "S1",
+    "start": 7259.0,
+    "end": 7354.3
+   }
+  ]
+ },
+ {
+  "id": "A12",
+  "episode": "2024-04-17__426_Edward_Gibson_Human_Language_Psycholinguistics_Syntax_G",
+  "flagged": false,
+  "window": [
+   8113.3,
+   8233.3
+  ],
+  "pipeline_runs": [
+   {
+    "spk": "S0",
+    "start": 8113.3,
+    "end": 8151.8
+   },
+   {
+    "spk": "HOST",
+    "start": 8156.4,
+    "end": 8159.6
+   },
+   {
+    "spk": "S0",
+    "start": 8159.6,
+    "end": 8193.1
+   },
+   {
+    "spk": "HOST",
+    "start": 8193.1,
+    "end": 8204.6
+   },
+   {
+    "spk": "HOST",
+    "start": 8205.7,
+    "end": 8212.5
+   },
+   {
+    "spk": "S0",
+    "start": 8213.6,
+    "end": 8233.4
+   }
+  ]
+ },
+ {
+  "id": "A13",
+  "episode": "2024-03-25__421_Dana_White_UFC_Fighting_Khabib_Conor_Tyson_Ali_Rogan_El",
+  "flagged": false,
+  "window": [
+   3538.2,
+   3658.2
+  ],
+  "pipeline_runs": [
+   {
+    "spk": "S2",
+    "start": 3538.5,
+    "end": 3551.8
+   },
+   {
+    "spk": "HOST",
+    "start": 3551.8,
+    "end": 3555.3
+   },
+   {
+    "spk": "S2",
+    "start": 3555.3,
+    "end": 3642.2
+   },
+   {
+    "spk": "HOST",
+    "start": 3642.8,
+    "end": 3648.2
+   },
+   {
+    "spk": "S2",
+    "start": 3649.2,
+    "end": 3658.3
+   }
+  ]
+ },
+ {
+  "id": "A14",
+  "episode": "2023-06-02__381_Chris_Lattner_Future_of_Programming_and_AI",
+  "flagged": false,
+  "window": [
+   1053.4,
+   1173.4
+  ],
+  "pipeline_runs": [
+   {
+    "spk": "S1",
+    "start": 1053.0,
+    "end": 1112.7
+   },
+   {
+    "spk": "HOST",
+    "start": 1113.2,
+    "end": 1125.0
+   },
+   {
+    "spk": "S1",
+    "start": 1125.0,
+    "end": 1141.9
+   },
+   {
+    "spk": "HOST",
+    "start": 1141.9,
+    "end": 1150.9
+   },
+   {
+    "spk": "S1",
+    "start": 1150.9,
+    "end": 1173.4
+   }
+  ]
+ },
+ {
+  "id": "A15",
+  "episode": "2020-09-28_Agnes_Callard_on_Aspiration",
+  "flagged": false,
+  "window": [
+   4551.8,
+   4671.8
+  ],
+  "pipeline_runs": [
+   {
+    "spk": "S2",
+    "start": 4549.7,
+    "end": 4574.8
+   },
+   {
+    "spk": "HOST",
+    "start": 4574.8,
+    "end": 4623.0
+   },
+   {
+    "spk": "S2",
+    "start": 4623.0,
+    "end": 4671.8
+   }
+  ]
+ },
+ {
+  "id": "A16",
+  "episode": "2019-05-20_Mary_Hirschfeld_on_Economics_Culture_and_Aquinas_and_the_Mar",
+  "flagged": false,
+  "window": [
+   4397.0,
+   4517.0
+  ],
+  "pipeline_runs": [
+   {
+    "spk": "S1",
+    "start": 4400.7,
+    "end": 4492.9
+   },
+   {
+    "spk": "HOST",
+    "start": 4493.4,
+    "end": 4516.8
+   }
+  ]
+ },
+ {
+  "id": "A17",
+  "episode": "2019-06-10_Bjorn_Lomborg_on_the_Costs_and_Benefits_of_Attacking_Climate",
+  "flagged": false,
+  "window": [
+   1827.5,
+   1947.5
+  ],
+  "pipeline_runs": [
+   {
+    "spk": "HOST",
+    "start": 1827.7,
+    "end": 1834.9
+   },
+   {
+    "spk": "S0",
+    "start": 1834.9,
+    "end": 1947.6
+   }
+  ]
+ },
+ {
+  "id": "A18",
+  "episode": "2024-11-25_Tyler_Cowen_on_Life_and_Fate",
+  "flagged": false,
+  "window": [
+   2133.8,
+   2253.8
+  ],
+  "pipeline_runs": [
+   {
+    "spk": "HOST",
+    "start": 2138.3,
+    "end": 2177.2
+   },
+   {
+    "spk": "S1",
+    "start": 2179.2,
+    "end": 2206.9
+   },
+   {
+    "spk": "HOST",
+    "start": 2207.1,
+    "end": 2253.8
+   }
+  ]
+ },
+ {
+  "id": "A19",
+  "episode": "2025-09-08_How_Teams_Succeed_with_Colin_Fisher_",
+  "flagged": false,
+  "window": [
+   2440.2,
+   2560.2
+  ],
+  "pipeline_runs": [
+   {
+    "spk": "S0",
+    "start": 2440.1,
+    "end": 2509.8
+   },
+   {
+    "spk": "HOST",
+    "start": 2511.1,
+    "end": 2560.1
+   }
+  ]
+ },
+ {
+  "id": "A20",
+  "episode": "2025-06-30_The_Deceptive_Power_of_Maps_with_Paulina_Rowinska_",
+  "flagged": false,
+  "window": [
+   747.7,
+   867.7
+  ],
+  "pipeline_runs": [
+   {
+    "spk": "HOST",
+    "start": 747.7,
+    "end": 820.4
+   },
+   {
+    "spk": "S2",
+    "start": 822.5,
+    "end": 867.6
+   }
+  ]
+ }
+]

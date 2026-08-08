@@ -2,6 +2,40 @@
 
 _Maintained per PROTOCOL §10. Latest cycle at top._
 
+## 2026-08-08, cycle 82 — DURABILITY PASS BEFORE PAUSING THE LOOP
+
+PI proposed pausing the scheduled cadence until the V3 audit is done. That
+is correct on the work itself — 20+ consecutive cycles have been verified
+no-ops — but it exposed a risk the cadence had been masking: **the pilot's
+derived artifacts lived only in the ephemeral scratchpad.** A container
+reclaim during a multi-day pause would have destroyed `answer_key.json`
+(making the audit unscorable), the diarized corpus, and the WS5 counts —
+costing days of CPU to rebuild, or making the audit non-reproducible.
+
+**Committed (metadata only, §9-compatible):**
+- `audit/answer_key.json` — the 20 audit windows' pipeline labels. Needed to
+  score the audit; contains speaker + timestamps, no text.
+- `results/ws3_qa_flags.json`, `results/ws4_v1_results.json`,
+  `results/ws5_counts.json`, `results/README.md`.
+
+**Deliberately NOT committed:** audio (§9), transcripts (copyright /
+transient-copy posture, TOS_NOTES.md), and the 145 verbatim ~150-char hit
+excerpts, which were **stripped** from the committed counts. §9 permits
+counts to leave the pipeline, not quotations. Hit timestamps are retained,
+so any hit stays relocatable in the private transcript.
+
+**Sent to PI:** `pilot_private_backup.tar.gz` (9.8 MB) — diarized
+transcripts, turns, host centroids, enrollment spans, the full counts file
+with contexts, and a copy of the answer key named to discourage opening it
+before labelling.
+
+**Cadence:** scheduled cycles paused at PI request. The loop resumes on PI
+input — audit labels, or any new instruction.
+
+**Gates**: V1 PASS · V2 PASS · V3 audit-ready, packet with PI · V4 counts
+produced. **Coverage**: 48/48 transcribed and diarized; 30 QA-clean episodes
+/ 157,243 host words. **Spend**: $0 of $75.
+
 ## 2026-08-05, cycle 81 — V3 AUDIT PACKET DELIVERED TO PI
 
 First substantive change since cycle 80. The PI stated the audit begins

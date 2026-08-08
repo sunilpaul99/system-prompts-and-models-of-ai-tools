@@ -1,0 +1,232 @@
+[
+ {
+  "episode": "2019-05-20_Mary_Hirschfeld_on_Economics_Culture_and_Aquinas_and_the_Mar",
+  "host_share": 0.429,
+  "host_sim": 0.888,
+  "k": 2,
+  "flags": []
+ },
+ {
+  "episode": "2019-06-10_Bjorn_Lomborg_on_the_Costs_and_Benefits_of_Attacking_Climate",
+  "host_share": 0.308,
+  "host_sim": 0.818,
+  "k": 3,
+  "flags": []
+ },
+ {
+  "episode": "2020-03-21__82_Simon_Sinek_Leadership_Hard_Work_Optimism_and_the_Infini",
+  "host_share": 0.413,
+  "host_sim": 0.937,
+  "k": 2,
+  "flags": []
+ },
+ {
+  "episode": "2020-09-28_Agnes_Callard_on_Aspiration",
+  "host_share": 0.322,
+  "host_sim": 0.851,
+  "k": 3,
+  "flags": []
+ },
+ {
+  "episode": "2020-10-05_Zena_Hitz_on_Lost_in_Thought",
+  "host_share": 0.325,
+  "host_sim": 0.854,
+  "k": 4,
+  "flags": []
+ },
+ {
+  "episode": "2020-10-30__134_Eric_Weinstein_On_the_Nature_of_Good_and_Evil_Genius_an",
+  "host_share": 0.999,
+  "host_sim": 0.504,
+  "k": 2,
+  "flags": [
+   "IMPLAUSIBLE_SHARE",
+   "WEAK_SIM"
+  ]
+ },
+ {
+  "episode": "2020-11-16__139_Andrew_Huberman_Neuroscience_of_Optimal_Performance",
+  "host_share": 0.226,
+  "host_sim": 0.899,
+  "k": 2,
+  "flags": []
+ },
+ {
+  "episode": "2021-01-25_Scott_Newstok_on_How_to_Think_Like_Shakespeare",
+  "host_share": 0.383,
+  "host_sim": 0.838,
+  "k": 3,
+  "flags": []
+ },
+ {
+  "episode": "2021-02-23__163_Eric_Weinstein_Difficult_Conversations_Freedom_of_Speec",
+  "host_share": 0.249,
+  "host_sim": 0.869,
+  "k": 5,
+  "flags": []
+ },
+ {
+  "episode": "2021-06-21_Anja_Shortland_on_Lost_Art",
+  "host_share": 0.358,
+  "host_sim": 0.848,
+  "k": 2,
+  "flags": []
+ },
+ {
+  "episode": "2021-07-05_Claudia_Hauer_on_War_Education_and_Strategic_Humanism",
+  "host_share": 0.435,
+  "host_sim": 0.872,
+  "k": 3,
+  "flags": []
+ },
+ {
+  "episode": "2021-09-15__221_Douglas_Lenat_Cyc_and_the_Quest_to_Solve_Common_Sense_R",
+  "host_share": 0.299,
+  "host_sim": 0.874,
+  "k": 3,
+  "flags": []
+ },
+ {
+  "episode": "2021-09-30__227_Sean_Kelly_Existentialism_Nihilism_and_the_Search_for_M",
+  "host_share": 0.291,
+  "host_sim": 0.891,
+  "k": 3,
+  "flags": []
+ },
+ {
+  "episode": "2021-10-18_Rowan_Jacobsen_on_Truffle_Hound",
+  "host_share": 0.408,
+  "host_sim": 0.82,
+  "k": 3,
+  "flags": []
+ },
+ {
+  "episode": "2021-11-28__244_Robert_Crews_Afghanistan_Taliban_Bin_Laden_and_War_in_t",
+  "host_share": 0.205,
+  "host_sim": 0.881,
+  "k": 2,
+  "flags": []
+ },
+ {
+  "episode": "2021-11-30__245_Tom_Brands_Iowa_Wrestling",
+  "host_share": 0.317,
+  "host_sim": 0.926,
+  "k": 3,
+  "flags": []
+ },
+ {
+  "episode": "2023-05-08_Eliezer_Yudkowsky_on_the_Dangers_of_AI",
+  "host_share": 0.42,
+  "host_sim": 0.766,
+  "k": 3,
+  "flags": []
+ },
+ {
+  "episode": "2023-05-09__376_Stephen_Wolfram_ChatGPT_and_the_Nature_of_Truth_Reality",
+  "host_share": 0.157,
+  "host_sim": 0.827,
+  "k": 3,
+  "flags": []
+ },
+ {
+  "episode": "2023-06-02__381_Chris_Lattner_Future_of_Programming_and_AI",
+  "host_share": 0.186,
+  "host_sim": 0.86,
+  "k": 4,
+  "flags": []
+ },
+ {
+  "episode": "2023-09-10__395_Walter_Isaacson_Elon_Musk_Steve_Jobs_Einstein_Da_Vinci_",
+  "host_share": 0.249,
+  "host_sim": 0.844,
+  "k": 2,
+  "flags": []
+ },
+ {
+  "episode": "2024-03-25__421_Dana_White_UFC_Fighting_Khabib_Conor_Tyson_Ali_Rogan_El",
+  "host_share": 0.247,
+  "host_sim": 0.849,
+  "k": 3,
+  "flags": []
+ },
+ {
+  "episode": "2024-04-17__426_Edward_Gibson_Human_Language_Psycholinguistics_Syntax_G",
+  "host_share": 0.245,
+  "host_sim": 0.876,
+  "k": 4,
+  "flags": []
+ },
+ {
+  "episode": "2024-06-03_Injustice_and_the_Letter_from_Birmingham_Jail_with_Dwayne_Be",
+  "host_share": 0.238,
+  "host_sim": 0.801,
+  "k": 3,
+  "flags": []
+ },
+ {
+  "episode": "2024-08-05_The_Ever_Present_Challenge_of_Escaping_Poverty_with_Noah_Smi",
+  "host_share": 0.456,
+  "host_sim": 0.791,
+  "k": 2,
+  "flags": []
+ },
+ {
+  "episode": "2024-11-25_Tyler_Cowen_on_Life_and_Fate",
+  "host_share": 0.562,
+  "host_sim": 0.819,
+  "k": 2,
+  "flags": []
+ },
+ {
+  "episode": "2025-06-30_The_Deceptive_Power_of_Maps_with_Paulina_Rowinska_",
+  "host_share": 0.401,
+  "host_sim": 0.806,
+  "k": 3,
+  "flags": []
+ },
+ {
+  "episode": "2025-08-13__477_Keyu_Jin_China_s_Economy_Tariffs_Trade_Trump_Communism_",
+  "host_share": 0.247,
+  "host_sim": 0.818,
+  "k": 2,
+  "flags": []
+ },
+ {
+  "episode": "2025-08-24__478_Scott_Horton_The_Case_Against_War_and_the_Military_Indu",
+  "host_share": 0.996,
+  "host_sim": 0.305,
+  "k": 2,
+  "flags": [
+   "IMPLAUSIBLE_SHARE",
+   "WEAK_SIM"
+  ]
+ },
+ {
+  "episode": "2025-08-25_Hemingway_Love_and_War_with_David_Wyatt_",
+  "host_share": 0.407,
+  "host_sim": 0.803,
+  "k": 2,
+  "flags": []
+ },
+ {
+  "episode": "2025-09-08_How_Teams_Succeed_with_Colin_Fisher_",
+  "host_share": 0.319,
+  "host_sim": 0.841,
+  "k": 2,
+  "flags": []
+ },
+ {
+  "episode": "2025-09-22_Steven_Pinker_on_Common_Knowledge",
+  "host_share": 0.346,
+  "host_sim": 0.829,
+  "k": 2,
+  "flags": []
+ },
+ {
+  "episode": "2025-10-01__482_Pavel_Durov_Telegram_Freedom_Censorship_Money_Power_Hum",
+  "host_share": 0.331,
+  "host_sim": 0.858,
+  "k": 3,
+  "flags": []
+ }
+]
