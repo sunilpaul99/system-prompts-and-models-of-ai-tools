@@ -1,0 +1,9652 @@
+{
+ "stage": "stage1-v1",
+ "config": "anthropic-0.122.0/claude-haiku-4-5/temp0/maxtok8192/stage1-v1",
+ "run_date": "2026-08-18",
+ "exclusions_applied": "results/exclusions_ratified.json",
+ "totals": {
+  "episodes": 30,
+  "host_turns": 1877,
+  "candidates": 199,
+  "flag_rate": 0.106,
+  "input_tokens": 222304,
+  "output_tokens": 37771,
+  "cost_usd": 0.41
+ },
+ "sanitization": {
+  "labels_dropped_invalid_turn_id": [
+   {
+    "episode": "2024-03-25__421_Dana_White_UFC_Fighting_Khabib_Conor_Tyson_Ali_Rogan_El",
+    "turn_id": 182,
+    "candidate": false,
+    "confidence": "high"
+   }
+  ]
+ },
+ "episodes": [
+  {
+   "episode": "2019-05-20_Mary_Hirschfeld_on_Economics_Culture_and_Aquinas_and_the_Mar",
+   "config": "anthropic-0.122.0/claude-haiku-4-5/temp0/maxtok8192/stage1-v1",
+   "n_host_turns": 40,
+   "n_candidates": 10,
+   "labels": [
+    {
+     "turn_id": 0,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 2,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 4,
+     "candidate": true,
+     "confidence": "medium"
+    },
+    {
+     "turn_id": 6,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 8,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 10,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 12,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 14,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 16,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 18,
+     "candidate": true,
+     "confidence": "medium"
+    },
+    {
+     "turn_id": 20,
+     "candidate": true,
+     "confidence": "medium"
+    },
+    {
+     "turn_id": 22,
+     "candidate": true,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 24,
+     "candidate": true,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 26,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 28,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 30,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 32,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 34,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 36,
+     "candidate": true,
+     "confidence": "medium"
+    },
+    {
+     "turn_id": 38,
+     "candidate": true,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 40,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 42,
+     "candidate": true,
+     "confidence": "medium"
+    },
+    {
+     "turn_id": 44,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 46,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 48,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 50,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 52,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 54,
+     "candidate": true,
+     "confidence": "medium"
+    },
+    {
+     "turn_id": 56,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 58,
+     "candidate": true,
+     "confidence": "medium"
+    },
+    {
+     "turn_id": 60,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 62,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 64,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 66,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 68,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 70,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 72,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 74,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 76,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 78,
+     "candidate": false,
+     "confidence": "high"
+    }
+   ]
+  },
+  {
+   "episode": "2019-06-10_Bjorn_Lomborg_on_the_Costs_and_Benefits_of_Attacking_Climate",
+   "config": "anthropic-0.122.0/claude-haiku-4-5/temp0/maxtok8192/stage1-v1",
+   "n_host_turns": 19,
+   "n_candidates": 5,
+   "labels": [
+    {
+     "turn_id": 0,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 2,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 4,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 6,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 8,
+     "candidate": true,
+     "confidence": "medium"
+    },
+    {
+     "turn_id": 10,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 12,
+     "candidate": true,
+     "confidence": "medium"
+    },
+    {
+     "turn_id": 14,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 16,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 18,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 20,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 22,
+     "candidate": true,
+     "confidence": "medium"
+    },
+    {
+     "turn_id": 24,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 26,
+     "candidate": true,
+     "confidence": "medium"
+    },
+    {
+     "turn_id": 28,
+     "candidate": true,
+     "confidence": "medium"
+    },
+    {
+     "turn_id": 30,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 32,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 34,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 36,
+     "candidate": false,
+     "confidence": "high"
+    }
+   ]
+  },
+  {
+   "episode": "2020-03-21__82_Simon_Sinek_Leadership_Hard_Work_Optimism_and_the_Infini",
+   "config": "anthropic-0.122.0/claude-haiku-4-5/temp0/maxtok8192/stage1-v1",
+   "n_host_turns": 27,
+   "n_candidates": 12,
+   "labels": [
+    {
+     "turn_id": 0,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 2,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 4,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 6,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 8,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 10,
+     "candidate": true,
+     "confidence": "medium"
+    },
+    {
+     "turn_id": 12,
+     "candidate": true,
+     "confidence": "medium"
+    },
+    {
+     "turn_id": 14,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 16,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 18,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 20,
+     "candidate": true,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 22,
+     "candidate": true,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 24,
+     "candidate": true,
+     "confidence": "medium"
+    },
+    {
+     "turn_id": 26,
+     "candidate": true,
+     "confidence": "medium"
+    },
+    {
+     "turn_id": 28,
+     "candidate": true,
+     "confidence": "medium"
+    },
+    {
+     "turn_id": 30,
+     "candidate": true,
+     "confidence": "medium"
+    },
+    {
+     "turn_id": 32,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 34,
+     "candidate": true,
+     "confidence": "medium"
+    },
+    {
+     "turn_id": 36,
+     "candidate": true,
+     "confidence": "medium"
+    },
+    {
+     "turn_id": 38,
+     "candidate": true,
+     "confidence": "medium"
+    },
+    {
+     "turn_id": 40,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 42,
+     "candidate": true,
+     "confidence": "medium"
+    },
+    {
+     "turn_id": 44,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 46,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 48,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 50,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 52,
+     "candidate": false,
+     "confidence": "high"
+    }
+   ]
+  },
+  {
+   "episode": "2020-09-28_Agnes_Callard_on_Aspiration",
+   "config": "anthropic-0.122.0/claude-haiku-4-5/temp0/maxtok8192/stage1-v1",
+   "n_host_turns": 33,
+   "n_candidates": 4,
+   "labels": [
+    {
+     "turn_id": 0,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 2,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 4,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 6,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 8,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 10,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 12,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 14,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 16,
+     "candidate": true,
+     "confidence": "medium"
+    },
+    {
+     "turn_id": 18,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 20,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 22,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 24,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 26,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 28,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 30,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 32,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 34,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 36,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 38,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 40,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 42,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 44,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 46,
+     "candidate": true,
+     "confidence": "medium"
+    },
+    {
+     "turn_id": 48,
+     "candidate": true,
+     "confidence": "medium"
+    },
+    {
+     "turn_id": 50,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 52,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 54,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 56,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 58,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 60,
+     "candidate": true,
+     "confidence": "medium"
+    },
+    {
+     "turn_id": 62,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 64,
+     "candidate": false,
+     "confidence": "high"
+    }
+   ]
+  },
+  {
+   "episode": "2020-10-05_Zena_Hitz_on_Lost_in_Thought",
+   "config": "anthropic-0.122.0/claude-haiku-4-5/temp0/maxtok8192/stage1-v1",
+   "n_host_turns": 29,
+   "n_candidates": 3,
+   "labels": [
+    {
+     "turn_id": 0,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 2,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 4,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 6,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 8,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 10,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 12,
+     "candidate": true,
+     "confidence": "medium"
+    },
+    {
+     "turn_id": 14,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 16,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 18,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 20,
+     "candidate": true,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 22,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 24,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 26,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 28,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 30,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 32,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 34,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 36,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 38,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 40,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 42,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 44,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 46,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 48,
+     "candidate": true,
+     "confidence": "medium"
+    },
+    {
+     "turn_id": 50,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 52,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 54,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 56,
+     "candidate": false,
+     "confidence": "high"
+    }
+   ]
+  },
+  {
+   "episode": "2020-11-16__139_Andrew_Huberman_Neuroscience_of_Optimal_Performance",
+   "config": "anthropic-0.122.0/claude-haiku-4-5/temp0/maxtok8192/stage1-v1",
+   "n_host_turns": 58,
+   "n_candidates": 3,
+   "labels": [
+    {
+     "turn_id": 0,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 2,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 4,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 6,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 8,
+     "candidate": true,
+     "confidence": "medium"
+    },
+    {
+     "turn_id": 10,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 12,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 14,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 16,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 18,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 20,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 22,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 24,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 26,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 28,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 30,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 32,
+     "candidate": true,
+     "confidence": "medium"
+    },
+    {
+     "turn_id": 34,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 36,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 38,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 40,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 42,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 44,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 46,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 48,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 50,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 52,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 54,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 56,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 58,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 60,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 62,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 64,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 66,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 68,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 70,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 72,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 74,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 76,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 78,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 80,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 82,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 84,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 86,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 88,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 90,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 92,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 94,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 96,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 98,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 100,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 102,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 104,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 106,
+     "candidate": true,
+     "confidence": "medium"
+    },
+    {
+     "turn_id": 108,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 110,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 112,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 114,
+     "candidate": false,
+     "confidence": "high"
+    }
+   ]
+  },
+  {
+   "episode": "2021-01-25_Scott_Newstok_on_How_to_Think_Like_Shakespeare",
+   "config": "anthropic-0.122.0/claude-haiku-4-5/temp0/maxtok8192/stage1-v1",
+   "n_host_turns": 30,
+   "n_candidates": 1,
+   "labels": [
+    {
+     "turn_id": 0,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 2,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 4,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 6,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 8,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 10,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 12,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 14,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 16,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 18,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 20,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 22,
+     "candidate": true,
+     "confidence": "medium"
+    },
+    {
+     "turn_id": 24,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 26,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 28,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 30,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 32,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 34,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 36,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 38,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 40,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 42,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 44,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 46,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 48,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 50,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 52,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 54,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 56,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 58,
+     "candidate": false,
+     "confidence": "high"
+    }
+   ]
+  },
+  {
+   "episode": "2021-02-23__163_Eric_Weinstein_Difficult_Conversations_Freedom_of_Speec",
+   "config": "anthropic-0.122.0/claude-haiku-4-5/temp0/maxtok8192/stage1-v1",
+   "n_host_turns": 133,
+   "n_candidates": 16,
+   "labels": [
+    {
+     "turn_id": 0,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 2,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 4,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 6,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 8,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 10,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 12,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 14,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 16,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 18,
+     "candidate": true,
+     "confidence": "medium"
+    },
+    {
+     "turn_id": 20,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 22,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 24,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 26,
+     "candidate": true,
+     "confidence": "medium"
+    },
+    {
+     "turn_id": 28,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 30,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 32,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 34,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 36,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 38,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 40,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 42,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 44,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 46,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 48,
+     "candidate": true,
+     "confidence": "medium"
+    },
+    {
+     "turn_id": 50,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 52,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 54,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 56,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 58,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 60,
+     "candidate": true,
+     "confidence": "medium"
+    },
+    {
+     "turn_id": 62,
+     "candidate": true,
+     "confidence": "medium"
+    },
+    {
+     "turn_id": 64,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 66,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 68,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 70,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 72,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 74,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 76,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 78,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 80,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 82,
+     "candidate": true,
+     "confidence": "medium"
+    },
+    {
+     "turn_id": 84,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 86,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 88,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 90,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 92,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 94,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 96,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 98,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 100,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 102,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 104,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 106,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 108,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 110,
+     "candidate": true,
+     "confidence": "medium"
+    },
+    {
+     "turn_id": 112,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 114,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 116,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 118,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 120,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 122,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 124,
+     "candidate": true,
+     "confidence": "medium"
+    },
+    {
+     "turn_id": 126,
+     "candidate": true,
+     "confidence": "medium"
+    },
+    {
+     "turn_id": 128,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 130,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 132,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 134,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 136,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 138,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 140,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 142,
+     "candidate": true,
+     "confidence": "medium"
+    },
+    {
+     "turn_id": 144,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 146,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 148,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 150,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 152,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 154,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 156,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 158,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 160,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 162,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 164,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 166,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 168,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 170,
+     "candidate": true,
+     "confidence": "medium"
+    },
+    {
+     "turn_id": 172,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 174,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 176,
+     "candidate": true,
+     "confidence": "medium"
+    },
+    {
+     "turn_id": 178,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 180,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 182,
+     "candidate": true,
+     "confidence": "medium"
+    },
+    {
+     "turn_id": 184,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 186,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 188,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 190,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 192,
+     "candidate": true,
+     "confidence": "medium"
+    },
+    {
+     "turn_id": 194,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 196,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 198,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 200,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 202,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 204,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 206,
+     "candidate": true,
+     "confidence": "medium"
+    },
+    {
+     "turn_id": 208,
+     "candidate": true,
+     "confidence": "medium"
+    },
+    {
+     "turn_id": 210,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 212,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 214,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 216,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 218,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 220,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 222,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 224,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 226,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 228,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 230,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 232,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 234,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 236,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 238,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 240,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 242,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 244,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 246,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 248,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 250,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 252,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 254,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 256,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 258,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 260,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 262,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 264,
+     "candidate": false,
+     "confidence": "high"
+    }
+   ]
+  },
+  {
+   "episode": "2021-06-21_Anja_Shortland_on_Lost_Art",
+   "config": "anthropic-0.122.0/claude-haiku-4-5/temp0/maxtok8192/stage1-v1",
+   "n_host_turns": 38,
+   "n_candidates": 5,
+   "labels": [
+    {
+     "turn_id": 0,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 2,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 4,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 6,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 8,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 10,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 12,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 14,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 16,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 18,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 20,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 22,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 24,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 26,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 28,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 30,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 32,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 34,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 36,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 38,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 40,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 42,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 44,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 46,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 48,
+     "candidate": true,
+     "confidence": "medium"
+    },
+    {
+     "turn_id": 50,
+     "candidate": true,
+     "confidence": "medium"
+    },
+    {
+     "turn_id": 52,
+     "candidate": true,
+     "confidence": "medium"
+    },
+    {
+     "turn_id": 54,
+     "candidate": true,
+     "confidence": "medium"
+    },
+    {
+     "turn_id": 56,
+     "candidate": true,
+     "confidence": "medium"
+    },
+    {
+     "turn_id": 58,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 60,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 62,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 64,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 66,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 68,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 70,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 72,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 74,
+     "candidate": false,
+     "confidence": "high"
+    }
+   ]
+  },
+  {
+   "episode": "2021-07-05_Claudia_Hauer_on_War_Education_and_Strategic_Humanism",
+   "config": "anthropic-0.122.0/claude-haiku-4-5/temp0/maxtok8192/stage1-v1",
+   "n_host_turns": 25,
+   "n_candidates": 6,
+   "labels": [
+    {
+     "turn_id": 0,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 2,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 4,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 6,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 8,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 10,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 12,
+     "candidate": true,
+     "confidence": "medium"
+    },
+    {
+     "turn_id": 14,
+     "candidate": true,
+     "confidence": "medium"
+    },
+    {
+     "turn_id": 16,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 18,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 20,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 22,
+     "candidate": true,
+     "confidence": "medium"
+    },
+    {
+     "turn_id": 24,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 26,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 28,
+     "candidate": true,
+     "confidence": "medium"
+    },
+    {
+     "turn_id": 30,
+     "candidate": true,
+     "confidence": "medium"
+    },
+    {
+     "turn_id": 32,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 34,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 36,
+     "candidate": true,
+     "confidence": "medium"
+    },
+    {
+     "turn_id": 38,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 40,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 42,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 44,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 46,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 48,
+     "candidate": false,
+     "confidence": "high"
+    }
+   ]
+  },
+  {
+   "episode": "2021-09-15__221_Douglas_Lenat_Cyc_and_the_Quest_to_Solve_Common_Sense_R",
+   "config": "anthropic-0.122.0/claude-haiku-4-5/temp0/maxtok8192/stage1-v1",
+   "n_host_turns": 103,
+   "n_candidates": 8,
+   "labels": [
+    {
+     "turn_id": 0,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 2,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 4,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 6,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 8,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 10,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 12,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 14,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 16,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 18,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 20,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 22,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 24,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 26,
+     "candidate": true,
+     "confidence": "medium"
+    },
+    {
+     "turn_id": 28,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 30,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 32,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 34,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 36,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 38,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 40,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 42,
+     "candidate": true,
+     "confidence": "medium"
+    },
+    {
+     "turn_id": 44,
+     "candidate": true,
+     "confidence": "medium"
+    },
+    {
+     "turn_id": 46,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 48,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 50,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 52,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 54,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 56,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 58,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 60,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 62,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 64,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 66,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 68,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 70,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 72,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 74,
+     "candidate": true,
+     "confidence": "medium"
+    },
+    {
+     "turn_id": 76,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 78,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 80,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 82,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 84,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 86,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 88,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 90,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 92,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 94,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 96,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 98,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 100,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 102,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 104,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 106,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 108,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 110,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 112,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 114,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 116,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 118,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 120,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 122,
+     "candidate": true,
+     "confidence": "medium"
+    },
+    {
+     "turn_id": 124,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 126,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 128,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 130,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 132,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 134,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 136,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 138,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 140,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 142,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 144,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 146,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 148,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 150,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 152,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 154,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 156,
+     "candidate": true,
+     "confidence": "medium"
+    },
+    {
+     "turn_id": 158,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 160,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 162,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 164,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 166,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 168,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 170,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 172,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 174,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 176,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 178,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 180,
+     "candidate": true,
+     "confidence": "medium"
+    },
+    {
+     "turn_id": 182,
+     "candidate": true,
+     "confidence": "medium"
+    },
+    {
+     "turn_id": 184,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 186,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 188,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 190,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 192,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 194,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 196,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 198,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 200,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 202,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 204,
+     "candidate": false,
+     "confidence": "high"
+    }
+   ]
+  },
+  {
+   "episode": "2021-09-30__227_Sean_Kelly_Existentialism_Nihilism_and_the_Search_for_M",
+   "config": "anthropic-0.122.0/claude-haiku-4-5/temp0/maxtok8192/stage1-v1",
+   "n_host_turns": 68,
+   "n_candidates": 10,
+   "labels": [
+    {
+     "turn_id": 0,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 2,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 4,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 6,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 8,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 10,
+     "candidate": true,
+     "confidence": "medium"
+    },
+    {
+     "turn_id": 12,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 14,
+     "candidate": true,
+     "confidence": "medium"
+    },
+    {
+     "turn_id": 16,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 18,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 20,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 22,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 24,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 26,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 28,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 30,
+     "candidate": true,
+     "confidence": "medium"
+    },
+    {
+     "turn_id": 32,
+     "candidate": true,
+     "confidence": "medium"
+    },
+    {
+     "turn_id": 34,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 36,
+     "candidate": true,
+     "confidence": "low"
+    },
+    {
+     "turn_id": 38,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 40,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 42,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 44,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 46,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 48,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 50,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 52,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 54,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 56,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 58,
+     "candidate": true,
+     "confidence": "medium"
+    },
+    {
+     "turn_id": 60,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 62,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 64,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 66,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 68,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 70,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 72,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 74,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 76,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 78,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 80,
+     "candidate": true,
+     "confidence": "medium"
+    },
+    {
+     "turn_id": 82,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 84,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 86,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 88,
+     "candidate": true,
+     "confidence": "medium"
+    },
+    {
+     "turn_id": 90,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 92,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 94,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 96,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 98,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 100,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 102,
+     "candidate": true,
+     "confidence": "low"
+    },
+    {
+     "turn_id": 104,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 106,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 108,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 110,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 112,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 114,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 116,
+     "candidate": true,
+     "confidence": "medium"
+    },
+    {
+     "turn_id": 118,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 120,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 122,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 124,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 126,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 128,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 130,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 132,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 134,
+     "candidate": false,
+     "confidence": "high"
+    }
+   ]
+  },
+  {
+   "episode": "2021-10-18_Rowan_Jacobsen_on_Truffle_Hound",
+   "config": "anthropic-0.122.0/claude-haiku-4-5/temp0/maxtok8192/stage1-v1",
+   "n_host_turns": 35,
+   "n_candidates": 3,
+   "labels": [
+    {
+     "turn_id": 0,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 2,
+     "candidate": true,
+     "confidence": "medium"
+    },
+    {
+     "turn_id": 4,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 6,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 8,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 10,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 12,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 14,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 16,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 18,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 20,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 22,
+     "candidate": true,
+     "confidence": "medium"
+    },
+    {
+     "turn_id": 24,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 26,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 28,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 30,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 32,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 34,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 36,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 38,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 40,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 42,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 44,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 46,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 48,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 50,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 52,
+     "candidate": true,
+     "confidence": "medium"
+    },
+    {
+     "turn_id": 54,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 56,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 58,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 60,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 62,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 64,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 66,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 68,
+     "candidate": false,
+     "confidence": "high"
+    }
+   ]
+  },
+  {
+   "episode": "2021-11-28__244_Robert_Crews_Afghanistan_Taliban_Bin_Laden_and_War_in_t",
+   "config": "anthropic-0.122.0/claude-haiku-4-5/temp0/maxtok8192/stage1-v1",
+   "n_host_turns": 75,
+   "n_candidates": 9,
+   "labels": [
+    {
+     "turn_id": 0,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 2,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 4,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 6,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 8,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 10,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 12,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 14,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 16,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 18,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 20,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 22,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 24,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 26,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 28,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 30,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 32,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 34,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 36,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 38,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 40,
+     "candidate": true,
+     "confidence": "medium"
+    },
+    {
+     "turn_id": 42,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 44,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 46,
+     "candidate": true,
+     "confidence": "medium"
+    },
+    {
+     "turn_id": 48,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 50,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 52,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 54,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 56,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 58,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 60,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 62,
+     "candidate": true,
+     "confidence": "medium"
+    },
+    {
+     "turn_id": 64,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 66,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 68,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 70,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 72,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 74,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 76,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 78,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 80,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 82,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 84,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 86,
+     "candidate": true,
+     "confidence": "medium"
+    },
+    {
+     "turn_id": 88,
+     "candidate": true,
+     "confidence": "medium"
+    },
+    {
+     "turn_id": 90,
+     "candidate": true,
+     "confidence": "medium"
+    },
+    {
+     "turn_id": 92,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 94,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 96,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 98,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 100,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 102,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 104,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 106,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 108,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 110,
+     "candidate": true,
+     "confidence": "medium"
+    },
+    {
+     "turn_id": 112,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 114,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 116,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 118,
+     "candidate": true,
+     "confidence": "medium"
+    },
+    {
+     "turn_id": 120,
+     "candidate": true,
+     "confidence": "medium"
+    },
+    {
+     "turn_id": 122,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 124,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 126,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 128,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 130,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 132,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 134,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 136,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 138,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 140,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 142,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 144,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 146,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 148,
+     "candidate": false,
+     "confidence": "high"
+    }
+   ]
+  },
+  {
+   "episode": "2021-11-30__245_Tom_Brands_Iowa_Wrestling",
+   "config": "anthropic-0.122.0/claude-haiku-4-5/temp0/maxtok8192/stage1-v1",
+   "n_host_turns": 64,
+   "n_candidates": 4,
+   "labels": [
+    {
+     "turn_id": 0,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 2,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 4,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 6,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 8,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 10,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 12,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 14,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 16,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 18,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 20,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 22,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 24,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 26,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 28,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 30,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 32,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 34,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 36,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 38,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 40,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 42,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 44,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 46,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 48,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 50,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 52,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 54,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 56,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 58,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 60,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 62,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 64,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 66,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 68,
+     "candidate": true,
+     "confidence": "medium"
+    },
+    {
+     "turn_id": 70,
+     "candidate": true,
+     "confidence": "medium"
+    },
+    {
+     "turn_id": 72,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 74,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 76,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 78,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 80,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 82,
+     "candidate": true,
+     "confidence": "medium"
+    },
+    {
+     "turn_id": 84,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 86,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 88,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 90,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 92,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 94,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 96,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 98,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 100,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 102,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 104,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 106,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 108,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 110,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 112,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 114,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 116,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 118,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 120,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 122,
+     "candidate": true,
+     "confidence": "medium"
+    },
+    {
+     "turn_id": 124,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 126,
+     "candidate": false,
+     "confidence": "high"
+    }
+   ]
+  },
+  {
+   "episode": "2023-05-08_Eliezer_Yudkowsky_on_the_Dangers_of_AI",
+   "config": "anthropic-0.122.0/claude-haiku-4-5/temp0/maxtok8192/stage1-v1",
+   "n_host_turns": 33,
+   "n_candidates": 19,
+   "labels": [
+    {
+     "turn_id": 0,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 2,
+     "candidate": true,
+     "confidence": "medium"
+    },
+    {
+     "turn_id": 4,
+     "candidate": true,
+     "confidence": "medium"
+    },
+    {
+     "turn_id": 6,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 8,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 10,
+     "candidate": true,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 12,
+     "candidate": true,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 14,
+     "candidate": true,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 16,
+     "candidate": true,
+     "confidence": "medium"
+    },
+    {
+     "turn_id": 18,
+     "candidate": true,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 20,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 22,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 24,
+     "candidate": true,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 26,
+     "candidate": true,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 28,
+     "candidate": true,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 30,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 32,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 34,
+     "candidate": true,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 36,
+     "candidate": true,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 38,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 40,
+     "candidate": true,
+     "confidence": "medium"
+    },
+    {
+     "turn_id": 42,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 44,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 46,
+     "candidate": true,
+     "confidence": "medium"
+    },
+    {
+     "turn_id": 48,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 50,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 52,
+     "candidate": true,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 54,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 56,
+     "candidate": true,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 58,
+     "candidate": true,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 60,
+     "candidate": true,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 62,
+     "candidate": true,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 64,
+     "candidate": false,
+     "confidence": "high"
+    }
+   ]
+  },
+  {
+   "episode": "2023-05-09__376_Stephen_Wolfram_ChatGPT_and_the_Nature_of_Truth_Reality",
+   "config": "anthropic-0.122.0/claude-haiku-4-5/temp0/maxtok8192/stage1-v1",
+   "n_host_turns": 162,
+   "n_candidates": 31,
+   "labels": [
+    {
+     "turn_id": 0,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 2,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 4,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 6,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 8,
+     "candidate": true,
+     "confidence": "medium"
+    },
+    {
+     "turn_id": 10,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 12,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 14,
+     "candidate": true,
+     "confidence": "medium"
+    },
+    {
+     "turn_id": 16,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 18,
+     "candidate": true,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 20,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 22,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 24,
+     "candidate": true,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 26,
+     "candidate": true,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 28,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 30,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 32,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 34,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 36,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 38,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 40,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 42,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 44,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 46,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 48,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 50,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 52,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 54,
+     "candidate": true,
+     "confidence": "medium"
+    },
+    {
+     "turn_id": 56,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 58,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 60,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 62,
+     "candidate": true,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 64,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 66,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 68,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 70,
+     "candidate": true,
+     "confidence": "medium"
+    },
+    {
+     "turn_id": 72,
+     "candidate": true,
+     "confidence": "medium"
+    },
+    {
+     "turn_id": 74,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 76,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 78,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 80,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 82,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 84,
+     "candidate": true,
+     "confidence": "medium"
+    },
+    {
+     "turn_id": 86,
+     "candidate": true,
+     "confidence": "medium"
+    },
+    {
+     "turn_id": 88,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 90,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 92,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 94,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 96,
+     "candidate": true,
+     "confidence": "medium"
+    },
+    {
+     "turn_id": 98,
+     "candidate": true,
+     "confidence": "medium"
+    },
+    {
+     "turn_id": 100,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 102,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 104,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 106,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 108,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 110,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 112,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 114,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 116,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 118,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 120,
+     "candidate": true,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 122,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 124,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 126,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 128,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 130,
+     "candidate": true,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 132,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 134,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 136,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 138,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 140,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 142,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 144,
+     "candidate": true,
+     "confidence": "medium"
+    },
+    {
+     "turn_id": 146,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 148,
+     "candidate": true,
+     "confidence": "medium"
+    },
+    {
+     "turn_id": 150,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 152,
+     "candidate": true,
+     "confidence": "medium"
+    },
+    {
+     "turn_id": 154,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 156,
+     "candidate": true,
+     "confidence": "medium"
+    },
+    {
+     "turn_id": 158,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 160,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 162,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 164,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 166,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 168,
+     "candidate": true,
+     "confidence": "medium"
+    },
+    {
+     "turn_id": 170,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 172,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 174,
+     "candidate": true,
+     "confidence": "medium"
+    },
+    {
+     "turn_id": 176,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 178,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 180,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 182,
+     "candidate": true,
+     "confidence": "medium"
+    },
+    {
+     "turn_id": 184,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 186,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 188,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 190,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 192,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 194,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 196,
+     "candidate": true,
+     "confidence": "medium"
+    },
+    {
+     "turn_id": 198,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 200,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 202,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 204,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 206,
+     "candidate": true,
+     "confidence": "medium"
+    },
+    {
+     "turn_id": 208,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 210,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 212,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 214,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 216,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 218,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 220,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 222,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 224,
+     "candidate": true,
+     "confidence": "medium"
+    },
+    {
+     "turn_id": 226,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 228,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 230,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 232,
+     "candidate": true,
+     "confidence": "medium"
+    },
+    {
+     "turn_id": 234,
+     "candidate": true,
+     "confidence": "medium"
+    },
+    {
+     "turn_id": 236,
+     "candidate": true,
+     "confidence": "medium"
+    },
+    {
+     "turn_id": 238,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 240,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 242,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 244,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 246,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 248,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 250,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 252,
+     "candidate": true,
+     "confidence": "medium"
+    },
+    {
+     "turn_id": 254,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 256,
+     "candidate": true,
+     "confidence": "medium"
+    },
+    {
+     "turn_id": 258,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 260,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 262,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 264,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 266,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 268,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 270,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 272,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 274,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 276,
+     "candidate": true,
+     "confidence": "medium"
+    },
+    {
+     "turn_id": 278,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 280,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 282,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 284,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 286,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 288,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 290,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 292,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 294,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 296,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 298,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 300,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 302,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 304,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 306,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 308,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 310,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 312,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 314,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 316,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 318,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 320,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 322,
+     "candidate": false,
+     "confidence": "high"
+    }
+   ]
+  },
+  {
+   "episode": "2023-06-02__381_Chris_Lattner_Future_of_Programming_and_AI",
+   "config": "anthropic-0.122.0/claude-haiku-4-5/temp0/maxtok8192/stage1-v1",
+   "n_host_turns": 197,
+   "n_candidates": 3,
+   "labels": [
+    {
+     "turn_id": 0,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 2,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 4,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 6,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 8,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 10,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 12,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 14,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 16,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 18,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 20,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 22,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 24,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 26,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 28,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 30,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 32,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 34,
+     "candidate": true,
+     "confidence": "medium"
+    },
+    {
+     "turn_id": 36,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 38,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 40,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 42,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 44,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 46,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 48,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 50,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 52,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 54,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 56,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 58,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 60,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 62,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 64,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 66,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 68,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 70,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 72,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 74,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 76,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 78,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 80,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 82,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 84,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 86,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 88,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 90,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 92,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 94,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 96,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 98,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 100,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 102,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 104,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 106,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 108,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 110,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 112,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 114,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 116,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 118,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 120,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 122,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 124,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 126,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 128,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 130,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 132,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 134,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 136,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 138,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 140,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 142,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 144,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 146,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 148,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 150,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 152,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 154,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 156,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 158,
+     "candidate": true,
+     "confidence": "medium"
+    },
+    {
+     "turn_id": 160,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 162,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 164,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 166,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 168,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 170,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 172,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 174,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 176,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 178,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 180,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 182,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 184,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 186,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 188,
+     "candidate": true,
+     "confidence": "medium"
+    },
+    {
+     "turn_id": 190,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 192,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 194,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 196,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 198,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 200,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 202,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 204,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 206,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 208,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 210,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 212,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 214,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 216,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 218,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 220,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 222,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 224,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 226,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 228,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 230,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 232,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 234,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 236,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 238,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 240,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 242,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 244,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 246,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 248,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 250,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 252,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 254,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 256,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 258,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 260,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 262,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 264,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 266,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 268,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 270,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 272,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 274,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 276,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 278,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 280,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 282,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 284,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 286,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 288,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 290,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 292,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 294,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 296,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 298,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 300,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 302,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 304,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 306,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 308,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 310,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 312,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 314,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 316,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 318,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 320,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 322,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 324,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 326,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 328,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 330,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 332,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 334,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 336,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 338,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 340,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 342,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 344,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 346,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 348,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 350,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 352,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 354,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 356,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 358,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 360,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 362,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 364,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 366,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 368,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 370,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 372,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 374,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 376,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 378,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 380,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 382,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 384,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 386,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 388,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 390,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 392,
+     "candidate": false,
+     "confidence": "high"
+    }
+   ]
+  },
+  {
+   "episode": "2023-09-10__395_Walter_Isaacson_Elon_Musk_Steve_Jobs_Einstein_Da_Vinci_",
+   "config": "anthropic-0.122.0/claude-haiku-4-5/temp0/maxtok8192/stage1-v1",
+   "n_host_turns": 71,
+   "n_candidates": 4,
+   "labels": [
+    {
+     "turn_id": 0,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 2,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 4,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 6,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 8,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 10,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 12,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 14,
+     "candidate": true,
+     "confidence": "medium"
+    },
+    {
+     "turn_id": 16,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 18,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 20,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 22,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 24,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 26,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 28,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 30,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 32,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 34,
+     "candidate": true,
+     "confidence": "medium"
+    },
+    {
+     "turn_id": 36,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 38,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 40,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 42,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 44,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 46,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 48,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 50,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 52,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 54,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 56,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 58,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 60,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 62,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 64,
+     "candidate": true,
+     "confidence": "medium"
+    },
+    {
+     "turn_id": 66,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 68,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 70,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 72,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 74,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 76,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 78,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 80,
+     "candidate": true,
+     "confidence": "medium"
+    },
+    {
+     "turn_id": 82,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 84,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 86,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 88,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 90,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 92,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 94,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 96,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 98,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 100,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 102,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 104,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 106,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 108,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 110,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 112,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 114,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 116,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 118,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 120,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 122,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 124,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 126,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 128,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 130,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 132,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 134,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 136,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 138,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 140,
+     "candidate": false,
+     "confidence": "high"
+    }
+   ]
+  },
+  {
+   "episode": "2024-03-25__421_Dana_White_UFC_Fighting_Khabib_Conor_Tyson_Ali_Rogan_El",
+   "config": "anthropic-0.122.0/claude-haiku-4-5/temp0/maxtok8192/stage1-v1",
+   "n_host_turns": 91,
+   "n_candidates": 0,
+   "labels": [
+    {
+     "turn_id": 0,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 2,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 4,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 6,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 8,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 10,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 12,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 14,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 16,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 18,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 20,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 22,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 24,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 26,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 28,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 30,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 32,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 34,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 36,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 38,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 40,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 42,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 44,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 46,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 48,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 50,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 52,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 54,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 56,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 58,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 60,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 62,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 64,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 66,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 68,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 70,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 72,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 74,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 76,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 78,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 80,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 82,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 84,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 86,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 88,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 90,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 92,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 94,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 96,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 98,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 100,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 102,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 104,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 106,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 108,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 110,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 112,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 114,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 116,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 118,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 120,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 122,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 124,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 126,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 128,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 130,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 132,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 134,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 136,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 138,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 140,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 142,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 144,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 146,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 148,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 150,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 152,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 154,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 156,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 158,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 160,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 162,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 164,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 166,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 168,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 170,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 172,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 174,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 176,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 178,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 180,
+     "candidate": false,
+     "confidence": "high"
+    }
+   ]
+  },
+  {
+   "episode": "2024-04-17__426_Edward_Gibson_Human_Language_Psycholinguistics_Syntax_G",
+   "config": "anthropic-0.122.0/claude-haiku-4-5/temp0/maxtok8192/stage1-v1",
+   "n_host_turns": 167,
+   "n_candidates": 18,
+   "labels": [
+    {
+     "turn_id": 0,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 2,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 4,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 6,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 8,
+     "candidate": true,
+     "confidence": "medium"
+    },
+    {
+     "turn_id": 10,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 12,
+     "candidate": true,
+     "confidence": "medium"
+    },
+    {
+     "turn_id": 14,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 16,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 18,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 20,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 22,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 24,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 26,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 28,
+     "candidate": true,
+     "confidence": "medium"
+    },
+    {
+     "turn_id": 30,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 32,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 34,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 36,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 38,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 40,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 42,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 44,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 46,
+     "candidate": true,
+     "confidence": "medium"
+    },
+    {
+     "turn_id": 48,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 50,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 52,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 54,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 56,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 58,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 60,
+     "candidate": true,
+     "confidence": "medium"
+    },
+    {
+     "turn_id": 62,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 64,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 66,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 68,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 70,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 72,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 74,
+     "candidate": true,
+     "confidence": "medium"
+    },
+    {
+     "turn_id": 76,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 78,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 80,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 82,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 84,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 86,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 88,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 90,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 92,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 94,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 96,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 98,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 100,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 102,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 104,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 106,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 108,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 110,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 112,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 114,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 116,
+     "candidate": true,
+     "confidence": "medium"
+    },
+    {
+     "turn_id": 118,
+     "candidate": true,
+     "confidence": "medium"
+    },
+    {
+     "turn_id": 120,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 122,
+     "candidate": true,
+     "confidence": "medium"
+    },
+    {
+     "turn_id": 124,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 126,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 128,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 130,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 132,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 134,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 136,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 138,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 140,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 142,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 144,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 146,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 148,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 150,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 152,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 154,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 156,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 158,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 160,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 162,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 164,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 166,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 168,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 170,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 172,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 174,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 176,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 178,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 180,
+     "candidate": true,
+     "confidence": "medium"
+    },
+    {
+     "turn_id": 182,
+     "candidate": true,
+     "confidence": "medium"
+    },
+    {
+     "turn_id": 184,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 186,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 188,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 190,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 192,
+     "candidate": true,
+     "confidence": "medium"
+    },
+    {
+     "turn_id": 194,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 196,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 198,
+     "candidate": true,
+     "confidence": "medium"
+    },
+    {
+     "turn_id": 200,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 202,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 204,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 206,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 208,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 210,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 212,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 214,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 216,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 218,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 220,
+     "candidate": true,
+     "confidence": "medium"
+    },
+    {
+     "turn_id": 222,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 224,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 226,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 228,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 230,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 232,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 234,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 236,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 238,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 240,
+     "candidate": true,
+     "confidence": "medium"
+    },
+    {
+     "turn_id": 242,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 244,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 246,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 248,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 250,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 252,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 254,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 256,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 258,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 260,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 262,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 264,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 266,
+     "candidate": true,
+     "confidence": "medium"
+    },
+    {
+     "turn_id": 268,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 270,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 272,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 274,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 276,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 278,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 280,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 282,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 284,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 286,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 288,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 290,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 292,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 294,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 296,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 298,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 300,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 302,
+     "candidate": true,
+     "confidence": "medium"
+    },
+    {
+     "turn_id": 304,
+     "candidate": true,
+     "confidence": "medium"
+    },
+    {
+     "turn_id": 306,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 308,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 310,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 312,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 314,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 316,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 318,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 320,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 322,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 324,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 326,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 328,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 330,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 332,
+     "candidate": false,
+     "confidence": "high"
+    }
+   ]
+  },
+  {
+   "episode": "2024-06-03_Injustice_and_the_Letter_from_Birmingham_Jail_with_Dwayne_Be",
+   "config": "anthropic-0.122.0/claude-haiku-4-5/temp0/maxtok8192/stage1-v1",
+   "n_host_turns": 22,
+   "n_candidates": 0,
+   "labels": [
+    {
+     "turn_id": 0,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 2,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 4,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 6,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 8,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 10,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 12,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 14,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 16,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 18,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 20,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 22,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 24,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 26,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 28,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 30,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 32,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 34,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 36,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 38,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 40,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 42,
+     "candidate": false,
+     "confidence": "high"
+    }
+   ]
+  },
+  {
+   "episode": "2024-08-05_The_Ever_Present_Challenge_of_Escaping_Poverty_with_Noah_Smi",
+   "config": "anthropic-0.122.0/claude-haiku-4-5/temp0/maxtok8192/stage1-v1",
+   "n_host_turns": 24,
+   "n_candidates": 2,
+   "labels": [
+    {
+     "turn_id": 0,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 2,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 4,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 6,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 8,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 10,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 12,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 14,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 16,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 18,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 20,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 22,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 24,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 26,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 28,
+     "candidate": true,
+     "confidence": "medium"
+    },
+    {
+     "turn_id": 30,
+     "candidate": true,
+     "confidence": "medium"
+    },
+    {
+     "turn_id": 32,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 34,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 36,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 38,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 40,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 42,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 44,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 46,
+     "candidate": false,
+     "confidence": "high"
+    }
+   ]
+  },
+  {
+   "episode": "2024-11-25_Tyler_Cowen_on_Life_and_Fate",
+   "config": "anthropic-0.122.0/claude-haiku-4-5/temp0/maxtok8192/stage1-v1",
+   "n_host_turns": 38,
+   "n_candidates": 5,
+   "labels": [
+    {
+     "turn_id": 0,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 2,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 4,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 6,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 8,
+     "candidate": true,
+     "confidence": "medium"
+    },
+    {
+     "turn_id": 10,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 12,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 14,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 16,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 18,
+     "candidate": true,
+     "confidence": "low"
+    },
+    {
+     "turn_id": 20,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 22,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 24,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 26,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 28,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 30,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 32,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 34,
+     "candidate": true,
+     "confidence": "low"
+    },
+    {
+     "turn_id": 36,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 38,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 40,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 42,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 44,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 46,
+     "candidate": true,
+     "confidence": "medium"
+    },
+    {
+     "turn_id": 48,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 50,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 52,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 54,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 56,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 58,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 60,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 62,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 64,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 66,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 68,
+     "candidate": true,
+     "confidence": "medium"
+    },
+    {
+     "turn_id": 70,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 72,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 74,
+     "candidate": false,
+     "confidence": "high"
+    }
+   ]
+  },
+  {
+   "episode": "2025-06-30_The_Deceptive_Power_of_Maps_with_Paulina_Rowinska_",
+   "config": "anthropic-0.122.0/claude-haiku-4-5/temp0/maxtok8192/stage1-v1",
+   "n_host_turns": 27,
+   "n_candidates": 1,
+   "labels": [
+    {
+     "turn_id": 0,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 2,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 4,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 6,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 8,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 10,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 12,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 14,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 16,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 18,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 20,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 22,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 24,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 26,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 28,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 30,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 32,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 34,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 36,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 38,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 40,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 42,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 44,
+     "candidate": true,
+     "confidence": "medium"
+    },
+    {
+     "turn_id": 46,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 48,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 50,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 52,
+     "candidate": false,
+     "confidence": "high"
+    }
+   ]
+  },
+  {
+   "episode": "2025-08-13__477_Keyu_Jin_China_s_Economy_Tariffs_Trade_Trump_Communism_",
+   "config": "anthropic-0.122.0/claude-haiku-4-5/temp0/maxtok8192/stage1-v1",
+   "n_host_turns": 63,
+   "n_candidates": 4,
+   "labels": [
+    {
+     "turn_id": 0,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 2,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 4,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 6,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 8,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 10,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 12,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 14,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 16,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 18,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 20,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 22,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 24,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 26,
+     "candidate": true,
+     "confidence": "medium"
+    },
+    {
+     "turn_id": 28,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 30,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 32,
+     "candidate": true,
+     "confidence": "medium"
+    },
+    {
+     "turn_id": 34,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 36,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 38,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 40,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 42,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 44,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 46,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 48,
+     "candidate": true,
+     "confidence": "medium"
+    },
+    {
+     "turn_id": 50,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 52,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 54,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 56,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 58,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 60,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 62,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 64,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 66,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 68,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 70,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 72,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 74,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 76,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 78,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 80,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 82,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 84,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 86,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 88,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 90,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 92,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 94,
+     "candidate": true,
+     "confidence": "medium"
+    },
+    {
+     "turn_id": 96,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 98,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 100,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 102,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 104,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 106,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 108,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 110,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 112,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 114,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 116,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 118,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 120,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 122,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 124,
+     "candidate": false,
+     "confidence": "high"
+    }
+   ]
+  },
+  {
+   "episode": "2025-08-25_Hemingway_Love_and_War_with_David_Wyatt_",
+   "config": "anthropic-0.122.0/claude-haiku-4-5/temp0/maxtok8192/stage1-v1",
+   "n_host_turns": 23,
+   "n_candidates": 1,
+   "labels": [
+    {
+     "turn_id": 0,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 2,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 4,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 6,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 8,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 10,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 12,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 14,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 16,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 18,
+     "candidate": true,
+     "confidence": "medium"
+    },
+    {
+     "turn_id": 20,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 22,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 24,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 26,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 28,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 30,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 32,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 34,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 36,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 38,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 40,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 42,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 44,
+     "candidate": false,
+     "confidence": "high"
+    }
+   ]
+  },
+  {
+   "episode": "2025-09-08_How_Teams_Succeed_with_Colin_Fisher_",
+   "config": "anthropic-0.122.0/claude-haiku-4-5/temp0/maxtok8192/stage1-v1",
+   "n_host_turns": 19,
+   "n_candidates": 1,
+   "labels": [
+    {
+     "turn_id": 0,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 2,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 4,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 6,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 8,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 10,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 12,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 14,
+     "candidate": true,
+     "confidence": "medium"
+    },
+    {
+     "turn_id": 16,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 18,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 20,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 22,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 24,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 26,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 28,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 30,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 32,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 34,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 36,
+     "candidate": false,
+     "confidence": "high"
+    }
+   ]
+  },
+  {
+   "episode": "2025-09-22_Steven_Pinker_on_Common_Knowledge",
+   "config": "anthropic-0.122.0/claude-haiku-4-5/temp0/maxtok8192/stage1-v1",
+   "n_host_turns": 28,
+   "n_candidates": 6,
+   "labels": [
+    {
+     "turn_id": 0,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 2,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 4,
+     "candidate": true,
+     "confidence": "medium"
+    },
+    {
+     "turn_id": 6,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 8,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 10,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 12,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 14,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 16,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 18,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 20,
+     "candidate": true,
+     "confidence": "medium"
+    },
+    {
+     "turn_id": 22,
+     "candidate": true,
+     "confidence": "medium"
+    },
+    {
+     "turn_id": 24,
+     "candidate": true,
+     "confidence": "medium"
+    },
+    {
+     "turn_id": 26,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 28,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 30,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 32,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 34,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 36,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 38,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 40,
+     "candidate": true,
+     "confidence": "medium"
+    },
+    {
+     "turn_id": 42,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 44,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 46,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 48,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 50,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 52,
+     "candidate": true,
+     "confidence": "medium"
+    },
+    {
+     "turn_id": 54,
+     "candidate": false,
+     "confidence": "high"
+    }
+   ]
+  },
+  {
+   "episode": "2025-10-01__482_Pavel_Durov_Telegram_Freedom_Censorship_Money_Power_Hum",
+   "config": "anthropic-0.122.0/claude-haiku-4-5/temp0/maxtok8192/stage1-v1",
+   "n_host_turns": 135,
+   "n_candidates": 5,
+   "labels": [
+    {
+     "turn_id": 0,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 2,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 4,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 6,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 8,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 10,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 12,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 14,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 16,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 18,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 20,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 22,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 24,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 26,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 28,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 30,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 32,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 34,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 36,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 38,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 40,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 42,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 44,
+     "candidate": true,
+     "confidence": "medium"
+    },
+    {
+     "turn_id": 46,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 48,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 50,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 52,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 54,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 56,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 58,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 60,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 62,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 64,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 66,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 68,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 70,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 72,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 74,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 76,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 78,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 80,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 82,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 84,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 86,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 88,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 90,
+     "candidate": true,
+     "confidence": "medium"
+    },
+    {
+     "turn_id": 92,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 94,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 96,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 98,
+     "candidate": true,
+     "confidence": "medium"
+    },
+    {
+     "turn_id": 100,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 102,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 104,
+     "candidate": true,
+     "confidence": "medium"
+    },
+    {
+     "turn_id": 106,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 108,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 110,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 112,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 114,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 116,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 118,
+     "candidate": true,
+     "confidence": "medium"
+    },
+    {
+     "turn_id": 120,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 122,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 124,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 126,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 128,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 130,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 132,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 134,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 136,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 138,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 140,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 142,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 144,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 146,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 148,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 150,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 152,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 154,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 156,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 158,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 160,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 162,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 164,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 166,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 168,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 170,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 172,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 174,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 176,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 178,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 180,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 182,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 184,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 186,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 188,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 190,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 192,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 194,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 196,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 198,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 200,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 202,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 204,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 206,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 208,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 210,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 212,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 214,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 216,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 218,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 220,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 222,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 224,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 226,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 228,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 230,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 232,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 234,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 236,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 238,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 240,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 242,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 244,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 246,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 248,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 250,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 252,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 254,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 256,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 258,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 260,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 262,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 264,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 266,
+     "candidate": false,
+     "confidence": "high"
+    },
+    {
+     "turn_id": 268,
+     "candidate": false,
+     "confidence": "high"
+    }
+   ]
+  }
+ ]
+}
