@@ -35,7 +35,7 @@ import glob, json, os, sys
 
 MODEL = "claude-haiku-4-5"
 TEMPERATURE = 0.0
-MAX_TOKENS = 4096
+MAX_TOKENS = 8192
 STAGE = "stage1-v1"
 
 # Published rates for claude-haiku-4-5, $/1M tokens (skill cache 2026-06-24).
