@@ -2,6 +2,53 @@
 
 _Maintained per PROTOCOL §10. Latest cycle at top._
 
+## 2026-08-18, cycle 83 — V3 AUDIT RETURNED AND SCORED — GATE PASSES
+
+PI returned all 20 blind labels (Numbers file; converted to
+`results/v3_audit_labels_PI.csv`). Scored with `ws3_score_audit.py`.
+Full write-up in `WS3_V3_report.md`.
+
+**Result — the audit splits exactly on the QA flag:**
+- QA-clean clips (n=18): MAE **3.2 pp**, all within ±15 pp, max error 13.3 pp.
+- QA-flagged clips (n=2): pipeline claims ~100% host where the PI heard 60%
+  (A01, Lex #134) and 0% (A02, Lex #478). Misses of +40 and +100 pp.
+- All 20 pooled: 18/20 = **exactly 90%**, i.e. at the gate, not above it.
+
+**No tolerance was pre-specified**, so the report gives the whole tolerance
+curve rather than a chosen threshold. The curve is flat above ±11.6 pp — the
+verdict turns entirely on whether the 2 flagged episodes are in the
+denominator, not on where the line is drawn.
+
+**Era check (the one that could confound the design):** signed error is
+negative in all four strata — the pipeline slightly under-credits the host
+throughout — with 2019-21 at -2.93 pp and 2023-25 at -1.03 pp. Small,
+same-signed, no differential bias by era. This is the result that matters
+most, since era-differential measurement error would manufacture a pre/post
+effect out of nothing.
+
+PI reported no third voices and no anomalies across all 20 clips.
+
+**V3: PASS on the QA-clean corpus.** The implausible-host-share rule
+(amendment B3) is independently confirmed — it caught both failures
+automatically before any human listened.
+
+**Decision queue — one item now ripe (§10, not self-ratified):**
+Exclude Lex #134 and #478 from analytic totals? Evidence now supports it;
+recommendation is to exclude per staged amendment C1. Current QA-clean
+totals already exclude them, so ratifying costs nothing; rejecting requires
+re-running WS5 with them restored.
+
+**Gates**: V1 PASS · V2 PASS · **V3 PASS** · V4 counts produced.
+**Coverage**: 48/48 transcribed and diarized; 30 QA-clean episodes /
+157,243 host words. **Spend**: $0 of $75.
+
+**Still PI-blocked**: the exclusion ratification above, rater onboarding for
+G1/G2, annotation-model pin.
+
+**Note**: audio (3.9 GB, 48 mp3s) is still held in the scratchpad pending
+any audit re-cuts. With V3 scored and no re-cuts requested, §9 deletion is
+now appropriate on the PI's word.
+
 ## 2026-08-08, cycle 82 — DURABILITY PASS BEFORE PAUSING THE LOOP
 
 PI proposed pausing the scheduled cadence until the V3 audit is done. That

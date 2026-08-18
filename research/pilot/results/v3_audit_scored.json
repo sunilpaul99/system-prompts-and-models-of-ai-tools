@@ -1,0 +1,202 @@
+[
+ {
+  "id": "A01",
+  "episode": "2020-10-30__134_Eric_Weinstein_On_the_Nature_of_Good_and_Evil_Genius_an",
+  "flagged": true,
+  "pi": 60.0,
+  "pipe": 100.0,
+  "err": 40.0,
+  "third": "N",
+  "notes": ""
+ },
+ {
+  "id": "A02",
+  "episode": "2025-08-24__478_Scott_Horton_The_Case_Against_War_and_the_Military_Indu",
+  "flagged": true,
+  "pi": 0.0,
+  "pipe": 100.0,
+  "err": 100.0,
+  "third": "N",
+  "notes": ""
+ },
+ {
+  "id": "A03",
+  "episode": "2021-11-30__245_Tom_Brands_Iowa_Wrestling",
+  "flagged": false,
+  "pi": 30.0,
+  "pipe": 18.37425910245572,
+  "err": -11.62574089754428,
+  "third": "N",
+  "notes": ""
+ },
+ {
+  "id": "A04",
+  "episode": "2020-11-16__139_Andrew_Huberman_Neuroscience_of_Optimal_Performance",
+  "flagged": false,
+  "pi": 0.0,
+  "pipe": 0.0,
+  "err": 0.0,
+  "third": "N",
+  "notes": ""
+ },
+ {
+  "id": "A05",
+  "episode": "2021-11-28__244_Robert_Crews_Afghanistan_Taliban_Bin_Laden_and_War_in_t",
+  "flagged": false,
+  "pi": 20.0,
+  "pipe": 17.851099830795185,
+  "err": -2.148900169204815,
+  "third": "N",
+  "notes": ""
+ },
+ {
+  "id": "A06",
+  "episode": "2021-02-23__163_Eric_Weinstein_Difficult_Conversations_Freedom_of_Speec",
+  "flagged": false,
+  "pi": 40.0,
+  "pipe": 43.37455830388697,
+  "err": 3.374558303886971,
+  "third": "N",
+  "notes": ""
+ },
+ {
+  "id": "A07",
+  "episode": "2020-03-21__82_Simon_Sinek_Leadership_Hard_Work_Optimism_and_the_Infini",
+  "flagged": false,
+  "pi": 40.0,
+  "pipe": 41.548709408826085,
+  "err": 1.5487094088260847,
+  "third": "N",
+  "notes": ""
+ },
+ {
+  "id": "A08",
+  "episode": "2021-09-30__227_Sean_Kelly_Existentialism_Nihilism_and_the_Search_for_M",
+  "flagged": false,
+  "pi": 30.0,
+  "pipe": 16.73605328892583,
+  "err": -13.26394671107417,
+  "third": "N",
+  "notes": ""
+ },
+ {
+  "id": "A09",
+  "episode": "2025-10-01__482_Pavel_Durov_Telegram_Freedom_Censorship_Money_Power_Hum",
+  "flagged": false,
+  "pi": 0.0,
+  "pipe": 0.0,
+  "err": 0.0,
+  "third": "N",
+  "notes": ""
+ },
+ {
+  "id": "A10",
+  "episode": "2025-08-13__477_Keyu_Jin_China_s_Economy_Tariffs_Trade_Trump_Communism_",
+  "flagged": false,
+  "pi": 40.0,
+  "pipe": 43.191673894189165,
+  "err": 3.191673894189165,
+  "third": "N",
+  "notes": ""
+ },
+ {
+  "id": "A11",
+  "episode": "2023-09-10__395_Walter_Isaacson_Elon_Musk_Steve_Jobs_Einstein_Da_Vinci_",
+  "flagged": false,
+  "pi": 20.0,
+  "pipe": 15.146299483649218,
+  "err": -4.8537005163507825,
+  "third": "N",
+  "notes": ""
+ },
+ {
+  "id": "A12",
+  "episode": "2024-04-17__426_Edward_Gibson_Human_Language_Psycholinguistics_Syntax_G",
+  "flagged": false,
+  "pi": 20.0,
+  "pipe": 18.976169461606478,
+  "err": -1.023830538393522,
+  "third": "N",
+  "notes": ""
+ },
+ {
+  "id": "A13",
+  "episode": "2024-03-25__421_Dana_White_UFC_Fighting_Khabib_Conor_Tyson_Ali_Rogan_El",
+  "flagged": false,
+  "pi": 10.0,
+  "pipe": 7.529610829102919,
+  "err": -2.4703891708970813,
+  "third": "N",
+  "notes": ""
+ },
+ {
+  "id": "A14",
+  "episode": "2023-06-02__381_Chris_Lattner_Future_of_Programming_and_AI",
+  "flagged": false,
+  "pi": 20.0,
+  "pipe": 17.347789824853994,
+  "err": -2.6522101751460063,
+  "third": "N",
+  "notes": ""
+ },
+ {
+  "id": "A15",
+  "episode": "2020-09-28_Agnes_Callard_on_Aspiration",
+  "flagged": false,
+  "pi": 40.0,
+  "pipe": 39.47583947583921,
+  "err": -0.5241605241607914,
+  "third": "N",
+  "notes": ""
+ },
+ {
+  "id": "A16",
+  "episode": "2019-05-20_Mary_Hirschfeld_on_Economics_Culture_and_Aquinas_and_the_Mar",
+  "flagged": false,
+  "pi": 20.0,
+  "pipe": 20.24221453287238,
+  "err": 0.24221453287238148,
+  "third": "N",
+  "notes": ""
+ },
+ {
+  "id": "A17",
+  "episode": "2019-06-10_Bjorn_Lomborg_on_the_Costs_and_Benefits_of_Attacking_Climate",
+  "flagged": false,
+  "pi": 10.0,
+  "pipe": 6.00500417014183,
+  "err": -3.99499582985817,
+  "third": "N",
+  "notes": ""
+ },
+ {
+  "id": "A18",
+  "episode": "2024-11-25_Tyler_Cowen_on_Life_and_Fate",
+  "flagged": false,
+  "pi": 80.0,
+  "pipe": 75.55163283318603,
+  "err": -4.448367166813966,
+  "third": "N",
+  "notes": ""
+ },
+ {
+  "id": "A19",
+  "episode": "2025-09-08_How_Teams_Succeed_with_Colin_Fisher_",
+  "flagged": false,
+  "pi": 40.0,
+  "pipe": 41.28053917438912,
+  "err": 1.2805391743891192,
+  "third": "N",
+  "notes": ""
+ },
+ {
+  "id": "A20",
+  "episode": "2025-06-30_The_Deceptive_Power_of_Maps_with_Paulina_Rowinska_",
+  "flagged": false,
+  "pi": 60.0,
+  "pipe": 61.71477079796261,
+  "err": 1.7147707979626077,
+  "third": "N",
+  "notes": ""
+ }
+]
