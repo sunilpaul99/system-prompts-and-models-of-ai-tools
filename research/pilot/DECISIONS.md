@@ -3,6 +3,37 @@
 Per PROTOCOL §10: every queued decision, its resolution, date, and where it
 took effect. Latest first.
 
+## 2026-08-18 — QA-flagged episodes: EXCLUDED
+
+**PI decision: exclude Lex #134 and Lex #478 from analytic totals.**
+Ratified 2026-08-18 in-session, on the completed blind V3 audit.
+
+Evidence base (WS3_V3_report.md, `results/v3_audit_scored.json`):
+- The implausible-host-share QA rule flagged both episodes automatically
+  (~99.9% host share) before any human listened — staged amendment B3.
+- Both were placed in the 20-clip audit **unmarked**, so the PI labelled
+  them blind alongside 18 clean clips.
+- PI heard **60%** host on #134 (A01) and **0%** host on #478 (A02); the
+  pipeline asserts **100%** on both. Misses of +40 and +100 pp.
+- The other 18 clips agreed to 3.2 pp MAE, all within ±15 pp, so the
+  failure is specific to these two episodes and not a general attribution
+  problem.
+- Between them the two episodes held **141,632 of 298,875 host words —
+  47.4% of the uncorrected denominator.**
+
+**Effects:**
+1. Analytic totals: **30 episodes / 157,243 host words** (verified:
+   298,875 − 28,278 − 113,354 = 157,243). These are the totals already
+   used for the V4 fingerprint rate of 7.6/100k, so no recount is needed.
+2. Their host-periods are marked **MISSING, not zero-filled**, per staged
+   amendment C1.
+3. Recorded machine-readably in `results/exclusions_ratified.json`.
+   `ws5_counts.json` is left as raw per-episode output — exclusion is
+   applied by consumers, so the raw record stays auditable.
+4. Amendment C1 (pre-specified handling of QA-failed episodes) now has a
+   worked precedent for the freeze pass; B3 (the QA gate itself) is
+   confirmed by an independent human check.
+
 ## 2026-08-03 — multi-speaker formats: fallback (c) ADOPTED
 
 **PI decision: multi-speaker/co-host formats are NOT MEASURABLE with

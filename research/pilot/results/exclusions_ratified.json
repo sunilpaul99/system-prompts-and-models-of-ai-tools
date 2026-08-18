@@ -1,0 +1,32 @@
+{
+ "decision": "exclude",
+ "ratified_by": "PI",
+ "ratified_on": "2026-08-18",
+ "basis": "V3 blind audit (WS3_V3_report.md). PI heard 60% host on A01 and 0% host on A02; pipeline asserts ~100% host on both. Detected automatically by the implausible-host-share QA rule (staged amendment B3) before any human listened.",
+ "rule": "Excluded from analytic totals; host-periods marked MISSING, not zero-filled (staged amendment C1).",
+ "episodes": [
+  {
+   "file": "2020-10-30__134_Eric_Weinstein_On_the_Nature_of_Good_and_Evil_Genius_an.mp3",
+   "audit_clip": "A01",
+   "host_words_excluded": 28278,
+   "pi_host_pct": 60,
+   "pipeline_host_pct": 100.0
+  },
+  {
+   "file": "2025-08-24__478_Scott_Horton_The_Case_Against_War_.mp3",
+   "audit_clip": "A02",
+   "host_words_excluded": 113354,
+   "pi_host_pct": 0,
+   "pipeline_host_pct": 100.0
+  }
+ ],
+ "totals": {
+  "episodes_before": 32,
+  "episodes_after": 30,
+  "host_words_before": 298875,
+  "host_words_excluded": 141632,
+  "host_words_after": 157243,
+  "share_of_denominator_removed": 0.4739
+ },
+ "note": "ws5_counts.json is left as raw per-episode output; exclusion is applied by consumers reading this file. Raw stays raw."
+}

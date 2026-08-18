@@ -2,6 +2,32 @@
 
 _Maintained per PROTOCOL §10. Latest cycle at top._
 
+## 2026-08-18, cycle 84 — EXCLUSION RATIFIED; PILOT MEASUREMENT CHAIN CLOSED
+
+PI ratified exclusion of Lex #134 and #478 on the blind audit evidence.
+Recorded in DECISIONS.md and `results/exclusions_ratified.json`.
+
+Arithmetic verified against raw counts: 298,875 − 28,278 − 113,354 =
+**157,243 host words across 30 episodes** — identical to the totals already
+used for the V4 rate of 7.6/100k, so no recount was required. The two
+episodes held **47.4%** of the uncorrected denominator.
+
+`ws5_counts.json` deliberately left as raw per-episode output; exclusion is
+applied by consumers reading the ratified list, so the raw record stays
+auditable and the exclusion is reversible on inspection.
+
+**All four validity gates are now closed: V1 PASS · V2 PASS · V3 PASS ·
+V4 counts produced on a ratified denominator.** The pilot's measurement
+chain — transcription, attribution, counting — is validated end to end for
+the lexical family.
+
+**Remaining PI-blocked work** (both in the relational family, H1-R):
+rater onboarding for G1/G2 gold labelling, and the annotation-model pin.
+Nothing else is agent-actionable.
+
+**Audio**: 3.9 GB / 48 mp3s still held pending §9 deletion — no re-cuts were
+requested, so deletion is appropriate on the PI's word.
+
 ## 2026-08-18, cycle 83 — V3 AUDIT RETURNED AND SCORED — GATE PASSES
 
 PI returned all 20 blind labels (Numbers file; converted to
