@@ -1,0 +1,20 @@
+# Daily Study Ideas
+
+A running log of daily research pitches — three per morning — for potential studies built on
+publicly accessible digital sources. Each pitch is written the way one would pitch a study to a
+lab director or funding agency: motivation, research question, method and data, expected
+deliverable, feasibility, and risks.
+
+Ideas build on prior work in this repository, especially
+[`Research/ideologies-and-ai-attitudes-map.md`](../ideologies-and-ai-attitudes-map.md).
+
+## Conventions
+
+- One file per day: `YYYY-MM-DD.md`, three pitches each.
+- Ideas should not repeat earlier entries; check this directory before writing new ones.
+- When an idea graduates into a real study, note it in the day's file with a link to where the
+  work lives.
+
+## Index
+
+- [2026-08-18](2026-08-18.md) — System prompts as governance texts; the AI polarization index; the moral vocabulary gap.
