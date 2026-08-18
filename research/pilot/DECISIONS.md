@@ -3,6 +3,28 @@
 Per PROTOCOL §10: every queued decision, its resolution, date, and where it
 took effect. Latest first.
 
+## 2026-08-18 — annotation model: PINNED to Haiku 4.5 via API
+
+**PI decision: run WS6 annotation through the metered API on
+`claude-haiku-4-5` with temperature=0, not through the agent session.**
+Ratified in-session 2026-08-18.
+
+Rationale (recorded because the cheaper-looking option was rejected):
+- Session-based annotation would cost no extra dollars (subscription), but
+  the serving model can change mid-run and cannot be pinned or recorded —
+  the same unpinned-config failure class that V2 exposed in transcription.
+- API cost is trivial at pilot scale: Stage 1 reads 1,877 host turns
+  (~244k input tokens) ≈ **$0.30**; full-study Stage 1 ≈ $93 on Haiku.
+- Haiku 4.5 over Sonnet-class: it is the model the full study would use,
+  AND it still accepts temperature=0 — Sonnet 5/Opus 5 reject sampling
+  parameters, so pinned sampling is not expressible there.
+- **Escalation rule:** if Haiku fails κ≥0.70 against the PI's gold labels,
+  re-validate a Sonnet-class model on the same gold sample; that switch is
+  a PI decision.
+
+Effects: `ws6_stage1.py` (pinned config string written into every output),
+spend drawn from the $75 pilot cap once the PI supplies an API key.
+
 ## 2026-08-18 — QA-flagged episodes: EXCLUDED
 
 **PI decision: exclude Lex #134 and Lex #478 from analytic totals.**
