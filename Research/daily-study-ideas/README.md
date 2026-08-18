@@ -17,4 +17,4 @@ Ideas build on prior work in this repository, especially
 
 ## Index
 
-- [2026-08-18](2026-08-18.md) — System prompts as governance texts; the AI polarization index; the moral vocabulary gap.
+- [2026-08-18](2026-08-18.md) — Batch 1: System prompts as governance texts; the AI polarization index; the moral vocabulary gap. Batch 2 (morning run): Grief for machines (model deprecations and attachment); the human-made premium (authenticity economy); the slop shock (AI contributions and commons governance).
