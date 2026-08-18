@@ -2,6 +2,35 @@
 
 _Maintained per PROTOCOL §10. Latest cycle at top._
 
+## 2026-08-18, cycle 85 — STAGE 1 RUN; GOLD SHEETS DELIVERED TO PI
+
+PI supplied an API key (stored ~/.config/anthropic_key, 0600, outside the
+repo; flagged for revocation at study end since it transited the chat).
+
+**Stage 1 executed** under `anthropic-0.122.0/claude-haiku-4-5/temp0/
+maxtok8192/stage1-v1`: 30 post-exclusion episodes, 1,877 host turns →
+**199 candidates (10.6%; EconTalk 15.6%, Lex 9.0%)**. Dry-run projected
+$0.21; actual **$0.41** (222k in / 38k out) — the pilot's first external
+spend, now $0.41 of $75. Flag rate came in below WS8's 15% assumption, so
+the full-study Stage 2 estimate shrinks.
+
+Integrity: every input turn got exactly one label; one invented turn_id in
+one episode, dropped at aggregation and recorded in the committed file's
+sanitization block (`results/ws6_stage1_labels.json` — ids and booleans
+only, no text).
+
+**Gold sheets generated and delivered** (`ws6_gold_sheets.py`, seed
+20260818): G1 = 300 exchange windows (150 candidates / 150 non-candidates,
+stratified show × era, unmarked) and G2 = 199 candidate turns for the
+four-feature labelling. Speakers anonymized to [HOST]/[GUEST]; host-name
+leak check clean. Sheets + private answer key contain transcript text →
+NOT committed; packet sent to PI directly, key retained agent-side.
+
+**Critical path is now entirely the rater:** ~6–8 h of blind labelling.
+On return: score κ (G1 gate vs Stage 1; G2 gates the feature battery),
+which decides whether Haiku is validated or escalation to Sonnet-class
+goes to the decision queue.
+
 ## 2026-08-18, cycle 84 — EXCLUSION RATIFIED; PILOT MEASUREMENT CHAIN CLOSED
 
 PI ratified exclusion of Lex #134 and #478 on the blind audit evidence.
