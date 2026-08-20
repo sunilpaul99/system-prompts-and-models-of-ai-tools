@@ -17,6 +17,8 @@ Ideas build on prior work in this repository, especially
 
 ## Index
 
+- [2026-08-20](2026-08-20.md) — The legislative genome (copy-paste genealogy of AI law); where did the questions go? (Q&A commons after LLMs); the AI-washing index (corporate AI talk vs. substance).
+
 - [2026-08-19](2026-08-19.md) — The council chamber (AI in local government); who called it? (AI prediction accountability audit); the telephone game (mutation of AI incident stories).
 
 - [2026-08-18](2026-08-18.md) — Batch 1: System prompts as governance texts; the AI polarization index; the moral vocabulary gap. Batch 2 (morning run): Grief for machines (model deprecations and attachment); the human-made premium (authenticity economy); the slop shock (AI contributions and commons governance).
