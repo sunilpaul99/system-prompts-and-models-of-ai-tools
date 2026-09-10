@@ -82,10 +82,15 @@ def enroll(scratch):
         if host.startswith("_"): continue
         embs = []
         for ref in refs:  # {"file": ..., "start": s, "end": e}
-            path = glob.glob(os.path.join(scratch, "audio", host, ref["file"] + "*"))[0]
-            audio = decode(path, ref["start"], ref["end"])
+            paths = glob.glob(os.path.join(scratch, "audio", host, ref["file"] + "*"))
+            if not paths:
+                print(f"  {host}: reference audio missing, skipping {ref['file'][:40]}")
+                continue
+            audio = decode(paths[0], ref["start"], ref["end"])
             offs = np.arange(0, len(audio)/SR - WIN, HOP)
             embs += [e for _, e in embed_windows(audio, offs)]
+        if not embs:
+            print(f"enrolled {host}: NO reference audio — host not enrolled"); continue
         c = np.mean(embs, axis=0); cents[host] = (c / np.linalg.norm(c)).tolist()
         print(f"enrolled {host}: {len(embs)} windows")
     json.dump(cents, open(os.path.join(scratch, "host_centroids.json"), "w"))
