@@ -1,11 +1,11 @@
 {
- "note": "EXPLORATORY. PI-authorized descriptive readout (ballot P1b, 2026-09-10). Era proxy, n=2 hosts, no exposure classification, no inference. These hosts are exploratory-only in any future confirmatory analysis.",
+ "note": "EXPLORATORY. PI-authorized descriptive readout (ballot P1b). Era proxy, n=2 hosts, no exposure classification, no inference. Hosts exploratory-only hereafter.",
+ "errata": "2026-09-11 recomputed: the 2026-09-10 version silently included excluded episode #478 (113,354 contaminated host words) due to a filename bug in exclusions_ratified.json.",
  "cells": {
   "econtalk_post": {
    "eps": 8,
    "words": 32360,
    "fing": 2,
-   "fing_flag": 0,
    "plac": 18,
    "fing_rate_100k": 6.18,
    "plac_rate_100k": 55.62
@@ -14,25 +14,22 @@
    "eps": 8,
    "words": 35580,
    "fing": 0,
-   "fing_flag": 0,
    "plac": 11,
    "fing_rate_100k": 0.0,
    "plac_rate_100k": 30.92
   },
   "lex_post": {
-   "eps": 8,
-   "words": 162264,
-   "fing": 14,
-   "fing_flag": 3,
-   "plac": 55,
-   "fing_rate_100k": 8.63,
-   "plac_rate_100k": 33.9
+   "eps": 7,
+   "words": 48910,
+   "fing": 6,
+   "plac": 16,
+   "fing_rate_100k": 12.27,
+   "plac_rate_100k": 32.71
   },
   "lex_pre": {
    "eps": 7,
    "words": 40393,
    "fing": 2,
-   "fing_flag": 0,
    "plac": 24,
    "fing_rate_100k": 4.95,
    "plac_rate_100k": 59.42

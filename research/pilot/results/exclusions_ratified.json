@@ -13,7 +13,7 @@
    "pipeline_host_pct": 100.0
   },
   {
-   "file": "2025-08-24__478_Scott_Horton_The_Case_Against_War_.mp3",
+   "file": "2025-08-24__478_Scott_Horton_The_Case_Against_War_and_the_Military_Indu.mp3",
    "audit_clip": "A02",
    "host_words_excluded": 113354,
    "pi_host_pct": 0,
@@ -28,5 +28,6 @@
   "host_words_after": 157243,
   "share_of_denominator_removed": 0.4739
  },
- "note": "ws5_counts.json is left as raw per-episode output; exclusion is applied by consumers reading this file. Raw stays raw."
+ "note": "ws5_counts.json is left as raw per-episode output; exclusion is applied by consumers reading this file. Raw stays raw.",
+ "errata": "2026-09-11: Horton filename was hand-abbreviated at creation; corrected to the exact ws5_counts.json name. Name-based consumers before this date (exploratory_readout.json) silently failed to drop Horton."
 }

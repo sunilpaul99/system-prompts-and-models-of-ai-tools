@@ -65,12 +65,20 @@ here, and stored in `results/exploratory_readout.json`:
 
 | host | pre rate /100k | post rate /100k | within-host RR |
 |---|---|---|---|
-| Lex Fridman | 4.95 (2 in 40,393 w) | 8.63 (14 in 162,264 w) | 1.74 |
+| Lex Fridman | 4.95 (2 in 40,393 w) | 12.27 (6 in 48,910 w) | 2.48 |
 | Russ Roberts | 0.00 (0 in 35,580 w) | 6.18 (2 in 32,360 w) | undefined (0 baseline) |
+
+*Erratum 2026-09-11:* the readout first computed on 2026-09-10 reported
+Lex post as 8.63/100k over 162,264 words (RR 1.74). That version silently
+included excluded episode #478 — its 113,354 pipeline-mislabelled "host"
+words — because the exclusion file carried a hand-abbreviated filename
+that name-based lookups did not match. The file is corrected, the readout
+recomputed, and the totals now reconcile to the ratified 157,243 host
+words. The lesson is recorded in §6 (item 9).
 
 **These numbers carry no evidential weight.** n=2 hosts, no exposure
 labels, era-as-proxy, counts in the low single digits (a single word moves
-a rate). They demonstrate the pipeline emits sensible numbers; they say
+a rate — as the erratum above demonstrates in the other direction). They demonstrate the pipeline emits sensible numbers; they say
 nothing about the hypothesis. Consequence of taking the readout: **both
 hosts are exploratory-only in any future confirmatory panel** (one-way
 door, accepted at ballot).
@@ -114,6 +122,12 @@ built (detail in WS8_FEASIBILITY.md §3):
 7. **Completion checks must count outputs, not process exits.**
 8. **Using an LLM to detect LLM-like style is the deepest open risk** for
    H1-R; the full study should budget human annotation throughout.
+9. **Exclusion lists must be generated, never hand-typed, and every
+   consumer must assert its totals against the ratified denominator.** A
+   hand-abbreviated filename in the exclusion record let an excluded
+   episode leak back into one analysis undetected until a later rebuild
+   tripped over it. The 157,243-word total was the tripwire; the fix is to
+   make that assertion mandatory in every script that applies exclusions.
 
 ## 7. Recommendation for Phase 4
 
