@@ -101,22 +101,46 @@ def pending_chunks(scratch):
     return [(b, i) for _, b, i in items]
 
 
+def _alive(pid):
+    try:
+        os.kill(pid, 0); return True
+    except (ProcessLookupError, PermissionError, ValueError):
+        return False
+
+
 def reconcile(scratch):
-    """Clear claims whose output never appeared (worker died mid-chunk)."""
+    """Clear claims whose owner is dead and whose output never appeared.
+
+    A claim records its owner's PID. A live owner with no output yet is
+    simply in flight — the first rebuild treated those as stale and three
+    workers converged on one chunk. After a container restart every old
+    PID is dead, so those claims clear as intended."""
     n = 0
     for c in glob.glob(os.path.join(scratch, "claims", "*")):
         base, idx = os.path.basename(c).rsplit("__", 1)
-        if not os.path.exists(os.path.join(scratch, "chunks", base, f"{int(idx):03}.json")):
+        if os.path.exists(os.path.join(scratch, "chunks", base, f"{int(idx):03}.json")):
+            continue
+        try:
+            pid = int(open(os.path.join(c, "pid")).read())
+        except (FileNotFoundError, ValueError):
+            pid = -1
+        if not _alive(pid):
+            for f in glob.glob(os.path.join(c, "*")):
+                os.remove(f)
             os.rmdir(c); n += 1
     return n
 
 
 def claim(scratch, base, idx):
     os.makedirs(os.path.join(scratch, "claims"), exist_ok=True)
+    d = os.path.join(scratch, "claims", f"{base}__{idx}")
     try:
-        os.mkdir(os.path.join(scratch, "claims", f"{base}__{idx}")); return True
+        os.mkdir(d)
     except FileExistsError:
         return False
+    with open(os.path.join(d, "pid"), "w") as f:
+        f.write(str(os.getpid()))
+    return True
 
 
 def run_chunk(scratch, base, idx, log):
