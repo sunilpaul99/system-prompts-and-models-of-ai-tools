@@ -3,6 +3,34 @@
 Per PROTOCOL §10: every queued decision, its resolution, date, and where it
 took effect. Latest first.
 
+## 2026-09-10 — relational family (H1-R): DEFERRED; pilot completes as single-family
+
+**PI decision: complete the pilot without the G1/G2 gold-labelling pass.
+The relational family (H1-R) is DEFERRED — not measured, not validated,
+and reported as such. The pilot's confirmatory scope narrows to the
+lexical family (H1-L), whose validation chain is complete (V1–V4, human
+audit included).**
+
+Decided 2026-09-10 in-session ("Option A") after an explicit briefing on
+the alternatives: (B) publishing H1-R numbers from an unvalidated LLM
+annotator was rejected as a credibility risk; (C) a reduced 100-item gold
+pass remains available as an upgrade path if ~2 hours of rater time
+appears before the report is final.
+
+**Effects:**
+1. No κ gate is run; the Haiku-4.5 annotation-model pin remains
+   provisional and is recorded as untested.
+2. Stage-1 screening output (results/ws6_stage1_labels.json) is retained
+   as pipeline evidence and a Phase 4 asset, but feeds no analysis.
+3. The two-family co-primary structure (§5) is amended at freeze: H1-L
+   sole confirmatory family; H1-R exploratory/deferred (new amendment E3).
+4. The final pilot report states the deferral in scope, not in a footnote.
+
+*Housekeeping recorded same day:* the session container was reclaimed
+during the 3-week pause; the pilot audio (3.9 GB) was destroyed with it,
+completing §9 deletion. Transcripts survive only in the PI's private
+backup tarball. The API key remains to be revoked at the console.
+
 ## 2026-08-18 — annotation model: PINNED to Haiku 4.5 via API
 
 **PI decision: run WS6 annotation through the metered API on
