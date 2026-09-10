@@ -2,10 +2,21 @@
 
 **Working title:** Is personal LLM adoption associated with drift toward LLM-characteristic language — in word choice and in the style of disagreement — in one's own spontaneous conversation? A blinded within-person pilot study of podcast hosts, 2019–2026.
 
-**Status:** DRAFT v0.3 — not yet frozen.
+**Status:** FROZEN v1.0 — frozen 2026-09-10 at pilot exit review.
 **Principal investigator:** Sunil Paul (independent researcher)
-**Drafted:** 2026-07-27 (v0.1); revised 2026-07-27 (v0.2, v0.3)
-**Freeze date:** _(to be stamped when ratified)_
+**Drafted:** 2026-07-27 (v0.1); revised 2026-07-27 (v0.2, v0.3); frozen 2026-09-10 (v1.0)
+**Freeze date:** 2026-09-10
+
+> **Freeze note (v1.0).** This freeze incorporates the exit-review ballot
+> (research/pilot/EXIT_REVIEW_BALLOT.md, ratified 2026-09-10) and the
+> pilot decision log (research/pilot/DECISIONS.md). The single most
+> consequential change: **the relational family (H1-R) is deferred to
+> exploratory; the lexical family (H1-L) is the sole confirmatory family.**
+> The G1/G2 human-annotation gate (§5.2.4) was not run — the pilot ended
+> before the gold-labelling pass — so H1-R's annotation instrument is
+> unvalidated and no H1-R confirmatory claim is made. Amendment tags
+> [A1]–[E3] below mark each ratified change; see the amendments file for
+> the evidence behind each.
 
 ---
 
@@ -25,15 +36,15 @@ Scope discipline: wherever a design choice trades rigor against feasibility, thi
 
 **Questions.** Among long-running podcast hosts, is documented personal adoption of LLM tools associated with (a) a larger increase in LLM-characteristic *word choice* in the host's own spontaneous speech, and (b) a larger shift toward LLM-characteristic *interactional style* — in particular, how the host handles disagreement — relative to hosts with documented non-use or rare use?
 
-The two questions share one corpus and one pipeline and differ only in outcome family: the **lexical family** (Section 5.1), which anchors this study to published population-level work, and the **relational family** (Section 5.2), which is the novel contribution. They are co-primary, each with a single primary endpoint. The relational family is subject to a measurement-validation gate (Section 5.2.4): if its annotation scheme fails validation in the technical pilot, it demotes to exploratory before freeze, and that demotion is reported.
+The two questions share one corpus and one pipeline and differ only in outcome family: the **lexical family** (Section 5.1), which anchors this study to published population-level work, and the **relational family** (Section 5.2), which is the novel contribution. **[E3, frozen 2026-09-10] The lexical family is the sole confirmatory family. The relational family is deferred to exploratory:** its measurement-validation gate (Section 5.2.4) was not run in the pilot, so its annotation scheme is unvalidated. H1-R (below) is withdrawn as a confirmatory hypothesis and retained only as an exploratory question and a Phase 4 asset (the Stage-1 screening pipeline was built and run; see research/pilot/WS8_FEASIBILITY.md and results/ws6_stage1_labels.json). The original co-primary structure, and the gate that would have validated H1-R, are preserved below in struck-through form for the full study to inherit.
 
 **Estimand (honest version).** The differential pre-to-post change in fingerprint-feature rates between hosts with direct evidence of regular LLM use and hosts with direct evidence of rare/non-use, under conditional parallel trends. This is an **association**. "Unconscious absorption" is one candidate mechanism; LLM-assisted show preparation (outlines, questions, talking points that shape nominally spontaneous speech) is another, and this design cannot fully separate them. Speech as the outcome medium rules out verbatim copy-paste only.
 
-**H1-L (co-primary, lexical).** The fingerprint-rate increase (composite lexical rate, Section 5.1) is larger among CONFIRMED-USE hosts than CONFIRMED-NONUSE hosts.
+**H1-L (PRIMARY, lexical).** The fingerprint-rate increase (composite lexical rate, Section 5.1) is larger among CONFIRMED-USE hosts than CONFIRMED-NONUSE hosts. **[E3] Sole confirmatory hypothesis as of the v1.0 freeze.**
 
-**H1-R (co-primary, relational).** The increase in concessive-prefaced disagreement (primary relational endpoint, Section 5.2.2, R2) is larger among CONFIRMED-USE hosts than CONFIRMED-NONUSE hosts.
+**H1-R (relational).** ~~The increase in concessive-prefaced disagreement (primary relational endpoint, Section 5.2.2, R2) is larger among CONFIRMED-USE hosts than CONFIRMED-NONUSE hosts.~~ **[E3, frozen 2026-09-10] WITHDRAWN as confirmatory; exploratory only.** Retained as an exploratory question for the full study; the pilot did not validate its annotation instrument.
 
-Multiplicity: two co-primary endpoints are declared, one per family, each tested at α=0.05 by permutation; recommendations are issued *per family* in the Section 8.1 table, so a positive in one family and a null in the other is reported as exactly that, not pooled into a single verdict. All other relational measures (R1, R3–R5) are secondary and descriptive.
+Multiplicity: **[E3]** with a single confirmatory endpoint (H1-L), no multiplicity adjustment is required for the pilot; H1-L is tested at α=0.05 by permutation. ~~two co-primary endpoints are declared, one per family, each tested at α=0.05 by permutation; recommendations are issued *per family*~~. Any relational quantities reported are exploratory and descriptive.
 
 **Negative-control analyses (not "hypotheses to confirm"):**
 - **NC1 — placebo words (lexical):** the same contrast on matched non-LLM words should show no comparable differential.
@@ -63,10 +74,12 @@ The frame is built from **archived pre-treatment charts**: Wayback Machine captu
 - **I3.** Host speaks ≥30% of airtime (pilot diarization on 3 episodes).
 - **I4.** Audio retrievable for ≥70% of sampled periods in both pre and post.
 - **E1.** Excluded: shows whose dominant recurring topic pre-2022 is AI/ML (topic confound); shows with heavy speech post-production; at most one host per show (co-hosts share production environments — the primary host only).
+- **[A1, frozen 2026-09-10] E2 — Two-voice interview formats only.** Eligibility is restricted to one-host-one-guest interview formats. *Evidence:* co-host/panel diarization fails unrecoverably (DECISIONS.md 2026-08-03); the panel format (MBMBaM) was found NOT MEASURABLE in a complete paired experiment. Co-host and roundtable formats are excluded at sampling, not discovered at diarization.
+- **[A2, frozen 2026-09-10] E3 — Exclude live/audience-recorded episodes.** Screen out episodes recorded before a live audience at sampling. *Evidence:* live episodes produced 13–14 spurious speaker clusters from audience noise; even in two-voice shows, live recordings defeat enrollment-based diarization.
 
 ### 3.3 Panel size (pilot-scaled)
 
-Target **24 hosts**: 12 CONFIRMED-USE, 12 CONFIRMED-NONUSE (minimum acceptable 9 per arm), with ≥40% of the panel from non-technology genres, balanced across arms as evenly as the frame allows. If eligible hosts exceed need, selection is by fixed random seed from the eligible pool, recorded in the repo. Cell shortfalls are reported, not rebalanced silently.
+Target **24 hosts**: 12 CONFIRMED-USE, 12 CONFIRMED-NONUSE (**[D1, frozen 2026-09-10] hard minimum 21 hosts total** — see §8.2; the earlier "9 per arm" floor is superseded for the lexical family), with ≥40% of the panel from non-technology genres, balanced across arms as evenly as the frame allows. If eligible hosts exceed need, selection is by fixed random seed from the eligible pool, recorded in the repo. Cell shortfalls are reported, not rebalanced silently.
 
 Rationale: 24 hosts cannot detect a subtle effect; they can detect the *moderate-to-large* effect that would make a full study clearly worthwhile, and can estimate the variance components a real power analysis needs. That matches the pilot's decision purpose. A post-pilot simulation (Section 8.3) converts observed variance into "the full study needs N hosts" — a key handoff deliverable.
 
@@ -126,7 +139,7 @@ A **disagreement episode** is a transcript span in which a guest (or co-particip
 - **R2 — Concessive preface rate (PRIMARY):** the fraction of host disagreement turns that open with an explicit validation/agreement token before the contrary stance ("That's a great point, and…", "I hear you, but…", "Totally fair — though…"). This is the most distinctive LLM interactional signature and the pre-registered primary relational endpoint.
 - **R3 — Hedge density in disagreement:** epistemic hedges ("I think", "maybe", "sort of", "it could be argued", "to some extent") per 100 words within host disagreement turns, compared against the host's own hedge density in non-disagreement turns (a within-host, within-period contrast that nets out general hedging drift).
 - **R4 — Both-sides framing:** fraction of host stance turns in disagreement episodes that present balanced dual framing without committing ("there's merit on both sides…").
-- **R5 — Bald directness:** fraction of host disagreement turns containing unmitigated contradiction ("No.", "I disagree", "That's just wrong"). Predicted to *decrease* under the absorption account — a directional check that the battery is not merely measuring verbosity.
+- **R5 — Bald directness:** fraction of host disagreement turns containing unmitigated contradiction ("No.", "I disagree", "That's just wrong"). **[E1, frozen 2026-09-10]** ~~Predicted to *decrease* under the absorption account~~ — the prediction is now stated **two-sided**: a Communications Psychology "norm leakage" result predicts LLM-contact effects in *both* directions (softening and blunting), so R5's sign is not pre-committed. Directional interpretation, if any, is exploratory and justified post hoc. (Moot for the pilot under E3, but corrected for the full study.)
 
 R2 is confirmatory; R1 and R3–R5 are secondary/descriptive. All rates use the count of host disagreement turns (or conversation-hours, for R1) as denominator — never raw counts.
 
@@ -166,11 +179,16 @@ Occurrences within 50 words of explicit AI-language references ("ChatGPT always 
 
 Fetch (RSS/archived feeds) → transcribe (Whisper, single pinned version) → diarize (host voice enrolled from 3 reference episodes) → sense-filter and count on host-attributed speech → delete audio, retain host-speech transcripts, counts, logs.
 
+**[B1, frozen 2026-09-10] Full transcription-config pin.** The pin is the complete string `faster-whisper-<ver>/<model>/int8/threads1/temp0/beam5/chunk1500` with `OMP_NUM_THREADS=1`, not the model name alone. *Evidence:* CTranslate2 multithreaded decode is nondeterministic AND lossy under load (7–96% content dropped); thread count, temperature, and chunk size each alter output. Single-threaded decode reproduces counts to 0.39%. Re-run V2 after any change to model, threads, temperature, beam, or chunk size.
+
+**[B2, frozen 2026-09-10] Loop-guard fallback (declared).** Deterministic decode (`temperature=[0.0]`) removes Whisper's repetition-escape ladder; a chunk exceeding ~3× realtime is killed and re-run with `condition_on_previous_text=False`. Affected chunks carry a `loopguard_no_context` flag and are excludable in sensitivity analysis. This is the one wall-clock-triggered (hence not bit-reproducible) rule in the pipeline — declared as such.
+
 ### 6.1 Validity checks
 
 - **V1 — ASR bias, both eras and both lists:** on ≥10 hours of audio with verbatim ground-truth transcripts drawn from both pre-2021 and post-2023 sources, measure Whisper insertion *and* deletion rates for fingerprint and placebo words separately. Gate: insertion <1/100k words and no material fingerprint-vs-placebo asymmetry; else change transcriber before freeze.
 - **V2 — Reproducibility:** 1% of episodes re-processed each cycle; counts must reproduce ±2%.
 - **V3 — Diarization audit:** stratified manual check (by era × genre) of 40 episode segments against human labeling; host-attribution accuracy ≥90%, reported.
+- **[B3, frozen 2026-09-10] V3b — Implausible-host-share QA gate.** For two-voice formats, a host share of speech outside [0.15, 0.75] is a diarization failure regardless of embedding similarity; the episode is excluded from analytic totals (see C1). *Evidence:* 2/32 pilot interview episodes passed the similarity gate at ~99.9% host share and held 47% of all host words — a denominator contaminant the similarity gate could not see. Confirmed independently by the pilot's blind V3 audit (both flagged episodes: PI heard 60% and 0% host where the pipeline asserted ~100%).
 - **V4 — Placebo monitor + coverage ledger:** continuous, in every daily brief.
 
 ## 7. Analysis plan
@@ -184,6 +202,10 @@ Fetch (RSS/archived feeds) → transcribe (Whisper, single pinned version) → d
 **Negative controls:** NC1 (placebo composite, same model — and a single pre-specified contrast test: interaction(fingerprint) − interaction(placebo) via permutation); NC2 (pseudo-date 2020-07); NC3 (guest speech, descriptive).
 
 **Pre-trend assessment:** event-study-style plot of per-half-year arm differences with CIs across the pre-period; and a declared substantive bound — a pre-period differential trend exceeding 50% of the observed post effect renders H1 INCONCLUSIVE regardless of p-value. (No reliance on a low-powered nonsignificance test.)
+
+**[C1, frozen 2026-09-10] QA-failed episodes.** Episodes failing the V3b implausible-host-share gate are excluded from analytic totals, reported with their counts, and their host-periods marked **missing** (not zero-filled), consistent with the §3.4 minimum-word rule. *Precedent:* the pilot's exclusion of two episodes (28,278 + 113,354 host words) followed exactly this rule; totals dropped to 30 episodes / 157,243 host words with no zero-fill.
+
+**[C2, frozen 2026-09-10] Sparsity regime — report absolute counts beside rate ratios.** Expected fingerprint count is ~1.9 per host-period (7.6/100k × ~25k words). §7's Poisson-with-offset model is appropriate, but the write-up reports absolute counts alongside rate ratios, since RR is unstable at these counts. *Evidence:* WS7 power simulation.
 
 **Pre-specified sensitivities:** lexical — leave-one-word-out; meta-mention windows (0/20/50); excluding tech-genre hosts; excluding hosts with professional AI involvement; minimum-word-count threshold doubled. Relational — AI-topic-episode exclusion windows (0/20/50 analog); excluding tech-genre hosts; interview-format-only subset (dropping co-host-banter shows, where disagreement dynamics differ); host-year granularity.
 
@@ -205,11 +227,17 @@ Applied **per family** (lexical endpoint with NC1; relational endpoint with NC2/
 
 If the relational family was demoted at the 5.2.4 gate, its row is reported as **NOT MEASURABLE (pilot)** — itself a finding for the design memo. The two families' recommendations may differ (e.g., lexical NO-SIGNAL + relational GO); the write-up reports them separately and does not pool them into one verdict.
 
+**[E2/E3, frozen 2026-09-10] Pilot resolution.** The relational family's row is reported as **DEFERRED (gate not run)** rather than NOT MEASURABLE (gate-failed): the pilot ended before the G1/G2 gold-labelling pass, so H1-R is untested, not disproven. The pilot's own operational failures — multi-speaker non-measurability, transcription nondeterminism, the QA-gate gap, the determinism/loop-guard tradeoff — are reported as **findings** (Appendix C / the WS8 feasibility memo), not omissions.
+
 The GO(weak) row exists because a pilot of 24 hosts is designed to detect *large* effects; a moderate positive estimate with p≈0.1 is exactly the "worth a real study" outcome. A null here does NOT establish absence — the write-up states the minimum rate ratio the pilot could plausibly have detected (from 8.3) and bounds the claim accordingly.
 
 ### 8.2 Power realism (pre-freeze gate)
 
 Before freeze, run a simulation using pilot-phase estimates (baseline rates, host heterogeneity, serial correlation, words per period from the Phase 2 technical pilot): report the minimum detectable rate ratio at n=24 (and n=18 floor) **for each family separately** — the relational endpoint's power depends on disagreement-turn volume per host-period, which the technical pilot must measure. **If a family's detectable rate ratio exceeds 2.0, that family's design is revised (more hosts, more episodes, coarser granularity, or narrower feature set) before freezing; if unfixable within budget, the family demotes to exploratory.** Simulation code committed to the repo.
+
+**[D1, frozen 2026-09-10] Measured floor and hard host minimum.** The pilot simulation (WS7, lexical family) gives a minimum detectable rate ratio of ~1.9 at n=24 and ~2.1 at n=18. The design therefore **passes the ≤2.0 gate at n=24 but fails at its own n=18 floor.** Resolution (ballot D1a): the minimum panel size is **raised to 21 hosts** — below 21, the ≤2.0 gate is not met and the study must not proceed as confirmatory. This supersedes the "minimum acceptable 9 per arm" floor in §3.3 for the lexical family. *Rationale:* preferred over silently letting a sub-21 panel convert the study to descriptive mid-flight.
+
+**[D2, frozen 2026-09-10] Words-per-period is the binding lever.** In this sparsity regime, power scales with host words per period, not host count. More episodes per host-period is the cheapest route to sensitivity; the full study should prefer adding episodes over adding hosts once the 21-host floor is met.
 
 ### 8.3 Handoff deliverable
 
@@ -254,5 +282,6 @@ _(Carried from v0.1 §8.)_
 
 ## Changelog
 
+- **2026-09-10 v0.3 → v1.0 (FREEZE)**: exit-review ballot ratified (research/pilot/EXIT_REVIEW_BALLOT.md); protocol frozen. **[E3]** relational family (H1-R) deferred to exploratory — G1/G2 annotation gate not run before the pilot ended; H1-L is sole confirmatory family. Eligibility restricted to two-voice interview formats **[A1]** and live/audience episodes excluded **[A2]**. Full transcription-config pin **[B1]** and declared loop-guard fallback **[B2]** added to §6; implausible-host-share QA gate added as V3b **[B3]**. QA-failed-episode handling **[C1]** and sparsity/absolute-count reporting **[C2]** added to §7. Power floor: measured min detectable RR ~1.9 (n=24)/~2.1 (n=18); hard host minimum raised to 21 **[D1]**; words-per-period noted as binding lever **[D2]**. R5 directional prediction made two-sided **[E1]**; pilot operational failures reported as findings **[E2]**. Peeking: ballot P1(b) authorized a within-host descriptive pre/post readout of the two pilot hosts (results/exploratory_readout.json); those hosts are consequently exploratory-only in any future confirmatory panel. Pilot audio deleted (§9) via container reclaim; transcripts retained only in the PI's private backup.
 - **2026-07-27 v0.2 → v0.3**: relational battery (disagreement style) elevated from exploratory to co-primary outcome family: disagreement-episode unit defined (5.2.1); measures R1–R5 with R2 (concessive preface rate) as primary relational endpoint; two-stage LLM annotation pipeline with metadata stripping and human-validated gates G1/G2 (5.2.4), failure of which demotes the family to exploratory pre-freeze; H1-R added with per-family multiplicity policy; relational primary model (R2 counts with disagreement-turn offset, sparsity fallback to host-year); guest speech extended as relational negative control; per-family decision table and power gate; annotation costs and gold-labeling effort added to budget/schedule. Rationale: relational change is the study's motivating question and novel contribution; lexical family retained as pipeline-validating anchor to published work.
 - **2026-07-27 v0.1 → v0.2** (pre-freeze revision, responding to external methods review): reframed as decision-oriented pilot with GO/NO-SIGNAL/INCONCLUSIVE rules; estimand narrowed to association, assisted-preparation pathway acknowledged; exposure rebuilt as time-anchored confirmed-use/confirmed-nonuse with professional involvement as covariate and absence-of-evidence demoted to exploratory; sampling frame moved to archived 2020–2021 charts; panel cut 48→24 hosts, sampling cut to 5 episodes/host-half-year (fixing v0.1's budget inconsistency); primary model changed to Poisson FE with offset and permutation inference; placebo recast as negative control with a single pre-specified contrast; pseudo-date and guest-speech negative controls added; ASR check extended to both eras and both lists; discourse features trimmed to two, exploratory; power-realism gate (8.2) and interpretation table (8.1) added; ethics section expanded (private dossiers, de-identified release, consult requirement).

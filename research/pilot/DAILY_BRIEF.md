@@ -2,6 +2,36 @@
 
 _Maintained per PROTOCOL §10. Latest cycle at top._
 
+## 2026-09-10 — PILOT CLOSED. Protocol frozen v1.0; final report written.
+
+PI chose Option A (defer H1-R, complete single-family) and voted the exit
+ballot: all amendments accepted as recommended, D1 = raise floor to 21,
+P1 = (b) take the descriptive readout.
+
+Done this cycle:
+- **Protocol frozen** (research/PROTOCOL.md v1.0, 2026-09-10): 12
+  amendments applied and tagged [A1]–[E3], including the H1-R→exploratory
+  deferral. Amendments file and DECISIONS.md updated to ratified.
+- **Exploratory pre/post readout** taken under ballot P1(b)
+  (results/exploratory_readout.json): within-host, no exposure labels, so
+  the §2 peeking rule stands. Lex within-host fingerprint RR 1.74; Russ
+  0→6.18/100k. No evidential weight (n=2, era proxy, counts in single
+  digits). Both pilot hosts now exploratory-only for Phase 4.
+- **Final report** written (research/pilot/FINAL_REPORT.md): V1–V4 all
+  PASS/closed, lexical GO-to-design, relational deferred, 8 infrastructure
+  findings, Phase 4 recommendation, artifact index.
+
+**Final scorecard: V1 PASS · V2 PASS · V3 PASS · V4 produced.** Corpus 30
+episodes / 157,243 host words. Lexical baseline 7.6/100k; min detectable
+RR ~1.9 at n=24. Stage-1 relational: 199/1,877 candidates, unvalidated.
+**Spend $0.41 of $75.**
+
+Outstanding (PI, non-agent): revoke the API key at the console. Audio
+already deleted (§9, via container reclaim).
+
+This is the closing entry. The scheduled loop is disabled; no further
+cycles.
+
 ## 2026-08-18, cycle 85 — STAGE 1 RUN; GOLD SHEETS DELIVERED TO PI
 
 PI supplied an API key (stored ~/.config/anthropic_key, 0600, outside the

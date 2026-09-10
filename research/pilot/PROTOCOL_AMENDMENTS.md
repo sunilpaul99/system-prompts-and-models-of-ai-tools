@@ -1,9 +1,15 @@
-# Protocol Amendments — staged for the exit review / freeze
+# Protocol Amendments — RATIFIED at freeze 2026-09-10
+
+**STATUS: all items ACCEPTED as recommended; D1 resolved as (a) raise floor
+to 21; P1 resolved as (b) descriptive readout taken. Applied to
+PROTOCOL.md v1.0 (frozen 2026-09-10), tagged [A1]–[E3]. This file is now
+the historical record of the exit review; the frozen protocol is
+authoritative.**
 
 Per PILOT_PLAN week 3 ("protocol amendments drafted; exit review") and
 PROTOCOL §10 (the protocol text is not edited mid-flight). Each item below
-is a pilot-evidenced change for the PI to accept, modify, or reject at
-freeze. Nothing here is applied yet.
+was a pilot-evidenced change; the ballot (EXIT_REVIEW_BALLOT.md) records the
+votes.
 
 ---
 

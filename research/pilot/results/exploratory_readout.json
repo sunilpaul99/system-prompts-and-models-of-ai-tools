@@ -1,0 +1,41 @@
+{
+ "note": "EXPLORATORY. PI-authorized descriptive readout (ballot P1b, 2026-09-10). Era proxy, n=2 hosts, no exposure classification, no inference. These hosts are exploratory-only in any future confirmatory analysis.",
+ "cells": {
+  "econtalk_post": {
+   "eps": 8,
+   "words": 32360,
+   "fing": 2,
+   "fing_flag": 0,
+   "plac": 18,
+   "fing_rate_100k": 6.18,
+   "plac_rate_100k": 55.62
+  },
+  "econtalk_pre": {
+   "eps": 8,
+   "words": 35580,
+   "fing": 0,
+   "fing_flag": 0,
+   "plac": 11,
+   "fing_rate_100k": 0.0,
+   "plac_rate_100k": 30.92
+  },
+  "lex_post": {
+   "eps": 8,
+   "words": 162264,
+   "fing": 14,
+   "fing_flag": 3,
+   "plac": 55,
+   "fing_rate_100k": 8.63,
+   "plac_rate_100k": 33.9
+  },
+  "lex_pre": {
+   "eps": 7,
+   "words": 40393,
+   "fing": 2,
+   "fing_flag": 0,
+   "plac": 24,
+   "fing_rate_100k": 4.95,
+   "plac_rate_100k": 59.42
+  }
+ }
+}
