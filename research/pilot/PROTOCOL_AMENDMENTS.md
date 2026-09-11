@@ -91,6 +91,24 @@ Appendix C / WS8 content, not omissions.
 
 ---
 
+## F. Post-freeze, staged (NOT applied to PROTOCOL v1.0)
+
+**F1. Extend the transcription pin to the runtime and checkpoint; record
+audio checksums.** *Evidence:* the 2026-09-11 corpus rebuild from
+byte-identical audio under the B1 pin string, in a fresh environment
+(CTranslate2 4.8.2, checkpoint revision 08e178d…), drifted per-episode
+transcribed words by median 1.6% / max 6.3% and host words by median 2.2%
+/ max 9.0% — 15/30 episodes outside the ±2% V2 gate — while corpus totals
+held to +1.3% and attribution to ±0.02. The pin string names
+faster-whisper, model, and decode settings but not the CTranslate2 runtime
+or the checkpoint hash. *Proposed:* pin string becomes
+`faster-whisper-<ver>/ctranslate2-<ver>/<model>@<sha256[:12]>/int8/threads1/
+temp0/beam5/chunk1500`; every download records the audio file's SHA-256 so
+reproducibility failures can be attributed to inputs vs pipeline; V2 is
+re-stated as *cross-environment* (fresh install) rather than same-session
+re-processing. *Status:* staged for the next protocol revision; the
+frozen v1.0 text is unchanged per §10.
+
 ## Not amended (deliberately)
 
 - The blinding and peeking rules (§2) — held throughout; no exposure ×

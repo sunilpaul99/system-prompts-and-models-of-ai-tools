@@ -1,0 +1,17 @@
+{
+ "faster_whisper": "1.2.1",
+ "ctranslate2": "4.8.2",
+ "torch": "2.11.0+cpu",
+ "speechbrain": "1.1.1",
+ "av": "18.1.0",
+ "numpy": "2.4.6",
+ "sklearn": "1.9.0",
+ "python": "Python 3.11.15",
+ "models--Systran--faster-whisper-medium": [
+  "08e178d48790749d25932bbc082711ddcfdfbc4f"
+ ],
+ "models--speechbrain--spkrec-ecapa-voxceleb": [
+  "0f99f2d0ebe89ac095bcc5903c4dd8f72b367286"
+ ],
+ "whisper_model_bin_sha256": "9b45e1009dcc4ab601eff815b61d80e60ce3fd8c74c1a14f4a282258286b51ae"
+}

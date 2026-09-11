@@ -2,6 +2,40 @@
 
 _Maintained per PROTOCOL §10. Latest cycle at top._
 
+## 2026-09-11 — CORPUS REBUILT FROM AUDIO; REPRODUCIBILITY MEASURED; WS9 RUN
+
+The private transcript backup was unrecoverable, so the 30-episode corpus
+was re-downloaded and re-run end to end (~22 h wall, 3 single-thread
+workers, 150 chunks, 0 loop-guard events, one container restart survived
+by the rebuilt atomic-claim queue). Pipeline code now lives in the repo
+(ws2_chunk_worker.py, ws2_queue.py) rather than the scratchpad.
+
+**Bug found and fixed on the way in:** the exclusion record carried a
+hand-abbreviated Horton filename; name-based consumers never matched it,
+so the 2026-09-10 exploratory readout had silently included 113k
+mislabelled host words. Corrected (Lex post RR 1.74 → 2.48), erratum in
+FINAL_REPORT, finding 9 recorded.
+
+**Reproducibility (corpus-level, cross-environment, identical audio):**
+attribution ±0.02, totals +1.3%, but per-episode word counts drift median
+2.2% / max 9.0% — 15/30 outside the ±2% gate. Cause is environment-side
+(fresh CTranslate2 4.8.2 / checkpoint 08e178d…), which the B1 pin string
+does not capture. **Finding 10** + staged post-freeze amendment **F1**
+(pin runtime + checkpoint hash; record audio SHA-256).
+
+**Sparsity demonstrated:** fingerprint 10 → 12 on two words; Lex
+exploratory within-host RR 2.48 → 3.3.
+
+**WS9 AI-mention density (PI's exposure-proxy idea):** strict tier
+EconTalk 0.00 → 0.57 /1k, Lex 0.10 → 1.72 /1k pre→post; heavily
+topic-concentrated (Wolfram ChatGPT episode = 57 of all mentions). Verdict
+in FINAL_REPORT addendum: mechanically sound, usable as screener/dose, needs
+segment separation + episode-level topic screen; strict tier cannot run
+the pre-2022 check, broad tier can.
+
+New private backup tarball delivered to the PI (6.6 MB). Re-downloaded
+audio deleted after feature extraction (§9). Spend unchanged: $0.41 of $75.
+
 ## 2026-09-10 — PILOT CLOSED. Protocol frozen v1.0; final report written.
 
 PI chose Option A (defer H1-R, complete single-family) and voted the exit

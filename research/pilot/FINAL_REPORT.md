@@ -157,6 +157,60 @@ built (detail in WS8_FEASIBILITY.md §3):
 - **Outstanding:** the annotation API key transited the chat and its work
   is done — **revoke at the console.**
 
+## Addendum (2026-09-11): full corpus rebuild — reproducibility and AI-mention density
+
+The private transcript backup was lost, so the 30-episode analytic corpus
+was **rebuilt end to end from re-downloaded audio** under the identical
+pinned config, in a fresh environment (`results/rebuild_environment.json`).
+This turned into the corpus-level reproducibility test the pilot's V2 probe
+could not provide. Per-episode pairs are in `results/reproducibility_rebuild.json`.
+
+**Inputs were the same.** 28/30 re-downloaded files match the RSS-declared
+byte length exactly, so the drift below is pipeline-side, not audio-side.
+
+**What reproduced tightly:** speaker attribution — host share within
+±0.021 on every episode (host similarity within ~0.003); the QA gate flagged
+0/30 in both runs; Durov's host-turn count was 135 in both. Corpus totals:
+host words **157,243 → 159,303 (+1.3%)**; placebo rate 43.9 → 45.2 /100k.
+
+**What did not:** per-episode transcription. Total transcribed words drift
+by a **median 1.6%, max 6.3%**; host-attributed words by a **median 2.2%,
+max 9.0%**, with 15/30 episodes outside the ±2% V2 gate. The pilot's V2
+probe (0.39%) re-processed identical decoded audio *within one
+environment*; this rebuild crosses environments — a fresh CTranslate2
+(4.8.2), a freshly downloaded checkpoint (revision `08e178d…`), new torch.
+The pin string `faster-whisper-1.2.1/medium/int8/threads1/temp0/beam5/
+chunk1500` did not capture whatever changed. **Finding 10: the config pin
+must include the CTranslate2 version and the model-checkpoint hash, and
+audio checksums must be recorded at download** so that a reproducibility
+failure can be attributed to inputs or to the pipeline. Staged as
+post-freeze amendment F1 (not applied to the frozen text).
+
+**Sparsity in action:** the clean fingerprint count moved **10 → 12** on
+two single-word differences (Wolfram 1→2, Gibson 1→2); the exploratory
+within-host readout for Lex moves from RR 2.48 to **3.3** on the rebuild
+(pre 4.9 → post 16.2 /100k; EconTalk 0 → 6.0). Two words, a 30% swing in
+the rate ratio — exactly the C2 warning, now demonstrated.
+
+**AI-mention density (`results/ws9_ai_mentions.json`, exploratory).** The
+PI-proposed exposure proxy — how much a host *talks about* AI, per 1,000
+host words — was computed on the rebuilt turns. Strict tier (named LLM
+products/terms): EconTalk pre **0.00 → post 0.57**; Lex pre **0.10 →
+post 1.72**. Broad tier (adds generic "AI"): EconTalk 0.00 → 1.27; Lex
+1.57 → 3.62. Guests move the same way (Lex guests 0.02 → 1.00). The
+measure works mechanically and separates eras sharply — but that
+separation is largely trivial: the strict terms barely existed before
+late 2022, so **the strict tier cannot run the pre-2022 personality test;
+only the broad tier can** (Lex's pre-period generic-AI rate is non-zero).
+The distribution is heavily topic-driven: one ChatGPT-titled episode
+(Wolfram) carries 57 of the corpus's mentions at 7.8/1k; 13/30 episodes
+have any host mention at all. Consequences for the full study: (a) the
+segment-separation design — measure outcomes away from AI-talk — is
+mandatory, not optional; (b) an episode-level AI-topic screen is needed in
+addition to the show-level E1 rule; (c) as a dose measure it is heavy-tailed
+and should enter as log-density or presence, not raw rate; (d) it is a
+screener and covariate, not a confirmatory exposure variable.
+
 ## 9. Artifact index
 
 | Artifact | File |

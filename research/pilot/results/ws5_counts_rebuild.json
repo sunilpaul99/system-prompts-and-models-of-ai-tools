@@ -1,0 +1,863 @@
+[
+ {
+  "file": "2019-05-20_Mary_Hirschfeld_on_Economics_Culture_and_Aquinas_and_the_Mar.mp3",
+  "host_words": 5580,
+  "status": "OK",
+  "counts": {
+   "placebo:essential:clean": 3,
+   "placebo:remarkable:clean": 2
+  },
+  "hits": [
+   {
+    "family": "essential",
+    "kind": "placebo",
+    "near_ai": false,
+    "t": 234.46
+   },
+   {
+    "family": "essential",
+    "kind": "placebo",
+    "near_ai": false,
+    "t": 238.16
+   },
+   {
+    "family": "essential",
+    "kind": "placebo",
+    "near_ai": false,
+    "t": 241.2
+   },
+   {
+    "family": "remarkable",
+    "kind": "placebo",
+    "near_ai": false,
+    "t": 2996.74
+   },
+   {
+    "family": "remarkable",
+    "kind": "placebo",
+    "near_ai": false,
+    "t": 4240.12
+   }
+  ]
+ },
+ {
+  "file": "2019-06-10_Bjorn_Lomborg_on_the_Costs_and_Benefits_of_Attacking_Climate.mp3",
+  "host_words": 3591,
+  "status": "OK",
+  "counts": {
+   "placebo:complex:clean": 1
+  },
+  "hits": [
+   {
+    "family": "complex",
+    "kind": "placebo",
+    "near_ai": false,
+    "t": 3900.69
+   }
+  ]
+ },
+ {
+  "file": "2020-03-21__82_Simon_Sinek_Leadership_Hard_Work_Optimism_and_the_Infini.mp3",
+  "host_words": 2715,
+  "status": "OK",
+  "counts": {
+   "placebo:complex:clean": 1,
+   "placebo:emphasize:clean": 1
+  },
+  "hits": [
+   {
+    "family": "complex",
+    "kind": "placebo",
+    "near_ai": false,
+    "t": 383.14
+   },
+   {
+    "family": "emphasize",
+    "kind": "placebo",
+    "near_ai": false,
+    "t": 1097.33
+   }
+  ]
+ },
+ {
+  "file": "2020-09-28_Agnes_Callard_on_Aspiration.mp3",
+  "host_words": 4946,
+  "status": "OK",
+  "counts": {},
+  "hits": []
+ },
+ {
+  "file": "2020-10-05_Zena_Hitz_on_Lost_in_Thought.mp3",
+  "host_words": 4599,
+  "status": "OK",
+  "counts": {
+   "placebo:gather:clean": 1
+  },
+  "hits": [
+   {
+    "family": "gather",
+    "kind": "placebo",
+    "near_ai": false,
+    "t": 160.9
+   }
+  ]
+ },
+ {
+  "file": "2020-11-16__139_Andrew_Huberman_Neuroscience_of_Optimal_Performance.mp3",
+  "host_words": 6161,
+  "status": "OK",
+  "counts": {
+   "placebo:essential:clean": 1,
+   "placebo:emphasize:clean": 1,
+   "fingerprint:realm:clean": 2,
+   "placebo:domain:meta": 1,
+   "placebo:profound:clean": 1
+  },
+  "hits": [
+   {
+    "family": "essential",
+    "kind": "placebo",
+    "near_ai": false,
+    "t": 1014.94
+   },
+   {
+    "family": "emphasize",
+    "kind": "placebo",
+    "near_ai": false,
+    "t": 1252.0
+   },
+   {
+    "family": "realm",
+    "kind": "fingerprint",
+    "near_ai": false,
+    "t": 1799.74
+   },
+   {
+    "family": "realm",
+    "kind": "fingerprint",
+    "near_ai": false,
+    "t": 6381.78
+   },
+   {
+    "family": "domain",
+    "kind": "placebo",
+    "near_ai": true,
+    "t": 6580.86
+   },
+   {
+    "family": "profound",
+    "kind": "placebo",
+    "near_ai": false,
+    "t": 7809.64
+   }
+  ]
+ },
+ {
+  "file": "2021-01-25_Scott_Newstok_on_How_to_Think_Like_Shakespeare.mp3",
+  "host_words": 4465,
+  "status": "OK",
+  "counts": {
+   "placebo:remarkable:clean": 1
+  },
+  "hits": [
+   {
+    "family": "remarkable",
+    "kind": "placebo",
+    "near_ai": false,
+    "t": 241.32
+   }
+  ]
+ },
+ {
+  "file": "2021-02-23__163_Eric_Weinstein_Difficult_Conversations_Freedom_of_Speec.mp3",
+  "host_words": 6543,
+  "status": "OK",
+  "counts": {
+   "placebo:complex:clean": 1
+  },
+  "hits": [
+   {
+    "family": "complex",
+    "kind": "placebo",
+    "near_ai": false,
+    "t": 589.94
+   }
+  ]
+ },
+ {
+  "file": "2021-06-21_Anja_Shortland_on_Lost_Art.mp3",
+  "host_words": 3538,
+  "status": "OK",
+  "counts": {},
+  "hits": []
+ },
+ {
+  "file": "2021-07-05_Claudia_Hauer_on_War_Education_and_Strategic_Humanism.mp3",
+  "host_words": 4870,
+  "status": "OK",
+  "counts": {
+   "placebo:profound:clean": 1,
+   "placebo:emphasize:clean": 1
+  },
+  "hits": [
+   {
+    "family": "profound",
+    "kind": "placebo",
+    "near_ai": false,
+    "t": 1239.67
+   },
+   {
+    "family": "emphasize",
+    "kind": "placebo",
+    "near_ai": false,
+    "t": 1915.9
+   }
+  ]
+ },
+ {
+  "file": "2021-09-15__221_Douglas_Lenat_Cyc_and_the_Quest_to_Solve_Common_Sense_R.mp3",
+  "host_words": 7950,
+  "status": "OK",
+  "counts": {
+   "placebo:domain:clean": 2,
+   "placebo:essential:clean": 1,
+   "placebo:gather:clean": 1,
+   "placebo:significant:clean": 3,
+   "placebo:profound:clean": 2,
+   "placebo:impressive:clean": 1
+  },
+  "hits": [
+   {
+    "family": "domain",
+    "kind": "placebo",
+    "near_ai": false,
+    "t": 153.26
+   },
+   {
+    "family": "essential",
+    "kind": "placebo",
+    "near_ai": false,
+    "t": 165.28
+   },
+   {
+    "family": "gather",
+    "kind": "placebo",
+    "near_ai": false,
+    "t": 949.02
+   },
+   {
+    "family": "significant",
+    "kind": "placebo",
+    "near_ai": false,
+    "t": 3590.7
+   },
+   {
+    "family": "significant",
+    "kind": "placebo",
+    "near_ai": false,
+    "t": 3594.2
+   },
+   {
+    "family": "significant",
+    "kind": "placebo",
+    "near_ai": false,
+    "t": 5770.44
+   },
+   {
+    "family": "profound",
+    "kind": "placebo",
+    "near_ai": false,
+    "t": 6415.42
+   },
+   {
+    "family": "profound",
+    "kind": "placebo",
+    "near_ai": false,
+    "t": 6462.28
+   },
+   {
+    "family": "domain",
+    "kind": "placebo",
+    "near_ai": false,
+    "t": 7051.82
+   },
+   {
+    "family": "impressive",
+    "kind": "placebo",
+    "near_ai": false,
+    "t": 9105.18
+   }
+  ]
+ },
+ {
+  "file": "2021-09-30__227_Sean_Kelly_Existentialism_Nihilism_and_the_Search_for_M.mp3",
+  "host_words": 7977,
+  "status": "OK",
+  "counts": {
+   "placebo:complex:clean": 2,
+   "placebo:significant:clean": 1,
+   "placebo:notable:clean": 1
+  },
+  "hits": [
+   {
+    "family": "complex",
+    "kind": "placebo",
+    "near_ai": false,
+    "t": 230.84
+   },
+   {
+    "family": "significant",
+    "kind": "placebo",
+    "near_ai": false,
+    "t": 1298.51
+   },
+   {
+    "family": "complex",
+    "kind": "placebo",
+    "near_ai": false,
+    "t": 2986.92
+   },
+   {
+    "family": "notable",
+    "kind": "placebo",
+    "near_ai": false,
+    "t": 4745.06
+   }
+  ]
+ },
+ {
+  "file": "2021-10-18_Rowan_Jacobsen_on_Truffle_Hound.mp3",
+  "host_words": 4618,
+  "status": "OK",
+  "counts": {
+   "placebo:remarkable:clean": 1,
+   "placebo:gather:clean": 1
+  },
+  "hits": [
+   {
+    "family": "remarkable",
+    "kind": "placebo",
+    "near_ai": false,
+    "t": 72.34
+   },
+   {
+    "family": "gather",
+    "kind": "placebo",
+    "near_ai": false,
+    "t": 3323.95
+   }
+  ]
+ },
+ {
+  "file": "2021-11-28__244_Robert_Crews_Afghanistan_Taliban_Bin_Laden_and_War_in_t.mp3",
+  "host_words": 5841,
+  "status": "OK",
+  "counts": {
+   "placebo:profound:clean": 1,
+   "placebo:emphasize:clean": 1,
+   "placebo:complex:clean": 1
+  },
+  "hits": [
+   {
+    "family": "profound",
+    "kind": "placebo",
+    "near_ai": false,
+    "t": 2051.59
+   },
+   {
+    "family": "emphasize",
+    "kind": "placebo",
+    "near_ai": false,
+    "t": 3675.8
+   },
+   {
+    "family": "complex",
+    "kind": "placebo",
+    "near_ai": false,
+    "t": 8249.25
+   }
+  ]
+ },
+ {
+  "file": "2021-11-30__245_Tom_Brands_Iowa_Wrestling.mp3",
+  "host_words": 3363,
+  "status": "OK",
+  "counts": {},
+  "hits": []
+ },
+ {
+  "file": "2023-05-08_Eliezer_Yudkowsky_on_the_Dangers_of_AI.mp3",
+  "host_words": 4932,
+  "status": "OK",
+  "counts": {
+   "placebo:impressive:meta": 1,
+   "placebo:significant:clean": 1
+  },
+  "hits": [
+   {
+    "family": "impressive",
+    "kind": "placebo",
+    "near_ai": true,
+    "t": 2539.06
+   },
+   {
+    "family": "significant",
+    "kind": "placebo",
+    "near_ai": false,
+    "t": 3090.4
+   }
+  ]
+ },
+ {
+  "file": "2023-05-09__376_Stephen_Wolfram_ChatGPT_and_the_Nature_of_Truth_Reality.mp3",
+  "host_words": 7329,
+  "status": "OK",
+  "counts": {
+   "placebo:complex:clean": 1,
+   "fingerprint:realm:clean": 2,
+   "placebo:significant:meta": 1
+  },
+  "hits": [
+   {
+    "family": "complex",
+    "kind": "placebo",
+    "near_ai": false,
+    "t": 6585.34
+   },
+   {
+    "family": "realm",
+    "kind": "fingerprint",
+    "near_ai": false,
+    "t": 7282.08
+   },
+   {
+    "family": "realm",
+    "kind": "fingerprint",
+    "near_ai": false,
+    "t": 8504.5
+   },
+   {
+    "family": "significant",
+    "kind": "placebo",
+    "near_ai": true,
+    "t": 11080.18
+   }
+  ]
+ },
+ {
+  "file": "2023-06-02__381_Chris_Lattner_Future_of_Programming_and_AI.mp3",
+  "host_words": 7815,
+  "status": "OK",
+  "counts": {
+   "placebo:complex:clean": 1,
+   "placebo:profound:clean": 1,
+   "placebo:significant:clean": 1
+  },
+  "hits": [
+   {
+    "family": "complex",
+    "kind": "placebo",
+    "near_ai": false,
+    "t": 322.34
+   },
+   {
+    "family": "profound",
+    "kind": "placebo",
+    "near_ai": false,
+    "t": 1600.14
+   },
+   {
+    "family": "significant",
+    "kind": "placebo",
+    "near_ai": false,
+    "t": 3209.04
+   }
+  ]
+ },
+ {
+  "file": "2023-09-10__395_Walter_Isaacson_Elon_Musk_Steve_Jobs_Einstein_Da_Vinci_.mp3",
+  "host_words": 5396,
+  "status": "OK",
+  "counts": {
+   "placebo:strengthen:clean": 1,
+   "placebo:complex:clean": 1,
+   "placebo:gather:clean": 1
+  },
+  "hits": [
+   {
+    "family": "strengthen",
+    "kind": "placebo",
+    "near_ai": false,
+    "t": 403.76
+   },
+   {
+    "family": "complex",
+    "kind": "placebo",
+    "near_ai": false,
+    "t": 6014.16
+   },
+   {
+    "family": "gather",
+    "kind": "placebo",
+    "near_ai": false,
+    "t": 6315.82
+   }
+  ]
+ },
+ {
+  "file": "2024-03-25__421_Dana_White_UFC_Fighting_Khabib_Conor_Tyson_Ali_Rogan_El.mp3",
+  "host_words": 3961,
+  "status": "OK",
+  "counts": {},
+  "hits": []
+ },
+ {
+  "file": "2024-04-17__426_Edward_Gibson_Human_Language_Psycholinguistics_Syntax_G.mp3",
+  "host_words": 8756,
+  "status": "OK",
+  "counts": {
+   "placebo:impressive:clean": 4,
+   "fingerprint:realm:clean": 2
+  },
+  "hits": [
+   {
+    "family": "impressive",
+    "kind": "placebo",
+    "near_ai": false,
+    "t": 6446.96
+   },
+   {
+    "family": "impressive",
+    "kind": "placebo",
+    "near_ai": false,
+    "t": 6491.24
+   },
+   {
+    "family": "impressive",
+    "kind": "placebo",
+    "near_ai": false,
+    "t": 6679.3
+   },
+   {
+    "family": "impressive",
+    "kind": "placebo",
+    "near_ai": false,
+    "t": 6801.04
+   },
+   {
+    "family": "realm",
+    "kind": "fingerprint",
+    "near_ai": false,
+    "t": 8349.38
+   },
+   {
+    "family": "realm",
+    "kind": "fingerprint",
+    "near_ai": false,
+    "t": 10509.62
+   }
+  ]
+ },
+ {
+  "file": "2024-06-03_Injustice_and_the_Letter_from_Birmingham_Jail_with_Dwayne_Be.mp3",
+  "host_words": 2312,
+  "status": "OK",
+  "counts": {
+   "placebo:remarkable:clean": 1
+  },
+  "hits": [
+   {
+    "family": "remarkable",
+    "kind": "placebo",
+    "near_ai": false,
+    "t": 2608.56
+   }
+  ]
+ },
+ {
+  "file": "2024-08-05_The_Ever_Present_Challenge_of_Escaping_Poverty_with_Noah_Smi.mp3",
+  "host_words": 4416,
+  "status": "OK",
+  "counts": {
+   "placebo:remarkable:clean": 2
+  },
+  "hits": [
+   {
+    "family": "remarkable",
+    "kind": "placebo",
+    "near_ai": false,
+    "t": 734.68
+   },
+   {
+    "family": "remarkable",
+    "kind": "placebo",
+    "near_ai": false,
+    "t": 748.54
+   }
+  ]
+ },
+ {
+  "file": "2024-11-25_Tyler_Cowen_on_Life_and_Fate.mp3",
+  "host_words": 5875,
+  "status": "OK",
+  "counts": {
+   "placebo:essential:clean": 1,
+   "placebo:complex:clean": 1,
+   "placebo:highlight:clean": 2,
+   "placebo:remarkable:clean": 1
+  },
+  "hits": [
+   {
+    "family": "essential",
+    "kind": "placebo",
+    "near_ai": false,
+    "t": 564.98
+   },
+   {
+    "family": "complex",
+    "kind": "placebo",
+    "near_ai": false,
+    "t": 1499.73
+   },
+   {
+    "family": "highlight",
+    "kind": "placebo",
+    "near_ai": false,
+    "t": 3329.66
+   },
+   {
+    "family": "highlight",
+    "kind": "placebo",
+    "near_ai": false,
+    "t": 3350.16
+   },
+   {
+    "family": "remarkable",
+    "kind": "placebo",
+    "near_ai": false,
+    "t": 3396.36
+   }
+  ]
+ },
+ {
+  "file": "2025-06-30_The_Deceptive_Power_of_Maps_with_Paulina_Rowinska_.mp3",
+  "host_words": 4431,
+  "status": "OK",
+  "counts": {},
+  "hits": []
+ },
+ {
+  "file": "2025-08-13__477_Keyu_Jin_China_s_Economy_Tariffs_Trade_Trump_Communism_.mp3",
+  "host_words": 4374,
+  "status": "OK",
+  "counts": {
+   "fingerprint:intricate:meta": 1,
+   "placebo:emphasize:clean": 1
+  },
+  "hits": [
+   {
+    "family": "intricate",
+    "kind": "fingerprint",
+    "near_ai": true,
+    "t": 110.4
+   },
+   {
+    "family": "emphasize",
+    "kind": "placebo",
+    "near_ai": false,
+    "t": 1225.5
+   }
+  ]
+ },
+ {
+  "file": "2025-08-25_Hemingway_Love_and_War_with_David_Wyatt_.mp3",
+  "host_words": 3710,
+  "status": "OK",
+  "counts": {
+   "placebo:highlight:clean": 3,
+   "fingerprint:surpass:clean": 2
+  },
+  "hits": [
+   {
+    "family": "highlight",
+    "kind": "placebo",
+    "near_ai": false,
+    "t": 1349.27
+   },
+   {
+    "family": "highlight",
+    "kind": "placebo",
+    "near_ai": false,
+    "t": 1354.11
+   },
+   {
+    "family": "highlight",
+    "kind": "placebo",
+    "near_ai": false,
+    "t": 1358.23
+   },
+   {
+    "family": "surpass",
+    "kind": "fingerprint",
+    "near_ai": false,
+    "t": 3462.87
+   },
+   {
+    "family": "surpass",
+    "kind": "fingerprint",
+    "near_ai": false,
+    "t": 3471.29
+   }
+  ]
+ },
+ {
+  "file": "2025-09-08_How_Teams_Succeed_with_Colin_Fisher_.mp3",
+  "host_words": 3272,
+  "status": "OK",
+  "counts": {
+   "placebo:emphasize:clean": 2,
+   "placebo:complex:clean": 1
+  },
+  "hits": [
+   {
+    "family": "emphasize",
+    "kind": "placebo",
+    "near_ai": false,
+    "t": 1597.74
+   },
+   {
+    "family": "complex",
+    "kind": "placebo",
+    "near_ai": false,
+    "t": 1972.32
+   },
+   {
+    "family": "emphasize",
+    "kind": "placebo",
+    "near_ai": false,
+    "t": 3055.14
+   }
+  ]
+ },
+ {
+  "file": "2025-09-22_Steven_Pinker_on_Common_Knowledge.mp3",
+  "host_words": 4362,
+  "status": "OK",
+  "counts": {
+   "placebo:emphasize:clean": 1,
+   "placebo:remarkable:clean": 1,
+   "placebo:profound:clean": 1,
+   "placebo:complex:clean": 1
+  },
+  "hits": [
+   {
+    "family": "emphasize",
+    "kind": "placebo",
+    "near_ai": false,
+    "t": 1978.61
+   },
+   {
+    "family": "remarkable",
+    "kind": "placebo",
+    "near_ai": false,
+    "t": 2328.73
+   },
+   {
+    "family": "profound",
+    "kind": "placebo",
+    "near_ai": false,
+    "t": 2926.15
+   },
+   {
+    "family": "complex",
+    "kind": "placebo",
+    "near_ai": false,
+    "t": 2959.77
+   }
+  ]
+ },
+ {
+  "file": "2025-10-01__482_Pavel_Durov_Telegram_Freedom_Censorship_Money_Power_Hum.mp3",
+  "host_words": 11605,
+  "status": "OK",
+  "counts": {
+   "placebo:complex:meta": 1,
+   "placebo:significant:clean": 1,
+   "placebo:gather:clean": 1,
+   "fingerprint:intricate:clean": 3,
+   "fingerprint:realm:clean": 1,
+   "placebo:highlight:clean": 1,
+   "placebo:essential:clean": 1,
+   "placebo:impressive:clean": 1,
+   "placebo:profound:clean": 1
+  },
+  "hits": [
+   {
+    "family": "complex",
+    "kind": "placebo",
+    "near_ai": true,
+    "t": 492.7
+   },
+   {
+    "family": "significant",
+    "kind": "placebo",
+    "near_ai": false,
+    "t": 526.02
+   },
+   {
+    "family": "gather",
+    "kind": "placebo",
+    "near_ai": false,
+    "t": 1175.35
+   },
+   {
+    "family": "intricate",
+    "kind": "fingerprint",
+    "near_ai": false,
+    "t": 9976.8
+   },
+   {
+    "family": "intricate",
+    "kind": "fingerprint",
+    "near_ai": false,
+    "t": 9992.08
+   },
+   {
+    "family": "intricate",
+    "kind": "fingerprint",
+    "near_ai": false,
+    "t": 10017.4
+   },
+   {
+    "family": "realm",
+    "kind": "fingerprint",
+    "near_ai": false,
+    "t": 10677.34
+   },
+   {
+    "family": "highlight",
+    "kind": "placebo",
+    "near_ai": false,
+    "t": 13082.84
+   },
+   {
+    "family": "essential",
+    "kind": "placebo",
+    "near_ai": false,
+    "t": 15580.25
+   },
+   {
+    "family": "impressive",
+    "kind": "placebo",
+    "near_ai": false,
+    "t": 16394.21
+   },
+   {
+    "family": "profound",
+    "kind": "placebo",
+    "near_ai": false,
+    "t": 16660.22
+   }
+  ]
+ }
+]
